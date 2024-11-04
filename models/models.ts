@@ -1,6 +1,6 @@
 export interface UnitData {
   name: string
-  points: number
+  points: number[]
   models: number[]
 }
 

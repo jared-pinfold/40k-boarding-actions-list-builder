@@ -4,6 +4,7 @@ export const updates = [
     update: [
       'Deployed site',
       'Added Adeptus Astartes: Terminator Assault',
+      'Added Aeldari: Star-Dancer Masque',
       'Added Aeldari: Wraiths of the Void',
       'Added Legiones Daemonica: Dread Carnival',
     ],

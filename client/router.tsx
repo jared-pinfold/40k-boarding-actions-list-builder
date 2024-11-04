@@ -7,15 +7,19 @@ import {
 import Layout from './components/Layout'
 import Home from './pages/Home'
 import Updates from './pages/Updates'
+
 import AdeptusAstartes from './pages/adeptusAstartes/AdeptusAstartes'
 import AdeptusAstartesMenu from './pages/adeptusAstartes/AdeptusAstartesMenu'
 import TerminatorAssault from './pages/adeptusAstartes/TerminatorAssault'
+
 import LegionesDaemonica from './pages/legionesDaemonica/LegionesDaemonica'
 import LegionesDaemonicaMenu from './pages/legionesDaemonica/LegionesDaemonicaMenu'
 import DreadCarnival from './pages/legionesDaemonica/DreadCarnival'
+
 import Aeldari from './pages/aeldari/Aeldari'
 import AeldariMenu from './pages/aeldari/AeldariMenu'
 import WraithsOfTheVoid from './pages/aeldari/WraithsOfTheVoid'
+import StarDancerMasque from './pages/aeldari/StarDancerMasque'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -29,6 +33,7 @@ const router = createBrowserRouter(
       <Route path="aeldari/" element={<Aeldari />}>
         <Route index element={<AeldariMenu />} />
         <Route path="wraiths-of-the-void" element={<WraithsOfTheVoid />} />
+        <Route path="star-dancer-masque" element={<StarDancerMasque />} />
       </Route>
       <Route path="legiones-daemonica/" element={<LegionesDaemonica />}>
         <Route index element={<LegionesDaemonicaMenu />} />

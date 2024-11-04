@@ -7,18 +7,33 @@ interface Props {
   option: string
   selected: string[]
   points: number
-  max2: boolean
+  max2?: boolean
+  noCharacters?: boolean
+  noSolitaire?: boolean
   list1?: ItemInList[]
+  list2?: ItemInList[]
 }
 
 export default function OptionsListItem(props: Props) {
-  const { unit, setList, option: key, selected, points, list1, max2 } = props
+  const {
+    unit,
+    setList,
+    option: key,
+    selected,
+    points,
+    list1,
+    list2,
+    max2,
+    noCharacters,
+    noSolitaire,
+  } = props
 
   function isDisabled(i: number) {
     if (selected.includes(key)) return true
-    if (i === 0 && points + unit.points > 500) return true
-    if (i === 1 && points + unit.points * 2 > 500) return true
+    if (points + unit.points[i] > 500) return true
     if (max2 && (list1 as ItemInList[]).length === 2) return true
+    if (noCharacters && (list1 as ItemInList[]).length > 0) return true
+    if (noSolitaire && (list2 as ItemInList[]).length > 0) return true
     return false
   }
 
@@ -27,10 +42,7 @@ export default function OptionsListItem(props: Props) {
       <li>
         <span>
           {unit.name} (
-          {unit.models.length === 1
-            ? unit.points
-            : `${unit.points}/${unit.points * 2}`}
-          )
+          {unit.models.length === 1 ? unit.points : `${unit.points.join('/')}`})
         </span>
         {unit.models.map((num, i) => {
           return (
@@ -43,7 +55,7 @@ export default function OptionsListItem(props: Props) {
                   {
                     name: unit.name,
                     key,
-                    points: i === 0 ? unit.points : unit.points * 2,
+                    points: unit.points[i],
                     models: num,
                   },
                 ])

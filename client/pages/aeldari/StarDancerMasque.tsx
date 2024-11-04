@@ -1,20 +1,22 @@
 import { useState } from 'react'
-import { terminatorAssaultUnits } from '../../data/adeptusAstartes'
 import { ItemInList } from '../../../models/models'
 import OptionsListItem from '../../components/OptionsListItem'
 import SelectedListItem from '../../components/SelectedListItem'
+import { starDancerMasqueUnits } from '../../data/aeldari'
 
-export default function TerminatorAssault() {
-  const [initialOptions1, initialOptions2] = terminatorAssaultUnits
+export default function StarDancerMasque() {
+  const [initialOptions1, initialOptions2, initialOptions3] = starDancerMasqueUnits
   const initialList: ItemInList[] = []
 
   const options1 = Object.keys(initialOptions1)
   const options2 = Object.keys(initialOptions2)
+  const options3 = Object.keys(initialOptions3)
   const [list1, setList1] = useState(initialList)
   const [list2, setList2] = useState(initialList)
+  const [list3, setList3] = useState(initialList)
 
-  const selected = [...list1, ...list2].map((unit) => unit.key)
-  const points = [...list1, ...list2].reduce(
+  const selected = [...list1, ...list2, ...list3].map((unit) => unit.key)
+  const points = [...list1, ...list2, ...list3].reduce(
     (a: number, c: ItemInList) => a + c.points,
     0,
   )
@@ -22,8 +24,7 @@ export default function TerminatorAssault() {
   return (
     <div className="container">
       <div className="column">
-        <p>All units must be from the same chapter</p>
-        <p>Up to two of the following:</p>
+        <p>Any 2 of the following:</p>
         <ul>
           {options1.map((option) => {
             const unit = initialOptions1[option]
@@ -37,13 +38,15 @@ export default function TerminatorAssault() {
                   selected,
                   points,
                   max2: true,
+                  noSolitaire: true,
                   list1,
+                  list2
                 }}
               />
             )
           })}
         </ul>
-        <p>Any of the following:</p>
+        <p>If no characters are selected:</p>
         <ul>
           {options2.map((option) => {
             const unit = initialOptions2[option]
@@ -53,6 +56,26 @@ export default function TerminatorAssault() {
                 {...{
                   unit,
                   setList: setList2,
+                  option,
+                  selected,
+                  points,
+                  noCharacters: true,
+                  list1
+                }}
+              />
+            )
+          })}
+        </ul>
+        <p>Any of the following:</p>
+        <ul>
+          {options3.map((option) => {
+            const unit = initialOptions3[option]
+            return (
+              <OptionsListItem
+                key={option}
+                {...{
+                  unit,
+                  setList: setList3,
                   option,
                   selected,
                   points,
@@ -93,6 +116,23 @@ export default function TerminatorAssault() {
                   unit,
                   points: selectedUnit.points,
                   setList: setList2,
+                  option: selectedUnit.key,
+                  models: selectedUnit.models,
+                }}
+              />
+            )
+          })}
+        </ul>
+        <ul>
+          {list3.map((selectedUnit) => {
+            const unit = initialOptions3[selectedUnit.key]
+            return (
+              <SelectedListItem
+                key={selectedUnit.key}
+                {...{
+                  unit,
+                  points: selectedUnit.points,
+                  setList: setList3,
                   option: selectedUnit.key,
                   models: selectedUnit.models,
                 }}

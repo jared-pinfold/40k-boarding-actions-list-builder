@@ -6,9 +6,16 @@ export default function Aeldari() {
     .split('-')
     .map((word) => word.replace(word[0], word[0].toUpperCase()))
     .join(' ')
+  const finalListType = listType === 'Aeldari'
+    ? ''
+    : listType === 'Star Dancer Masque'
+      ? ': Star-Dancer Masque'
+      : `: ${listType}`
+
+
   return (
     <>
-      <h2>Aeldari{listType === 'Aeldari' ? '' : `: ${listType}`}</h2>
+      <h2>Aeldari{finalListType}</h2>
       <Outlet />
     </>
   )
