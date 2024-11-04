@@ -1,6 +1,6 @@
 import { Outlet, useLocation } from 'react-router-dom'
 
-export default function AdeptusAstartes() {
+export default function LegionesDaemonica() {
   const location = useLocation().pathname.split('/')
   const listType = location[location.length - 1]
     .split('-')
@@ -9,7 +9,7 @@ export default function AdeptusAstartes() {
   return (
     <>
       <h2>
-        Adeptus Astartes{listType === 'Adeptus Astartes' ? '' : `: ${listType}`}
+        Legiones Daemonica{listType === 'Legiones Daemonica' ? '' : `: ${listType}`}
       </h2>
       <Outlet />
     </>

@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import { terminatorAssaultUnits } from '../../data/adeptusAstartes'
+import { dreadCarnivalUnits } from '../../data/legionesDaemonica' 
 import { ItemInList } from '../../../models/models'
 import OptionsListItem from '../../components/OptionsListItem'
 import SelectedListItem from '../../components/SelectedListItem'
 
-export default function TerminatorAssault() {
-  const [initialOptions1, initialOptions2] = terminatorAssaultUnits
+export default function DreadCarnival() {
+  const [initialOptions1, initialOptions2] = dreadCarnivalUnits
   const initialList: ItemInList[] = []
 
   const options1 = Object.keys(initialOptions1)
