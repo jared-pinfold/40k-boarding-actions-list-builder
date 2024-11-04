@@ -1,9 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
-export default function LegionesDaemonicaMenu () {
+export default function LegionesDaemonicaMenu() {
   return (
     <ul>
-      <li><Link to='dread-carnival'>Dread Carnival</Link></li>
+      <li>
+        <Link to="dread-carnival">Dread Carnival</Link>
+      </li>
     </ul>
   )
 }

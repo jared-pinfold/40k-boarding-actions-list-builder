@@ -44,7 +44,7 @@ export default function OptionsListItem(props: Props) {
                     name: unit.name,
                     key,
                     points: i === 0 ? unit.points : unit.points * 2,
-                    models: num
+                    models: num,
                   },
                 ])
               }

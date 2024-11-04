@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import { dreadCarnivalUnits } from '../../data/legionesDaemonica'
 import { ItemInList } from '../../../models/models'
 import OptionsListItem from '../../components/OptionsListItem'
 import SelectedListItem from '../../components/SelectedListItem'
+import { wraithsOfTheVoidUnits } from '../../data/aeldari'
 
-export default function DreadCarnival() {
-  const [initialOptions1, initialOptions2] = dreadCarnivalUnits
+export default function WraithsOfTheVoid() {
+  const [initialOptions1, initialOptions2] = wraithsOfTheVoidUnits
   const initialList: ItemInList[] = []
 
   const options1 = Object.keys(initialOptions1)
@@ -22,7 +22,7 @@ export default function DreadCarnival() {
   return (
     <div className="container">
       <div className="column">
-        <p>Up to two of the following:</p>
+        <p>Any of the following:</p>
         <ul>
           {options1.map((option) => {
             const unit = initialOptions1[option]
