@@ -20,6 +20,7 @@ import Aeldari from './pages/aeldari/Aeldari'
 import AeldariMenu from './pages/aeldari/AeldariMenu'
 import WraithsOfTheVoid from './pages/aeldari/WraithsOfTheVoid'
 import StarDancerMasque from './pages/aeldari/StarDancerMasque'
+import PilumStrike from './pages/adeptusAstartes/PilumStrike'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -28,6 +29,7 @@ const router = createBrowserRouter(
       <Route path="updates" element={<Updates />} />
       <Route path="adeptus-astartes/" element={<AdeptusAstartes />}>
         <Route index element={<AdeptusAstartesMenu />} />
+        <Route path="pilum-strike" element={<PilumStrike />} />
         <Route path="terminator-assault" element={<TerminatorAssault />} />
       </Route>
       <Route path="aeldari/" element={<Aeldari />}>

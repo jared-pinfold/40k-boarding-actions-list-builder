@@ -76,3 +76,72 @@ export const terminatorAssaultUnits: Record<string, UnitData>[] = [
     },
   },
 ]
+
+export const pilumStrikeUnits: Record<string, UnitData>[] = [
+  {
+    kayvaan: { name: 'Kayvaan Shrike', points: [100], models: [1] },
+    ltReiver: { name: 'Lt. in Reiver Armour', points: [55], models: [1] },
+    ltCombi: { name: 'Lt. with Combi-weapon', points: [70], models: [1] },
+    captainPh: { name: 'Captain in Phobos Armour', points: [70], models: [1] },
+    librarianPh: {
+      name: 'Librarian in Phobos Armour',
+      points: [75],
+      models: [1],
+    },
+    ltPh: { name: 'Lt. in Phobos Armour', points: [75], models: [1] },
+  },
+  {
+    inc1: {
+      name: 'Incursor Squad',
+      points: [80, 160],
+      models: [5, 10],
+    },
+    inc2: {
+      name: 'Incursor Squad',
+      points: [80, 160],
+      models: [5, 10],
+    },
+    inc3: {
+      name: 'Incursor Squad',
+      points: [80, 160],
+      models: [5, 10],
+    },
+    inf1: {
+      name: 'Infiltrators Squad',
+      points: [100, 200],
+      models: [5, 10],
+    },
+    inf2: {
+      name: 'Infiltrators Squad',
+      points: [100, 200],
+      models: [5, 10],
+    },
+    inf3: {
+      name: 'Infiltrators Squad',
+      points: [100, 200],
+      models: [5, 10],
+    },
+    r1: {
+      name: 'Reivers Squad',
+      points: [75, 150],
+      models: [5, 10],
+    },
+    r2: {
+      name: 'Reivers Squad',
+      points: [75, 150],
+      models: [5, 10],
+    },
+    r3: {
+      name: 'Reivers Squad',
+      points: [75, 150],
+      models: [5, 10],
+    },
+  },
+  {
+    hounds: {
+      name: 'Hounds of Morcai',
+      points: [80, 160],
+      models: [5, 10],
+    },
+  },
+]
