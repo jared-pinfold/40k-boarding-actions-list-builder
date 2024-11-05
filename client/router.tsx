@@ -22,6 +22,10 @@ import WraithsOfTheVoid from './pages/aeldari/WraithsOfTheVoid'
 import StarDancerMasque from './pages/aeldari/StarDancerMasque'
 import PilumStrike from './pages/adeptusAstartes/PilumStrike'
 
+import HereticAstartesMenu from './pages/hereticAstartes/HereticAstartesMenu'
+import HereticAstartes from './pages/hereticAstartes/HereticAstartes'
+import ChampionsOfChaos from './pages/hereticAstartes/ChampionsOfChaos'
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
@@ -36,6 +40,10 @@ const router = createBrowserRouter(
         <Route index element={<AeldariMenu />} />
         <Route path="wraiths-of-the-void" element={<WraithsOfTheVoid />} />
         <Route path="star-dancer-masque" element={<StarDancerMasque />} />
+      </Route>
+      <Route path="heretic-astartes/" element={<HereticAstartes />}>
+        <Route index element={<HereticAstartesMenu />} />
+        <Route path="champions-of-chaos" element={<ChampionsOfChaos />} />
       </Route>
       <Route path="legiones-daemonica/" element={<LegionesDaemonica />}>
         <Route index element={<LegionesDaemonicaMenu />} />

@@ -7,6 +7,7 @@ export const updates = [
       'Added Adeptus Astartes: Terminator Assault',
       'Added Aeldari: Star-Dancer Masque',
       'Added Aeldari: Wraiths of the Void',
+      'Added Heretic Astartes: Champions of Chaos',
       'Added Legiones Daemonica: Dread Carnival',
     ],
   },
