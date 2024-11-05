@@ -1,5 +1,11 @@
 export const updates = [
   {
+    date: '6 Nov 2024',
+    update: [
+      "Added Aeldari: Khaine's Arrow. Note: It's a bit broken using current rules-as-written, as there's no way to actually select Maugan Ra.",
+    ],
+  },
+  {
     date: '5 Nov 2024',
     update: [
       'Deployed site',

@@ -11,6 +11,7 @@ import Updates from './pages/Updates'
 import AdeptusAstartes from './pages/adeptusAstartes/AdeptusAstartes'
 import AdeptusAstartesMenu from './pages/adeptusAstartes/AdeptusAstartesMenu'
 import TerminatorAssault from './pages/adeptusAstartes/TerminatorAssault'
+import PilumStrike from './pages/adeptusAstartes/PilumStrike'
 
 import LegionesDaemonica from './pages/legionesDaemonica/LegionesDaemonica'
 import LegionesDaemonicaMenu from './pages/legionesDaemonica/LegionesDaemonicaMenu'
@@ -20,10 +21,10 @@ import Aeldari from './pages/aeldari/Aeldari'
 import AeldariMenu from './pages/aeldari/AeldariMenu'
 import WraithsOfTheVoid from './pages/aeldari/WraithsOfTheVoid'
 import StarDancerMasque from './pages/aeldari/StarDancerMasque'
-import PilumStrike from './pages/adeptusAstartes/PilumStrike'
+import KhainesArrow from './pages/aeldari/KhainesArrow'
 
-import HereticAstartesMenu from './pages/hereticAstartes/HereticAstartesMenu'
 import HereticAstartes from './pages/hereticAstartes/HereticAstartes'
+import HereticAstartesMenu from './pages/hereticAstartes/HereticAstartesMenu'
 import ChampionsOfChaos from './pages/hereticAstartes/ChampionsOfChaos'
 
 const router = createBrowserRouter(
@@ -38,6 +39,7 @@ const router = createBrowserRouter(
       </Route>
       <Route path="aeldari/" element={<Aeldari />}>
         <Route index element={<AeldariMenu />} />
+        <Route path="khaines-arrow" element={<KhainesArrow />} />
         <Route path="wraiths-of-the-void" element={<WraithsOfTheVoid />} />
         <Route path="star-dancer-masque" element={<StarDancerMasque />} />
       </Route>
