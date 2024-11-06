@@ -8,6 +8,10 @@ export interface UnitData {
   needsHowlingBanshees?: boolean
   needsStrikingScorpions?: boolean
   needsDarkReapers?: boolean
+  noKhorne?: boolean
+  noSlaanesh?: boolean
+  noNurgle?: boolean
+  noTzeentch?: boolean
 }
 
 export type UnitGroup = Record<string, UnitData>[]

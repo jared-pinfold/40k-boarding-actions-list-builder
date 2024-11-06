@@ -17,6 +17,7 @@ import BoardingStrike from './pages/adeptusAstartes/BoardingStrike'
 import LegionesDaemonica from './pages/legionesDaemonica/LegionesDaemonica'
 import LegionesDaemonicaMenu from './pages/legionesDaemonica/LegionesDaemonicaMenu'
 import DreadCarnival from './pages/legionesDaemonica/DreadCarnival'
+import DaemonicIncursion from './pages/legionesDaemonica/DaemonicIncursion'
 
 import Aeldari from './pages/aeldari/Aeldari'
 import AeldariMenu from './pages/aeldari/AeldariMenu'
@@ -53,6 +54,7 @@ const router = createBrowserRouter(
       </Route>
       <Route path="legiones-daemonica/" element={<LegionesDaemonica />}>
         <Route index element={<LegionesDaemonicaMenu />} />
+        <Route path="daemonic-incursion" element={<DaemonicIncursion/>} />
         <Route path="dread-carnival" element={<DreadCarnival />} />
       </Route>
     </Route>,

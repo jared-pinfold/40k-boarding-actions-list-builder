@@ -1,5 +1,6 @@
 import { Dispatch } from 'react'
 import { ItemInList, UnitData } from '../../models/models'
+import { khorne, nurgle, slaanesh, tzeentch } from '../data/legionesDaemonica'
 
 interface Props {
   unit: UnitData
@@ -45,7 +46,14 @@ export default function OptionsListItem(props: Props) {
   } = props
 
   function isDisabled(i: number) {
-    const lists3and4 = list3 && list4 ? [...(list3 as ItemInList[]), ...(list4 as ItemInList[])] : []
+    const lists1and2 =
+      list1 && list2
+        ? [...(list1 as ItemInList[]), ...(list2 as ItemInList[])]
+        : []
+    const lists3and4 =
+      list3 && list4
+        ? [...(list3 as ItemInList[]), ...(list4 as ItemInList[])]
+        : []
     if (selected.includes(key)) return true
     if (points + unit.points[i] > 500) return true
     if (max1 && (list1 as ItemInList[]).length === 1) return true
@@ -56,14 +64,20 @@ export default function OptionsListItem(props: Props) {
     if (max3 && (list1 as ItemInList[]).length === 3) return true
     if (noCharacters && (list1 as ItemInList[]).length > 0) return true
     if (noSolitaire && (list2 as ItemInList[]).length > 0) return true
-    if (unit.needsDarkReapers && !lists3and4.some((unit) => unit.key === 'dark'))
+    if (
+      unit.needsDarkReapers &&
+      !lists3and4.some((unit) => unit.key === 'dark')
+    )
       return true //note: does not currently exist due to error in rules
     if (
       unit.needsDireAvengers &&
       !lists3and4.some((unit) => unit.key === 'dire')
     )
-      return true 
-    if (unit.needsFireDragons && !lists3and4.some((unit) => unit.key === 'fire'))
+      return true
+    if (
+      unit.needsFireDragons &&
+      !lists3and4.some((unit) => unit.key === 'fire')
+    )
       return true
     if (
       unit.needsHowlingBanshees &&
@@ -78,6 +92,20 @@ export default function OptionsListItem(props: Props) {
     if (
       unit.needsSwoopingHawks &&
       !lists3and4.some((unit) => unit.key === 'swoop')
+    )
+      return true
+    if (unit.noKhorne && lists1and2.some((unit) => khorne.includes(unit.key)))
+      return true
+    if (unit.noNurgle && lists1and2.some((unit) => nurgle.includes(unit.key)))
+      return true
+    if (
+      unit.noSlaanesh &&
+      lists1and2.some((unit) => slaanesh.includes(unit.key))
+    )
+      return true
+    if (
+      unit.noTzeentch &&
+      lists1and2.some((unit) => tzeentch.includes(unit.key))
     )
       return true
     return false

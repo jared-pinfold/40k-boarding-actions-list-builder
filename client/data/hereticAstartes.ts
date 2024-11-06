@@ -1,5 +1,5 @@
 import { UnitData } from '../../models/models'
-// x: {name: "x", points: 0, models: []},
+
 
 export const championsOfChaosUnits: Record<string, UnitData>[] = [
   {

@@ -1,5 +1,11 @@
 export const updates = [
   {
+    date: '7 Nov 2024',
+    update: [
+      'Added Legiones Daemonica: Daemonic Incursion',
+    ],
+  },
+  {
     date: '6 Nov 2024',
     update: [
       'Added Adeptus Astartes: Boarding Strike. Note: Some muster stuff seemed mismatched to munitorum guide, so I tweaked some stuff, eg. Sanguinary guard come in 3 or 6, not 5 or 10',
