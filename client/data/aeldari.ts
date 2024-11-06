@@ -88,3 +88,27 @@ export const khainesArrowUnits: Record<string, UnitData>[] = [
     warp: { name: 'Warp Spiders', points: [125], models: [5] },
   },
 ]
+
+export const protectorHostUnits: Record<string, UnitData>[] = [
+  {
+    autarch: { name: 'Autarch', points: [75], models: [1] },
+    eldrad: { name: 'Eldrad Ulthran', points: [110], models: [1] },
+    far: { name: 'Farseer', points: [80], models: [1] },
+  },
+  {
+    warlock: { name: 'Warlock', points: [45], models: [1] },
+    wConc: { name: 'Warlock Conclave', points: [55, 110], models: [2, 4] },
+  },
+  {
+    gDef1: { name: 'Guardian Defenders', points: [100], models: [11] },
+    gDef2: { name: 'Guardian Defenders', points: [100], models: [11] },
+    gDef3: { name: 'Guardian Defenders', points: [100], models: [11] },
+    storm1: { name: 'Storm Guardians', points: [100], models: [11] },
+    storm2: { name: 'Storm Guardians', points: [100], models: [11] },
+    storm3: { name: 'Storm Guardians', points: [100], models: [11] },
+  },
+  {
+    dire1: { name: 'Dire Avengers', points: [70, 140], models: [5, 10] },
+    dire2: { name: 'Dire Avengers', points: [70, 140], models: [5, 10] },
+  },
+]

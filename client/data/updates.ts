@@ -2,7 +2,9 @@ export const updates = [
   {
     date: '6 Nov 2024',
     update: [
-      "Added Aeldari: Khaine's Arrow. Note: It's a bit broken using current rules-as-written, as there's no way to actually select Maugan Ra.",
+      'Added Adeptus Astartes: Boarding Strike. Note: Some muster stuff seemed mismatched to munitorum guide, so I tweaked some stuff, eg. Sanguinary guard come in 3 or 6, not 5 or 10',
+      "Added Aeldari: Khaine's Arrow. Note: It's a bit broken using current rules-as-written, as there's no way to legally select Maugan Ra.",
+      'Added Aeldari: Protector Host',
     ],
   },
   {

@@ -12,6 +12,7 @@ import AdeptusAstartes from './pages/adeptusAstartes/AdeptusAstartes'
 import AdeptusAstartesMenu from './pages/adeptusAstartes/AdeptusAstartesMenu'
 import TerminatorAssault from './pages/adeptusAstartes/TerminatorAssault'
 import PilumStrike from './pages/adeptusAstartes/PilumStrike'
+import BoardingStrike from './pages/adeptusAstartes/BoardingStrike'
 
 import LegionesDaemonica from './pages/legionesDaemonica/LegionesDaemonica'
 import LegionesDaemonicaMenu from './pages/legionesDaemonica/LegionesDaemonicaMenu'
@@ -22,6 +23,7 @@ import AeldariMenu from './pages/aeldari/AeldariMenu'
 import WraithsOfTheVoid from './pages/aeldari/WraithsOfTheVoid'
 import StarDancerMasque from './pages/aeldari/StarDancerMasque'
 import KhainesArrow from './pages/aeldari/KhainesArrow'
+import ProtectorHost from './pages/aeldari/ProtectorHost'
 
 import HereticAstartes from './pages/hereticAstartes/HereticAstartes'
 import HereticAstartesMenu from './pages/hereticAstartes/HereticAstartesMenu'
@@ -34,12 +36,14 @@ const router = createBrowserRouter(
       <Route path="updates" element={<Updates />} />
       <Route path="adeptus-astartes/" element={<AdeptusAstartes />}>
         <Route index element={<AdeptusAstartesMenu />} />
+        <Route path="boarding-strike" element={<BoardingStrike />} />
         <Route path="pilum-strike" element={<PilumStrike />} />
         <Route path="terminator-assault" element={<TerminatorAssault />} />
       </Route>
       <Route path="aeldari/" element={<Aeldari />}>
         <Route index element={<AeldariMenu />} />
         <Route path="khaines-arrow" element={<KhainesArrow />} />
+        <Route path="protector-host" element={<ProtectorHost />} />
         <Route path="wraiths-of-the-void" element={<WraithsOfTheVoid />} />
         <Route path="star-dancer-masque" element={<StarDancerMasque />} />
       </Route>

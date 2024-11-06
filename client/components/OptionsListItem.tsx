@@ -9,6 +9,8 @@ interface Props {
   points: number
   max1?: boolean
   max1l2?: boolean
+  max1l4?: boolean
+  max1l5?: boolean
   max2?: boolean
   max3?: boolean
   noCharacters?: boolean
@@ -17,6 +19,7 @@ interface Props {
   list2?: ItemInList[]
   list3?: ItemInList[]
   list4?: ItemInList[]
+  list5?: ItemInList[]
 }
 
 export default function OptionsListItem(props: Props) {
@@ -30,8 +33,11 @@ export default function OptionsListItem(props: Props) {
     list2,
     list3,
     list4,
+    list5,
     max1,
     max1l2,
+    max1l4,
+    max1l5,
     max2,
     max3,
     noCharacters,
@@ -44,6 +50,8 @@ export default function OptionsListItem(props: Props) {
     if (points + unit.points[i] > 500) return true
     if (max1 && (list1 as ItemInList[]).length === 1) return true
     if (max1l2 && (list2 as ItemInList[]).length === 1) return true
+    if (max1l4 && (list4 as ItemInList[]).length === 1) return true
+    if (max1l5 && (list5 as ItemInList[]).length === 1) return true
     if (max2 && (list1 as ItemInList[]).length === 2) return true
     if (max3 && (list1 as ItemInList[]).length === 3) return true
     if (noCharacters && (list1 as ItemInList[]).length > 0) return true
