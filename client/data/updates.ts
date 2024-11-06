@@ -3,6 +3,7 @@ export const updates = [
     date: '7 Nov 2024',
     update: [
       'Added Legiones Daemonica: Daemonic Incursion',
+      'Bug fix: Points error in Legiones Daemonica database'
     ],
   },
   {
