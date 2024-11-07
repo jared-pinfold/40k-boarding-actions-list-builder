@@ -9,6 +9,9 @@ export default function HereticAstartesMenu() {
       <li>
         <Link to="infernal-reavers">Infernal Reavers</Link>
       </li>
+      <li>
+        <Link to="underdeck-uprising">Underdeck Uprising</Link>
+      </li>
     </ul>
   )
 }

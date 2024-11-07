@@ -180,3 +180,20 @@ export const infernalReaversUnits: Record<string, UnitData>[] = [
     warpT: units.warpTalons,
   },
 ]
+
+export const underdeckUprisingUnits: Record<string, UnitData>[] = [
+  { darkAp: units.darkApostle },
+  { cultistF: units.cultistFirebrand, darkCom: units.darkCommune },
+  {
+    accCult1: units.accursedCultists,
+    accCult2: units.accursedCultists,
+    accCult3: units.accursedCultists,
+    cultMob1: units.cultistMob,
+    cultMob2: units.cultistMob,
+    cultMob3: units.cultistMob,
+    fellgor1: units.fellgorBeastmen,
+    fellgor2: units.fellgorBeastmen,
+    fellgor3: units.fellgorBeastmen,
+  },
+  { chaosSp1: units.chaosSpawn, chaosSp2: units.chaosSpawn },
+]

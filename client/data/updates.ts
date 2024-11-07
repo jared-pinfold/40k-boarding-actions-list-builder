@@ -1,5 +1,11 @@
 export const updates = [
   {
+    date: '8 Nov 2024',
+    update: [
+      'Added Heretic Astartes: Underdeck Uprising',
+    ],
+  },
+  {
     date: '7 Nov 2024',
     update: [
       'Added Heretic Astartes: Infernal Reavers',
