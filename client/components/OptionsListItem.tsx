@@ -108,6 +108,8 @@ export default function OptionsListItem(props: Props) {
       lists1and2.some((unit) => tzeentch.includes(unit.key))
     )
       return true
+    if (unit.notMoreThanLegionaries && (list3 as ItemInList[]).filter((unit) => unit.key.match(/legion/)).length <= (list3 as ItemInList[]).filter(unit => !unit.key.match(/legion/)).length) return true
+
     return false
   }
 
@@ -115,7 +117,8 @@ export default function OptionsListItem(props: Props) {
     <>
       <li>
         <span>
-          {unit.name} (
+          {unit.name}
+          {unit.asterisk && '*'} (
           {unit.models.length === 1 ? unit.points : `${unit.points.join('/')}`})
         </span>
         {unit.models.map((num, i) => {

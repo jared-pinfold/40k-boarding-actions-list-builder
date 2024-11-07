@@ -6,6 +6,9 @@ export default function HereticAstartesMenu() {
       <li>
         <Link to="champions-of-chaos">Champions of Chaos</Link>
       </li>
+      <li>
+        <Link to="infernal-reavers">Infernal Reavers</Link>
+      </li>
     </ul>
   )
 }

@@ -29,6 +29,7 @@ import ProtectorHost from './pages/aeldari/ProtectorHost'
 import HereticAstartes from './pages/hereticAstartes/HereticAstartes'
 import HereticAstartesMenu from './pages/hereticAstartes/HereticAstartesMenu'
 import ChampionsOfChaos from './pages/hereticAstartes/ChampionsOfChaos'
+import InfernalReavers from './pages/hereticAstartes/InfernalReavers'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -51,6 +52,7 @@ const router = createBrowserRouter(
       <Route path="heretic-astartes/" element={<HereticAstartes />}>
         <Route index element={<HereticAstartesMenu />} />
         <Route path="champions-of-chaos" element={<ChampionsOfChaos />} />
+        <Route path="infernal-reavers" element={<InfernalReavers />} />
       </Route>
       <Route path="legiones-daemonica/" element={<LegionesDaemonica />}>
         <Route index element={<LegionesDaemonicaMenu />} />

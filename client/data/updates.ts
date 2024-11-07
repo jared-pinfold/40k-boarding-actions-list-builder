@@ -2,7 +2,9 @@ export const updates = [
   {
     date: '7 Nov 2024',
     update: [
+      'Added Heretic Astartes: Infernal Reavers',
       'Added Legiones Daemonica: Daemonic Incursion',
+      'Bug fix: Points error in Aeldari database',
       'Bug fix: Points error in Legiones Daemonica database'
     ],
   },
