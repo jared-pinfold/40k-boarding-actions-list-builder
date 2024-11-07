@@ -13,6 +13,7 @@ interface Props {
   max1l4?: boolean
   max1l5?: boolean
   max2?: boolean
+  max2l2?: boolean
   max3?: boolean
   noCharacters?: boolean
   noSolitaire?: boolean
@@ -40,11 +41,11 @@ export default function OptionsListItem(props: Props) {
     max1l4,
     max1l5,
     max2,
+    max2l2,
     max3,
     noCharacters,
     noSolitaire,
   } = props
-
   function isDisabled(i: number) {
     const lists1and2 =
       list1 && list2
@@ -61,6 +62,7 @@ export default function OptionsListItem(props: Props) {
     if (max1l4 && (list4 as ItemInList[]).length === 1) return true
     if (max1l5 && (list5 as ItemInList[]).length === 1) return true
     if (max2 && (list1 as ItemInList[]).length === 2) return true
+    if (max2l2 && (list2 as ItemInList[]).length === 2) return true
     if (max3 && (list1 as ItemInList[]).length === 3) return true
     if (noCharacters && (list1 as ItemInList[]).length > 0) return true
     if (noSolitaire && (list2 as ItemInList[]).length > 0) return true

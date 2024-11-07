@@ -32,11 +32,19 @@ import ChampionsOfChaos from './pages/hereticAstartes/ChampionsOfChaos'
 import InfernalReavers from './pages/hereticAstartes/InfernalReavers'
 import UnderdeckUprising from './pages/hereticAstartes/UnderdeckUprising'
 
+import AdeptaSororitas from './pages/adeptaSororitas/AdeptaSororitas'
+import AdeptaSororitasMenu from './pages/adeptaSororitas/AdeptaSororitasMenu'
+import PiousProtectors from './pages/adeptaSororitas/PiousProtectors'
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route index element={<Home />} />
       <Route path="updates" element={<Updates />} />
+      <Route path="adepta-sororitas/" element={<AdeptaSororitas />}>
+        <Route index element={<AdeptaSororitasMenu />} />
+        <Route path="pious-protectors" element={<PiousProtectors />} />
+      </Route>
       <Route path="adeptus-astartes/" element={<AdeptusAstartes />}>
         <Route index element={<AdeptusAstartesMenu />} />
         <Route path="boarding-strike" element={<BoardingStrike />} />

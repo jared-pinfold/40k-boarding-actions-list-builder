@@ -5,6 +5,9 @@ export default function Home() {
     <>
       <h2>Choose your faction</h2>
       <ul>
+      <li>
+          <Link to="adepta-sororitas">Adepta Sororitas</Link>
+        </li>
         <li>
           <Link to="adeptus-astartes">Adeptus Astartes</Link>
         </li>
