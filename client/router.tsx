@@ -36,6 +36,10 @@ import AdeptaSororitas from './pages/adeptaSororitas/AdeptaSororitas'
 import AdeptaSororitasMenu from './pages/adeptaSororitas/AdeptaSororitasMenu'
 import PiousProtectors from './pages/adeptaSororitas/PiousProtectors'
 
+import AdeptusMechanicusMenu from './pages/adeptusMechanicus/AdeptusMechanicusMenu'
+import AdeptusMechanicus from './pages/adeptusMechanicus/AdeptusMechanicus'
+import MachineCult from './pages/adeptusMechanicus/MachineCult'
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
@@ -50,6 +54,10 @@ const router = createBrowserRouter(
         <Route path="boarding-strike" element={<BoardingStrike />} />
         <Route path="pilum-strike" element={<PilumStrike />} />
         <Route path="terminator-assault" element={<TerminatorAssault />} />
+      </Route>
+      <Route path="adeptus-mechanicus/" element={<AdeptusMechanicus />}>
+        <Route index element={<AdeptusMechanicusMenu />} />
+        <Route path="machine-cult" element={<MachineCult />} />
       </Route>
       <Route path="aeldari/" element={<Aeldari />}>
         <Route index element={<AeldariMenu />} />

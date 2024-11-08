@@ -1,6 +1,6 @@
 import { Outlet, useLocation } from 'react-router-dom'
 
-export default function AdeptaSororitas() {
+export default function AdeptusMechanicus() {
   const location = useLocation().pathname.split('/')
   const listType = location[location.length - 1]
     .split('-')
@@ -9,7 +9,7 @@ export default function AdeptaSororitas() {
   return (
     <>
       <h2>
-        Adepta Sororitas{listType === 'Adepta Sororitas' ? '' : `: ${listType}`}
+        Adeptus Mechanicus{listType === 'Adeptus Mechanicus' ? '' : `: ${listType}`}
       </h2>
       <Outlet />
     </>

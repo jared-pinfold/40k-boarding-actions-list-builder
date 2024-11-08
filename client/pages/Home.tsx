@@ -12,6 +12,9 @@ export default function Home() {
           <Link to="adeptus-astartes">Adeptus Astartes</Link>
         </li>
         <li>
+          <Link to="adeptus-mechanicus">Adeptus Mechanicus</Link>
+        </li>
+        <li>
           <Link to="aeldari">Aeldari</Link>
         </li>
         <li>
