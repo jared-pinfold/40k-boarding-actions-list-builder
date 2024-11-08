@@ -4,6 +4,7 @@ export const updates = [
     update: [
       'Added Adepta Sororitas: Pious Protectors',
       'Added Adeptus Mechanicus: Machine Cult',
+      'Added Adeptus Mechanicus: Response Clade',
       'Added Heretic Astartes: Underdeck Uprising',
     ],
   },

@@ -6,6 +6,9 @@ export default function AdeptusMechanicusMenu() {
       <li>
         <Link to="machine-cult">Machine Cult</Link>
       </li>
+      <li>
+        <Link to="response-clade">Response Clade</Link>
+      </li>
     </ul>
   )
 }
