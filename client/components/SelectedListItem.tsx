@@ -7,24 +7,36 @@ interface Props {
   setList: Dispatch<React.SetStateAction<ItemInList[]>>
   option: string
   models: number
+  list1?: ItemInList[]
+  list2?: ItemInList[]
   list3?: ItemInList[]
 }
 
 export default function SelectedListItem(props: Props) {
-  const { unit, points, models, setList, option, list3 } = props
+  const { unit, points, models, setList, option, list1, list2, list3 } = props
+
+  function isRed(): boolean {
+    const lists1and2 =
+      list1 && list2
+        ? [...(list1 as ItemInList[]), ...(list2 as ItemInList[])]
+        : []
+
+    if (
+      unit.notMoreThanLegionaries &&
+      (list3 as ItemInList[]).filter((unit) => unit.key.match(/legion/))
+        .length <
+        (list3 as ItemInList[]).filter((unit) => !unit.key.match(/legion/))
+          .length
+    )
+      return true
+
+    if (unit.only1OtherCharacter && lists1and2.length > 2) return true
+    return false
+  }
+
   return (
     <>
-      <li
-        className={
-          unit.notMoreThanLegionaries &&
-          (list3 as ItemInList[]).filter((unit) => unit.key.match(/legion/))
-            .length <
-            (list3 as ItemInList[]).filter((unit) => !unit.key.match(/legion/))
-              .length
-            ? 'red-unit'
-            : ''
-        }
-      >
+      <li className={isRed() ? 'red-unit' : ''}>
         {`${unit.name}${models === 1 ? '' : ` - ${models} models`}`} ({points}){' '}
         <button
           onClick={() =>

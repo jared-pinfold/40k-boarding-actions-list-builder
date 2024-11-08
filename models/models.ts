@@ -14,6 +14,7 @@ export interface UnitData {
   noTzeentch?: boolean
   asterisk?: boolean
   notMoreThanLegionaries?: boolean
+  only1OtherCharacter?: boolean
 }
 
 export type UnitGroup = Record<string, UnitData>[]

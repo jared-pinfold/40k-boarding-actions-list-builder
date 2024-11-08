@@ -41,6 +41,9 @@ import AdeptusMechanicus from './pages/adeptusMechanicus/AdeptusMechanicus'
 import MachineCult from './pages/adeptusMechanicus/MachineCult'
 import ResponseClade from './pages/adeptusMechanicus/ResponseClade'
 import Electromartyrs from './pages/adeptusMechanicus/Electromartyrs'
+import AdeptusCustodes from './pages/adeptusCustodes/AdeptusCustodes'
+import AdeptusCustodesMenu from './pages/adeptusCustodes/AdeptusCustodesMenu'
+import BlackShipGuardians from './pages/adeptusCustodes/BlackShipGuardians'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -56,6 +59,11 @@ const router = createBrowserRouter(
         <Route path="boarding-strike" element={<BoardingStrike />} />
         <Route path="pilum-strike" element={<PilumStrike />} />
         <Route path="terminator-assault" element={<TerminatorAssault />} />
+      </Route>
+      <Route path="adeptus-custodes/" element={<AdeptusCustodes />}>
+        <Route index element={<AdeptusCustodesMenu />} />
+        <Route path="black-ship-guardians" element={<BlackShipGuardians />} />
+
       </Route>
       <Route path="adeptus-mechanicus/" element={<AdeptusMechanicus />}>
         <Route index element={<AdeptusMechanicusMenu />} />

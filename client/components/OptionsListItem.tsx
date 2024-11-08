@@ -110,7 +110,15 @@ export default function OptionsListItem(props: Props) {
       lists1and2.some((unit) => tzeentch.includes(unit.key))
     )
       return true
-    if (unit.notMoreThanLegionaries && (list3 as ItemInList[]).filter((unit) => unit.key.match(/legion/)).length <= (list3 as ItemInList[]).filter(unit => !unit.key.match(/legion/)).length) return true
+    if (
+      unit.notMoreThanLegionaries &&
+      (list3 as ItemInList[]).filter((unit) => unit.key.match(/legion/))
+        .length <=
+        (list3 as ItemInList[]).filter((unit) => !unit.key.match(/legion/))
+          .length
+    )
+      return true
+    if (unit.only1OtherCharacter && lists1and2.length >= 2) return true
 
     return false
   }
