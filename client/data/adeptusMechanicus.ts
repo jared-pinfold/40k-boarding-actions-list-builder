@@ -89,3 +89,31 @@ export const responseCladeUnits: Record<string, UnitData>[] = [
     sicR: units.sicarianRuststalkers,
   },
 ]
+
+export const electromartyrsUnits: Record<string, UnitData>[] = [
+  {
+    techPD: units.techPriestDominus,
+    techPE: units.techPriestEnginseer,
+    techPM: units.techPriestManipulus,
+    techno: units.technoarcheologist,
+  },
+  {
+    skitM: units.skitariiMarshal,
+  },
+  {
+    skitR1: units.skitariiRangers,
+    skitR2: units.skitariiRangers,
+    skitR3: units.skitariiRangers,
+    skitV1: units.skitariiVanguard,
+    skitV2: units.skitariiVanguard,
+    skitV3: units.skitariiVanguard,
+  },
+  {
+    corpus: units.corpuscariiElectroPriests,
+    fulg: units.fulguriteElectroPriests,
+    katB: units.kataphronBreachers,
+    katD: units.kataphronDestroyers,
+    sicI: units.sicarianInfiltrators,
+    sicR: units.sicarianRuststalkers,
+  },
+]

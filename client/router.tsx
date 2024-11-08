@@ -40,6 +40,7 @@ import AdeptusMechanicusMenu from './pages/adeptusMechanicus/AdeptusMechanicusMe
 import AdeptusMechanicus from './pages/adeptusMechanicus/AdeptusMechanicus'
 import MachineCult from './pages/adeptusMechanicus/MachineCult'
 import ResponseClade from './pages/adeptusMechanicus/ResponseClade'
+import Electromartyrs from './pages/adeptusMechanicus/Electromartyrs'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -58,6 +59,7 @@ const router = createBrowserRouter(
       </Route>
       <Route path="adeptus-mechanicus/" element={<AdeptusMechanicus />}>
         <Route index element={<AdeptusMechanicusMenu />} />
+        <Route path="electromartyrs" element={<Electromartyrs />} />
         <Route path="machine-cult" element={<MachineCult />} />
         <Route path="response-clade" element={<ResponseClade />} />
       </Route>

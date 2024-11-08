@@ -3,6 +3,7 @@ export const updates = [
     date: '8 Nov 2024',
     update: [
       'Added Adepta Sororitas: Pious Protectors',
+      'Added Adeptus Mechanicus: Electromartyrs',
       'Added Adeptus Mechanicus: Machine Cult',
       'Added Adeptus Mechanicus: Response Clade',
       'Added Heretic Astartes: Underdeck Uprising',
