@@ -2,6 +2,7 @@ export const updates = [
   {
     date: '10 Nov 2024',
     update: [
+      'Added Genestealer Cults/Tyranids: Infestation Swarm',
       'Bug fix: Logic error in Boarding Strike List',
     ],
   },

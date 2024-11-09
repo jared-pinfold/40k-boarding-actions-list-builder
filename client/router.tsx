@@ -45,6 +45,13 @@ import AdeptusCustodes from './pages/adeptusCustodes/AdeptusCustodes'
 import AdeptusCustodesMenu from './pages/adeptusCustodes/AdeptusCustodesMenu'
 import BlackShipGuardians from './pages/adeptusCustodes/BlackShipGuardians'
 
+import GenestealerCults from './pages/genestealerCults/GenestealerCults'
+import GenestealerCultsMenu from './pages/genestealerCults/GenestealerCultsMenu'
+
+import InfestationSwarm from './pages/greatDevourer/InfestationSwarm'
+import Tyranids from './pages/tyranids/Tyranids'
+import TyranidsMenu from './pages/tyranids/TyranidsMenu'
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
@@ -78,6 +85,11 @@ const router = createBrowserRouter(
         <Route path="wraiths-of-the-void" element={<WraithsOfTheVoid />} />
         <Route path="star-dancer-masque" element={<StarDancerMasque />} />
       </Route>
+      <Route path="genestealer-cults/" element={<GenestealerCults />}>
+        <Route index element={<GenestealerCultsMenu />} />
+        <Route path="infestation-swarm" element={<InfestationSwarm />} />
+
+      </Route>
       <Route path="heretic-astartes/" element={<HereticAstartes />}>
         <Route index element={<HereticAstartesMenu />} />
         <Route path="champions-of-chaos" element={<ChampionsOfChaos />} />
@@ -88,6 +100,10 @@ const router = createBrowserRouter(
         <Route index element={<LegionesDaemonicaMenu />} />
         <Route path="daemonic-incursion" element={<DaemonicIncursion/>} />
         <Route path="dread-carnival" element={<DreadCarnival />} />
+      </Route>
+      <Route path="tyranids/" element={<Tyranids />}>
+        <Route index element={<TyranidsMenu/>} />
+        <Route path="infestation-swarm" element={<InfestationSwarm />} />
       </Route>
     </Route>,
   ),

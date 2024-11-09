@@ -21,10 +21,16 @@ export default function Home() {
           <Link to="aeldari">Aeldari</Link>
         </li>
         <li>
+          <Link to="genestealer-cults">Genestealer Cults</Link>
+        </li>
+        <li>
           <Link to="heretic-astartes">Heretic Astartes</Link>
         </li>
         <li>
           <Link to="legiones-daemonica">Legiones Daemonica</Link>
+        </li>
+        <li>
+          <Link to="tyranids">Tyranids</Link>
         </li>
       </ul>
       <Link to="/updates">Updates log</Link>
