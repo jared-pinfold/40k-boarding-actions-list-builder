@@ -1,5 +1,11 @@
 export const updates = [
   {
+    date: '10 Nov 2024',
+    update: [
+      'Bug fix: Logic error in Boarding Strike List',
+    ],
+  },
+  {
     date: '8 Nov 2024',
     update: [
       'Added Adepta Sororitas: Pious Protectors',

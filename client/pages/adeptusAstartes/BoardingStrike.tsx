@@ -62,8 +62,6 @@ export default function BoardingStrike() {
                   option,
                   selected,
                   points,
-                  list2,
-                  max1l2: true
                 }}
               />
             )
