@@ -3,8 +3,11 @@ export const updates = [
     date: '10 Nov 2024',
     update: [
       'Added Genestealer Cults/Tyranids: Infestation Swarm',
+      'Added Tyranids: Biotide',
+      'Added World Eaters: Boarding Butchers',
       'Added World Eaters: Skullsworn',
       'Bug fix: Logic error in Boarding Strike List',
+      "Bug fix: Logic error in Khaine's Arrow List",
     ],
   },
   {

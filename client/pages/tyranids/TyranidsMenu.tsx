@@ -4,6 +4,9 @@ export default function TyranidsMenu() {
   return (
     <ul>
       <li>
+        <Link to="biotide">Biotide</Link>
+      </li>
+      <li>
         <Link to="infestation-swarm">Infestation Swarm</Link>
       </li>
     </ul>

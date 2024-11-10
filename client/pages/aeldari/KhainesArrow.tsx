@@ -87,13 +87,12 @@ export default function KhainesArrow() {
                   option,
                   selected,
                   points,
-                  max2: false,
                 }}
               />
             )
           })}
         </ul>
-        <p>Any of the following:</p>
+        <p>Up to 1 of the following:</p>
         <ul>
           {options4.map((option) => {
             const unit = initialOptions4[option]
@@ -106,7 +105,8 @@ export default function KhainesArrow() {
                   option,
                   selected,
                   points,
-                  max2: false,
+                  max1l4: true,
+                  list4,
                 }}
               />
             )
