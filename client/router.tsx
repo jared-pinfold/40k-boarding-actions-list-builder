@@ -56,6 +56,7 @@ import TyranidsMenu from './pages/tyranids/TyranidsMenu'
 import WorldEaters from './pages/worldEaters/WorldEaters'
 import WorldEatersMenu from './pages/worldEaters/WorldEatersMenu'
 import Skullsworn from './pages/worldEaters/Skullsworn'
+import BoardingButchers from './pages/worldEaters/BoardingButchers'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -110,6 +111,7 @@ const router = createBrowserRouter(
       </Route>
       <Route path="world-eaters/" element={<WorldEaters />}>
         <Route index element={<WorldEatersMenu />} />
+        <Route path="boarding-butchers" element={<BoardingButchers />} />
         <Route path="skullsworn" element={<Skullsworn />} />
       </Route>
     </Route>,
