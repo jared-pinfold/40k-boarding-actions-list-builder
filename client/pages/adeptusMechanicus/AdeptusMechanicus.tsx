@@ -9,7 +9,8 @@ export default function AdeptusMechanicus() {
   return (
     <>
       <h2>
-        Adeptus Mechanicus{listType === 'Adeptus Mechanicus' ? '' : `: ${listType}`}
+        Adeptus Mechanicus
+        {listType === 'Adeptus Mechanicus' ? '' : `: ${listType}`}
       </h2>
       <Outlet />
     </>

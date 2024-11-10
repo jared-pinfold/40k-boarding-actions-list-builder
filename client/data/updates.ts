@@ -3,6 +3,7 @@ export const updates = [
     date: '10 Nov 2024',
     update: [
       'Added Genestealer Cults/Tyranids: Infestation Swarm',
+      'Added World Eaters: Skullsworn',
       'Bug fix: Logic error in Boarding Strike List',
     ],
   },
@@ -23,7 +24,7 @@ export const updates = [
       'Added Heretic Astartes: Infernal Reavers',
       'Added Legiones Daemonica: Daemonic Incursion',
       'Bug fix: Points error in Aeldari database',
-      'Bug fix: Points error in Legiones Daemonica database'
+      'Bug fix: Points error in Legiones Daemonica database',
     ],
   },
   {

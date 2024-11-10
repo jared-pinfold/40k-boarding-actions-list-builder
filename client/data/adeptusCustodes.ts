@@ -20,8 +20,8 @@ export const blackShipGuardiansUnits: Record<string, UnitData>[] = [
     knightCent: units.knightCentura,
   },
   {
-    infShCap: {...units.infantryShieldCaptain, only1OtherCharacter: true},
-    val: {...units.valerian, only1OtherCharacter: true}
+    infShCap: { ...units.infantryShieldCaptain, only1OtherCharacter: true },
+    val: { ...units.valerian, only1OtherCharacter: true },
   },
   {
     pros1: units.prosecutors,

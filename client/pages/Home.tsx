@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <h2>Choose your faction</h2>
       <ul>
-      <li>
+        <li>
           <Link to="adepta-sororitas">Adepta Sororitas</Link>
         </li>
         <li>
@@ -31,6 +31,9 @@ export default function Home() {
         </li>
         <li>
           <Link to="tyranids">Tyranids</Link>
+        </li>
+        <li>
+          <Link to="world-eaters">World Eaters</Link>
         </li>
       </ul>
       <Link to="/updates">Updates log</Link>

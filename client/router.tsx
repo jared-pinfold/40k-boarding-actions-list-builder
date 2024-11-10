@@ -41,6 +41,7 @@ import AdeptusMechanicus from './pages/adeptusMechanicus/AdeptusMechanicus'
 import MachineCult from './pages/adeptusMechanicus/MachineCult'
 import ResponseClade from './pages/adeptusMechanicus/ResponseClade'
 import Electromartyrs from './pages/adeptusMechanicus/Electromartyrs'
+
 import AdeptusCustodes from './pages/adeptusCustodes/AdeptusCustodes'
 import AdeptusCustodesMenu from './pages/adeptusCustodes/AdeptusCustodesMenu'
 import BlackShipGuardians from './pages/adeptusCustodes/BlackShipGuardians'
@@ -51,6 +52,10 @@ import GenestealerCultsMenu from './pages/genestealerCults/GenestealerCultsMenu'
 import InfestationSwarm from './pages/greatDevourer/InfestationSwarm'
 import Tyranids from './pages/tyranids/Tyranids'
 import TyranidsMenu from './pages/tyranids/TyranidsMenu'
+
+import WorldEaters from './pages/worldEaters/WorldEaters'
+import WorldEatersMenu from './pages/worldEaters/WorldEatersMenu'
+import Skullsworn from './pages/worldEaters/Skullsworn'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -70,7 +75,6 @@ const router = createBrowserRouter(
       <Route path="adeptus-custodes/" element={<AdeptusCustodes />}>
         <Route index element={<AdeptusCustodesMenu />} />
         <Route path="black-ship-guardians" element={<BlackShipGuardians />} />
-
       </Route>
       <Route path="adeptus-mechanicus/" element={<AdeptusMechanicus />}>
         <Route index element={<AdeptusMechanicusMenu />} />
@@ -88,22 +92,25 @@ const router = createBrowserRouter(
       <Route path="genestealer-cults/" element={<GenestealerCults />}>
         <Route index element={<GenestealerCultsMenu />} />
         <Route path="infestation-swarm" element={<InfestationSwarm />} />
-
       </Route>
       <Route path="heretic-astartes/" element={<HereticAstartes />}>
         <Route index element={<HereticAstartesMenu />} />
         <Route path="champions-of-chaos" element={<ChampionsOfChaos />} />
         <Route path="infernal-reavers" element={<InfernalReavers />} />
-        <Route path="underdeck-uprising" element={<UnderdeckUprising/>} />
+        <Route path="underdeck-uprising" element={<UnderdeckUprising />} />
       </Route>
       <Route path="legiones-daemonica/" element={<LegionesDaemonica />}>
         <Route index element={<LegionesDaemonicaMenu />} />
-        <Route path="daemonic-incursion" element={<DaemonicIncursion/>} />
+        <Route path="daemonic-incursion" element={<DaemonicIncursion />} />
         <Route path="dread-carnival" element={<DreadCarnival />} />
       </Route>
       <Route path="tyranids/" element={<Tyranids />}>
-        <Route index element={<TyranidsMenu/>} />
+        <Route index element={<TyranidsMenu />} />
         <Route path="infestation-swarm" element={<InfestationSwarm />} />
+      </Route>
+      <Route path="world-eaters/" element={<WorldEaters />}>
+        <Route index element={<WorldEatersMenu />} />
+        <Route path="skullsworn" element={<Skullsworn />} />
       </Route>
     </Route>,
   ),

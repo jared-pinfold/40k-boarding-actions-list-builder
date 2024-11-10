@@ -6,7 +6,6 @@ export default function TyranidsMenu() {
       <li>
         <Link to="infestation-swarm">Infestation Swarm</Link>
       </li>
-
     </ul>
   )
 }

@@ -43,7 +43,7 @@ export default function Electromartyrs() {
                   selected,
                   points,
                   max1: true,
-                  list1
+                  list1,
                 }}
               />
             )

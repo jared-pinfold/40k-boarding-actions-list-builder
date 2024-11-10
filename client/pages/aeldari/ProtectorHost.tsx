@@ -5,7 +5,8 @@ import SelectedListItem from '../../components/SelectedListItem'
 import { protectorHostUnits } from '../../data/aeldari'
 
 export default function ProtectorHost() {
-  const [initialOptions1, initialOptions2, initialOptions3, initialOptions4] = protectorHostUnits
+  const [initialOptions1, initialOptions2, initialOptions3, initialOptions4] =
+    protectorHostUnits
   const initialList: ItemInList[] = []
 
   const options1 = Object.keys(initialOptions1)
@@ -17,7 +18,9 @@ export default function ProtectorHost() {
   const [list3, setList3] = useState(initialList)
   const [list4, setList4] = useState(initialList)
 
-  const selected = [...list1, ...list2, ...list3, ...list4].map((unit) => unit.key)
+  const selected = [...list1, ...list2, ...list3, ...list4].map(
+    (unit) => unit.key,
+  )
   const points = [...list1, ...list2, ...list3, ...list4].reduce(
     (a: number, c: ItemInList) => a + c.points,
     0,
@@ -42,7 +45,7 @@ export default function ProtectorHost() {
                   max1: true,
                   list1,
                   list3,
-                  list4
+                  list4,
                 }}
               />
             )
@@ -62,7 +65,7 @@ export default function ProtectorHost() {
                   selected,
                   points,
                   list2,
-                  max1l2: true
+                  max1l2: true,
                 }}
               />
             )

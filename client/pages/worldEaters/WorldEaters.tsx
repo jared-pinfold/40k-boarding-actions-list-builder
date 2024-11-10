@@ -1,6 +1,6 @@
 import { Outlet, useLocation } from 'react-router-dom'
 
-export default function GenestealerCults() {
+export default function WorldEaters() {
   const location = useLocation().pathname.split('/')
   const listType = location[location.length - 1]
     .split('-')
@@ -8,10 +8,7 @@ export default function GenestealerCults() {
     .join(' ')
   return (
     <>
-      <h2>
-        Genestealer Cults
-        {listType === 'Genestealer Cults' ? '' : `: ${listType}`}
-      </h2>
+      <h2>World Eaters{listType === 'World Eaters' ? '' : `: ${listType}`}</h2>
       <Outlet />
     </>
   )

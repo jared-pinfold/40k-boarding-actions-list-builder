@@ -16,7 +16,6 @@ export default function ResponseClade() {
   const [list2, setList2] = useState(initialList)
   const [list3, setList3] = useState(initialList)
 
-
   const selected = [...list1, ...list2, ...list3].map((unit) => unit.key)
   const points = [...list1, ...list2, ...list3].reduce(
     (a: number, c: ItemInList) => a + c.points,

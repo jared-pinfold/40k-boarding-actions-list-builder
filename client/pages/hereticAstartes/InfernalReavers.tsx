@@ -77,7 +77,10 @@ export default function InfernalReavers() {
           })}
         </ul>
         <p>Any of the following:</p>
-        <p>The combined number of * units cannot exceed the total number of <strong>Legionaries</strong> units.</p>
+        <p>
+          The combined number of * units cannot exceed the total number of{' '}
+          <strong>Legionaries</strong> units.
+        </p>
         <ul>
           {options3.map((option) => {
             const unit = initialOptions3[option]
@@ -90,7 +93,7 @@ export default function InfernalReavers() {
                   option,
                   selected,
                   points,
-                  list3
+                  list3,
                 }}
               />
             )
@@ -127,8 +130,8 @@ export default function InfernalReavers() {
                   option,
                   selected,
                   points,
-                  max1l5:true,
-                  list5
+                  max1l5: true,
+                  list5,
                 }}
               />
             )
@@ -184,7 +187,7 @@ export default function InfernalReavers() {
                   setList: setList3,
                   option: selectedUnit.key,
                   models: selectedUnit.models,
-                  list3
+                  list3,
                 }}
               />
             )

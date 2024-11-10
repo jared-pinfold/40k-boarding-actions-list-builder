@@ -2,15 +2,10 @@ import { useState } from 'react'
 import { ItemInList } from '../../../models/models'
 import OptionsListItem from '../../components/OptionsListItem'
 import SelectedListItem from '../../components/SelectedListItem'
-import { useLocation } from 'react-router-dom'
-import { tyranidInfestationSwarmUnits } from '../../data/tyranids'
-import { genestealerCultsInfestationSwarmUnits } from '../../data/genestealerCults'
+import { skullswornUnits } from '../../data/worldEaters'
 
-export default function InfestationSwarm() {
-  const location = useLocation().pathname.split('/')
-  const [initialOptions1, initialOptions2] = location.includes('tyranids')
-    ? tyranidInfestationSwarmUnits
-    : genestealerCultsInfestationSwarmUnits
+export default function Skullsworn() {
+  const [initialOptions1, initialOptions2] = skullswornUnits
   const initialList: ItemInList[] = []
 
   const options1 = Object.keys(initialOptions1)

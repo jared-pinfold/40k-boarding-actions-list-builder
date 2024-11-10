@@ -8,9 +8,7 @@ export default function Tyranids() {
     .join(' ')
   return (
     <>
-      <h2>
-        Tyranids{listType === 'Tryanids' ? '' : `: ${listType}`}
-      </h2>
+      <h2>Tyranids{listType === 'Tryanids' ? '' : `: ${listType}`}</h2>
       <Outlet />
     </>
   )

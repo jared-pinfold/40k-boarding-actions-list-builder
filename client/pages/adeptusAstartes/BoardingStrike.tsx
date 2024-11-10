@@ -5,7 +5,13 @@ import SelectedListItem from '../../components/SelectedListItem'
 import { boardingStrikeUnits } from '../../data/adeptusAstartes'
 
 export default function BoardingStrike() {
-  const [initialOptions1, initialOptions2, initialOptions3, initialOptions4, initialOptions5] = boardingStrikeUnits
+  const [
+    initialOptions1,
+    initialOptions2,
+    initialOptions3,
+    initialOptions4,
+    initialOptions5,
+  ] = boardingStrikeUnits
   const initialList: ItemInList[] = []
 
   const options1 = Object.keys(initialOptions1)
@@ -19,7 +25,9 @@ export default function BoardingStrike() {
   const [list4, setList4] = useState(initialList)
   const [list5, setList5] = useState(initialList)
 
-  const selected = [...list1, ...list2, ...list3, ...list4, ...list5].map((unit) => unit.key)
+  const selected = [...list1, ...list2, ...list3, ...list4, ...list5].map(
+    (unit) => unit.key,
+  )
   const points = [...list1, ...list2, ...list3, ...list4, ...list5].reduce(
     (a: number, c: ItemInList) => a + c.points,
     0,
@@ -99,7 +107,7 @@ export default function BoardingStrike() {
                   selected,
                   points,
                   max1l4: true,
-                  list4
+                  list4,
                 }}
               />
             )
@@ -119,7 +127,7 @@ export default function BoardingStrike() {
                   selected,
                   points,
                   max1l5: true,
-                  list5
+                  list5,
                 }}
               />
             )

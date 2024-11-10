@@ -89,7 +89,7 @@ export default function PiousProtectors() {
                   option,
                   selected,
                   points,
-                  list3
+                  list3,
                 }}
               />
             )
@@ -126,8 +126,8 @@ export default function PiousProtectors() {
                   option,
                   selected,
                   points,
-                  max1l5:true,
-                  list5
+                  max1l5: true,
+                  list5,
                 }}
               />
             )
@@ -142,7 +142,7 @@ export default function PiousProtectors() {
             const unit = initialOptions1[selectedUnit.key]
             return (
               <SelectedListItem
-              key={selectedUnit.key}
+                key={selectedUnit.key}
                 {...{
                   unit,
                   points: selectedUnit.points,
@@ -183,7 +183,7 @@ export default function PiousProtectors() {
                   setList: setList3,
                   option: selectedUnit.key,
                   models: selectedUnit.models,
-                  list3
+                  list3,
                 }}
               />
             )

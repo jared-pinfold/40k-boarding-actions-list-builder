@@ -5,7 +5,8 @@ import SelectedListItem from '../../components/SelectedListItem'
 import { khainesArrowUnits } from '../../data/aeldari'
 
 export default function KhainesArrow() {
-  const [initialOptions1, initialOptions2, initialOptions3, initialOptions4] = khainesArrowUnits
+  const [initialOptions1, initialOptions2, initialOptions3, initialOptions4] =
+    khainesArrowUnits
   const initialList: ItemInList[] = []
 
   const options1 = Object.keys(initialOptions1)
@@ -17,7 +18,9 @@ export default function KhainesArrow() {
   const [list3, setList3] = useState(initialList)
   const [list4, setList4] = useState(initialList)
 
-  const selected = [...list1, ...list2, ...list3, ...list4].map((unit) => unit.key)
+  const selected = [...list1, ...list2, ...list3, ...list4].map(
+    (unit) => unit.key,
+  )
   const points = [...list1, ...list2, ...list3, ...list4].reduce(
     (a: number, c: ItemInList) => a + c.points,
     0,
@@ -26,7 +29,10 @@ export default function KhainesArrow() {
   return (
     <div className="container">
       <div className="column">
-        <p>Up to 1 of the following. To include a Phoenix Lord you must also include one of the units it can normally attach to:</p>
+        <p>
+          Up to 1 of the following. To include a Phoenix Lord you must also
+          include one of the units it can normally attach to:
+        </p>
         <ul>
           {options1.map((option) => {
             const unit = initialOptions1[option]
@@ -42,7 +48,7 @@ export default function KhainesArrow() {
                   max1: true,
                   list1,
                   list3,
-                  list4
+                  list4,
                 }}
               />
             )
@@ -62,7 +68,7 @@ export default function KhainesArrow() {
                   selected,
                   points,
                   list2,
-                  max1l2: true
+                  max1l2: true,
                 }}
               />
             )

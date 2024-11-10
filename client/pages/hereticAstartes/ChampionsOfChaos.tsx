@@ -5,7 +5,8 @@ import SelectedListItem from '../../components/SelectedListItem'
 import { championsOfChaosUnits } from '../../data/hereticAstartes'
 
 export default function ChampionsOfChaos() {
-  const [initialOptions1, initialOptions2, initialOptions3] = championsOfChaosUnits
+  const [initialOptions1, initialOptions2, initialOptions3] =
+    championsOfChaosUnits
   const initialList: ItemInList[] = []
 
   const options1 = Object.keys(initialOptions1)

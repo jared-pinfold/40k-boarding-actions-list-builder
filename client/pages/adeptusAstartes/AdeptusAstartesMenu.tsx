@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export default function AdeptusAstartesMenu() {
   return (
     <ul>
-            <li>
+      <li>
         <Link to="boarding-strike">Boarding Strike</Link>
       </li>
       <li>

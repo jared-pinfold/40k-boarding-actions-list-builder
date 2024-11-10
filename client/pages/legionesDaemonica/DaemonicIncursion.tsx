@@ -22,8 +22,14 @@ export default function DaemonicIncursion() {
   return (
     <div className="container">
       <div className="column">
-        <p>If your army has <strong>Khorne</strong> units, it {"can't"} have <strong>Slaanesh</strong> units</p>
-        <p>If your army has <strong>Nurgle</strong> units, it {"can't"} have <strong>Tzeentch</strong> units</p>
+        <p>
+          If your army has <strong>Khorne</strong> units, it {"can't"} have{' '}
+          <strong>Slaanesh</strong> units
+        </p>
+        <p>
+          If your army has <strong>Nurgle</strong> units, it {"can't"} have{' '}
+          <strong>Tzeentch</strong> units
+        </p>
         <p>Up to two of the following:</p>
         <ul>
           {options1.map((option) => {
@@ -39,7 +45,7 @@ export default function DaemonicIncursion() {
                   points,
                   max2: true,
                   list1,
-                  list2
+                  list2,
                 }}
               />
             )
@@ -60,7 +66,7 @@ export default function DaemonicIncursion() {
                   points,
                   max2: false,
                   list1,
-                  list2
+                  list2,
                 }}
               />
             )

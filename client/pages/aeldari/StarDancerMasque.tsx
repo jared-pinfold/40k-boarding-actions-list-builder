@@ -5,7 +5,8 @@ import SelectedListItem from '../../components/SelectedListItem'
 import { starDancerMasqueUnits } from '../../data/aeldari'
 
 export default function StarDancerMasque() {
-  const [initialOptions1, initialOptions2, initialOptions3] = starDancerMasqueUnits
+  const [initialOptions1, initialOptions2, initialOptions3] =
+    starDancerMasqueUnits
   const initialList: ItemInList[] = []
 
   const options1 = Object.keys(initialOptions1)
@@ -40,7 +41,7 @@ export default function StarDancerMasque() {
                   max2: true,
                   noSolitaire: true,
                   list1,
-                  list2
+                  list2,
                 }}
               />
             )
@@ -60,7 +61,7 @@ export default function StarDancerMasque() {
                   selected,
                   points,
                   noCharacters: true,
-                  list1
+                  list1,
                 }}
               />
             )
