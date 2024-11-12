@@ -60,7 +60,7 @@ export default function BoardingSwarm() {
       </div>
 
       <div className="column options">
-        <p>Any of the following:</p>
+        <p>Up to 2 of the following:</p>
         <ul>
           {options1.map((option) => {
             const unit = initialOptions1[option]
