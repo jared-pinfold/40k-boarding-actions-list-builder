@@ -15,7 +15,7 @@ import {
   genestealerCults as gc,
   greatDevourer as gd,
   tyranids as t,
-  worldEaters as we
+  worldEaters as we,
 } from './components/FactionImports'
 
 import Layout from './components/Layout'
@@ -42,7 +42,10 @@ const router = createBrowserRouter(
 
       <Route path="adeptus-custodes/" element={<ac.AdeptusCustodes />}>
         <Route index element={<ac.AdeptusCustodesMenu />} />
-        <Route path="black-ship-guardians" element={<ac.BlackShipGuardians />} />
+        <Route
+          path="black-ship-guardians"
+          element={<ac.BlackShipGuardians />}
+        />
       </Route>
 
       <Route path="adeptus-mechanicus/" element={<am.AdeptusMechanicus />}>
@@ -82,6 +85,7 @@ const router = createBrowserRouter(
         <Route index element={<t.TyranidsMenu />} />
         <Route path="infestation-swarm" element={<gd.InfestationSwarm />} />
         <Route path="biotide" element={<t.Biotide />} />
+        <Route path="boarding-swarm" element={<t.BoardingSwarm />} />
       </Route>
 
       <Route path="world-eaters/" element={<we.WorldEaters />}>

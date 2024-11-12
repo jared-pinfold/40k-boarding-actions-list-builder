@@ -28,8 +28,6 @@ export default function BoardingButchers() {
 
   return (
     <div className="container">
-      
-
       <div className="column list">
         <p>Points: {points}/500</p>
         <ul>
@@ -61,7 +59,7 @@ export default function BoardingButchers() {
                   setList: setList2,
                   option: selectedUnit.key,
                   models: selectedUnit.models,
-                  list2
+                  list2,
                 }}
               />
             )
@@ -139,7 +137,7 @@ export default function BoardingButchers() {
                   option,
                   selected,
                   points,
-                  list2
+                  list2,
                 }}
               />
             )
@@ -159,7 +157,7 @@ export default function BoardingButchers() {
                   selected,
                   points,
                   max1l3: true,
-                  list3
+                  list3,
                 }}
               />
             )

@@ -7,7 +7,7 @@ export default function HereticAstartes() {
     .map((word) => word.replace(word[0], word[0].toUpperCase()))
     .join(' ')
   return (
-    <section className='faction'>
+    <section className="faction">
       <h2>
         Heretic Astartes{listType === 'Heretic Astartes' ? '' : `: ${listType}`}
       </h2>

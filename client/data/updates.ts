@@ -2,7 +2,8 @@ export const updates = [
   {
     date: '12 Nov 2024',
     update: [
-      'UI updated to be slightly easier to use'
+      'Added Tyranids: Boarding Swarm',
+      'UI updated to be slightly easier to use',
     ],
   },
   {

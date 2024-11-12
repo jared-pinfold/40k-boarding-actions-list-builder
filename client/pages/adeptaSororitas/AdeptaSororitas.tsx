@@ -7,7 +7,7 @@ export default function AdeptaSororitas() {
     .map((word) => word.replace(word[0], word[0].toUpperCase()))
     .join(' ')
   return (
-    <section className='faction'>
+    <section className="faction">
       <h2>
         Adepta Sororitas{listType === 'Adepta Sororitas' ? '' : `: ${listType}`}
       </h2>

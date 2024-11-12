@@ -51,9 +51,21 @@ export const boardingButchersUnits: Record<string, UnitData>[] = [
     kBerz1: units.khorneBerzerkers,
     kBerz2: units.khorneBerzerkers,
     kBerz3: units.khorneBerzerkers,
-    jack1: { ...units.jackals, asterisk: true, notMoreThanKhorneBerzerkers: true },
-    jack2: { ...units.jackals, asterisk: true, notMoreThanKhorneBerzerkers: true },
-    jack3: { ...units.jackals, asterisk: true, notMoreThanKhorneBerzerkers: true },
+    jack1: {
+      ...units.jackals,
+      asterisk: true,
+      notMoreThanKhorneBerzerkers: true,
+    },
+    jack2: {
+      ...units.jackals,
+      asterisk: true,
+      notMoreThanKhorneBerzerkers: true,
+    },
+    jack3: {
+      ...units.jackals,
+      asterisk: true,
+      notMoreThanKhorneBerzerkers: true,
+    },
   },
   {
     e: units.eightbound,

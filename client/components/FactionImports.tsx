@@ -39,6 +39,7 @@ import WorldEaters from '../pages/worldEaters/WorldEaters'
 import WorldEatersMenu from '../pages/worldEaters/WorldEatersMenu'
 import Skullsworn from '../pages/worldEaters/Skullsworn'
 import BoardingButchers from '../pages/worldEaters/BoardingButchers'
+import BoardingSwarm from '../pages/tyranids/BoardingSwarm'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -94,6 +95,7 @@ export const tyranids = {
   Tyranids,
   TyranidsMenu,
   Biotide,
+  BoardingSwarm,
 }
 export const worldEaters = {
   WorldEaters,

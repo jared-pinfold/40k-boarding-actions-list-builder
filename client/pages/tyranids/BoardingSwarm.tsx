@@ -2,10 +2,10 @@ import { useState } from 'react'
 import { ItemInList } from '../../../models/models'
 import OptionsListItem from '../../components/OptionsListItem'
 import SelectedListItem from '../../components/SelectedListItem'
-import { daemonicIncursionUnits } from '../../data/legionesDaemonica'
+import { boardingSwarmUnits } from '../../data/tyranids'
 
-export default function DaemonicIncursion() {
-  const [initialOptions1, initialOptions2] = daemonicIncursionUnits
+export default function BoardingSwarm() {
+  const [initialOptions1, initialOptions2] = boardingSwarmUnits
   const initialList: ItemInList[] = []
 
   const options1 = Object.keys(initialOptions1)
@@ -58,16 +58,9 @@ export default function DaemonicIncursion() {
           })}
         </ul>
       </div>
+
       <div className="column options">
-        <p>
-          If your army has <strong>Khorne</strong> units, it {"can't"} have{' '}
-          <strong>Slaanesh</strong> units
-        </p>
-        <p>
-          If your army has <strong>Nurgle</strong> units, it {"can't"} have{' '}
-          <strong>Tzeentch</strong> units
-        </p>
-        <p>Up to two of the following:</p>
+        <p>Any of the following:</p>
         <ul>
           {options1.map((option) => {
             const unit = initialOptions1[option]
@@ -82,7 +75,6 @@ export default function DaemonicIncursion() {
                   points,
                   max2: true,
                   list1,
-                  list2,
                 }}
               />
             )
@@ -101,9 +93,6 @@ export default function DaemonicIncursion() {
                   option,
                   selected,
                   points,
-                  max2: false,
-                  list1,
-                  list2,
                 }}
               />
             )

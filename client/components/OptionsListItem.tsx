@@ -124,11 +124,10 @@ export default function OptionsListItem(props: Props) {
     if (unit.only1OtherCharacter && lists1and2.length >= 2) return true
     if (
       unit.notMoreThanKhorneBerzerkers &&
-      (list2 as ItemInList[]).filter((unit) => unit.key.match(/Berz/))
-        .length <=
-        (list2 as ItemInList[]).filter((unit) => !unit.key.match(/Berz/))
-          .length
-    ) return true
+      (list2 as ItemInList[]).filter((unit) => unit.key.match(/Berz/)).length <=
+        (list2 as ItemInList[]).filter((unit) => !unit.key.match(/Berz/)).length
+    )
+      return true
 
     return false
   }

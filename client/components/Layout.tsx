@@ -8,7 +8,7 @@ export default function Layout() {
           <Link to="/">40k Boarding Actions</Link>
         </h1>
       </header>
-        <Outlet />
+      <Outlet />
     </>
   )
 }

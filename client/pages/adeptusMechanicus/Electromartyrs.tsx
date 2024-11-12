@@ -28,7 +28,6 @@ export default function Electromartyrs() {
 
   return (
     <div className="container">
-
       <div className="column list">
         <p>Points: {points}/500</p>
         <ul>

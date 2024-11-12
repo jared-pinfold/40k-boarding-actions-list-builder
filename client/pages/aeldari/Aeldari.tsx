@@ -16,7 +16,7 @@ export default function Aeldari() {
           : `: ${listType}`
 
   return (
-    <section className='faction'>
+    <section className="faction">
       <h2>Aeldari{finalListType}</h2>
       <Outlet />
     </section>

@@ -7,8 +7,7 @@ export default function AdeptusAstartes() {
     .map((word) => word.replace(word[0], word[0].toUpperCase()))
     .join(' ')
   return (
-    <section className='faction'>
-
+    <section className="faction">
       <h2>
         Adeptus Astartes{listType === 'Adeptus Astartes' ? '' : `: ${listType}`}
       </h2>
