@@ -1,5 +1,11 @@
 export const updates = [
   {
+    date: '12 Nov 2024',
+    update: [
+      'UI updated to be slightly easier to use'
+    ],
+  },
+  {
     date: '10 Nov 2024',
     update: [
       'Added Genestealer Cults/Tyranids: Infestation Swarm',

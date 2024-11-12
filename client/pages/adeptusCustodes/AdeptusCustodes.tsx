@@ -7,11 +7,12 @@ export default function AdeptusCustodes() {
     .map((word) => word.replace(word[0], word[0].toUpperCase()))
     .join(' ')
   return (
-    <>
+    <section className='faction'>
+
       <h2>
         Adeptus Custodes{listType === 'Adeptus Custodes' ? '' : `: ${listType}`}
       </h2>
       <Outlet />
-    </>
+    </section>
   )
 }

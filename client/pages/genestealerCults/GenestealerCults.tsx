@@ -7,12 +7,13 @@ export default function GenestealerCults() {
     .map((word) => word.replace(word[0], word[0].toUpperCase()))
     .join(' ')
   return (
-    <>
+    <section className='faction'>
+
       <h2>
         Genestealer Cults
         {listType === 'Genestealer Cults' ? '' : `: ${listType}`}
       </h2>
       <Outlet />
-    </>
+    </section>
   )
 }

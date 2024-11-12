@@ -7,9 +7,9 @@ export default function Tyranids() {
     .map((word) => word.replace(word[0], word[0].toUpperCase()))
     .join(' ')
   return (
-    <>
+    <section className='faction'>
       <h2>Tyranids{listType === 'Tryanids' ? '' : `: ${listType}`}</h2>
       <Outlet />
-    </>
+    </section>
   )
 }

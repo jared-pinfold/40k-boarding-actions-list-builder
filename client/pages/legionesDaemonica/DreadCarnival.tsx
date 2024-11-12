@@ -21,7 +21,45 @@ export default function DreadCarnival() {
 
   return (
     <div className="container">
-      <div className="column">
+      <div className="column list">
+        <p>Points: {points}/500</p>
+        <ul>
+          {list1.map((selectedUnit) => {
+            const unit = initialOptions1[selectedUnit.key]
+            return (
+              <SelectedListItem
+                key={unit.name}
+                {...{
+                  unit,
+                  points: selectedUnit.points,
+                  setList: setList1,
+                  option: selectedUnit.key,
+                  models: selectedUnit.models,
+                }}
+              />
+            )
+          })}
+        </ul>
+        <ul>
+          {list2.map((selectedUnit) => {
+            const unit = initialOptions2[selectedUnit.key]
+            return (
+              <SelectedListItem
+                key={selectedUnit.key}
+                {...{
+                  unit,
+                  points: selectedUnit.points,
+                  setList: setList2,
+                  option: selectedUnit.key,
+                  models: selectedUnit.models,
+                }}
+              />
+            )
+          })}
+        </ul>
+      </div>
+
+      <div className="column options">
         <p>Up to two of the following:</p>
         <ul>
           {options1.map((option) => {
@@ -56,44 +94,6 @@ export default function DreadCarnival() {
                   selected,
                   points,
                   max2: false,
-                }}
-              />
-            )
-          })}
-        </ul>
-      </div>
-
-      <div className="column">
-        <p>Points: {points}/500</p>
-        <ul>
-          {list1.map((selectedUnit) => {
-            const unit = initialOptions1[selectedUnit.key]
-            return (
-              <SelectedListItem
-                key={unit.name}
-                {...{
-                  unit,
-                  points: selectedUnit.points,
-                  setList: setList1,
-                  option: selectedUnit.key,
-                  models: selectedUnit.models,
-                }}
-              />
-            )
-          })}
-        </ul>
-        <ul>
-          {list2.map((selectedUnit) => {
-            const unit = initialOptions2[selectedUnit.key]
-            return (
-              <SelectedListItem
-                key={selectedUnit.key}
-                {...{
-                  unit,
-                  points: selectedUnit.points,
-                  setList: setList2,
-                  option: selectedUnit.key,
-                  models: selectedUnit.models,
                 }}
               />
             )

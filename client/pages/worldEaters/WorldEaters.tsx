@@ -7,9 +7,9 @@ export default function WorldEaters() {
     .map((word) => word.replace(word[0], word[0].toUpperCase()))
     .join(' ')
   return (
-    <>
+    <section className='faction'>
       <h2>World Eaters{listType === 'World Eaters' ? '' : `: ${listType}`}</h2>
       <Outlet />
-    </>
+    </section>
   )
 }

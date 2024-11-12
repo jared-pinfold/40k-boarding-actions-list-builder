@@ -28,7 +28,80 @@ export default function KhainesArrow() {
 
   return (
     <div className="container">
-      <div className="column">
+      
+
+      <div className="column list">
+        <p>Points: {points}/500</p>
+        <ul>
+          {list1.map((selectedUnit) => {
+            const unit = initialOptions1[selectedUnit.key]
+            return (
+              <SelectedListItem
+                key={unit.name}
+                {...{
+                  unit,
+                  points: selectedUnit.points,
+                  setList: setList1,
+                  option: selectedUnit.key,
+                  models: selectedUnit.models,
+                }}
+              />
+            )
+          })}
+        </ul>
+        <ul>
+          {list2.map((selectedUnit) => {
+            const unit = initialOptions2[selectedUnit.key]
+            return (
+              <SelectedListItem
+                key={selectedUnit.key}
+                {...{
+                  unit,
+                  points: selectedUnit.points,
+                  setList: setList2,
+                  option: selectedUnit.key,
+                  models: selectedUnit.models,
+                }}
+              />
+            )
+          })}
+        </ul>
+        <ul>
+          {list3.map((selectedUnit) => {
+            const unit = initialOptions3[selectedUnit.key]
+            return (
+              <SelectedListItem
+                key={selectedUnit.key}
+                {...{
+                  unit,
+                  points: selectedUnit.points,
+                  setList: setList3,
+                  option: selectedUnit.key,
+                  models: selectedUnit.models,
+                }}
+              />
+            )
+          })}
+        </ul>
+        <ul>
+          {list4.map((selectedUnit) => {
+            const unit = initialOptions4[selectedUnit.key]
+            return (
+              <SelectedListItem
+                key={selectedUnit.key}
+                {...{
+                  unit,
+                  points: selectedUnit.points,
+                  setList: setList4,
+                  option: selectedUnit.key,
+                  models: selectedUnit.models,
+                }}
+              />
+            )
+          })}
+        </ul>
+      </div>
+      <div className="column options">
         <p>
           Up to 1 of the following. To include a Phoenix Lord you must also
           include one of the units it can normally attach to:
@@ -107,78 +180,6 @@ export default function KhainesArrow() {
                   points,
                   max1l4: true,
                   list4,
-                }}
-              />
-            )
-          })}
-        </ul>
-      </div>
-
-      <div className="column">
-        <p>Points: {points}/500</p>
-        <ul>
-          {list1.map((selectedUnit) => {
-            const unit = initialOptions1[selectedUnit.key]
-            return (
-              <SelectedListItem
-                key={unit.name}
-                {...{
-                  unit,
-                  points: selectedUnit.points,
-                  setList: setList1,
-                  option: selectedUnit.key,
-                  models: selectedUnit.models,
-                }}
-              />
-            )
-          })}
-        </ul>
-        <ul>
-          {list2.map((selectedUnit) => {
-            const unit = initialOptions2[selectedUnit.key]
-            return (
-              <SelectedListItem
-                key={selectedUnit.key}
-                {...{
-                  unit,
-                  points: selectedUnit.points,
-                  setList: setList2,
-                  option: selectedUnit.key,
-                  models: selectedUnit.models,
-                }}
-              />
-            )
-          })}
-        </ul>
-        <ul>
-          {list3.map((selectedUnit) => {
-            const unit = initialOptions3[selectedUnit.key]
-            return (
-              <SelectedListItem
-                key={selectedUnit.key}
-                {...{
-                  unit,
-                  points: selectedUnit.points,
-                  setList: setList3,
-                  option: selectedUnit.key,
-                  models: selectedUnit.models,
-                }}
-              />
-            )
-          })}
-        </ul>
-        <ul>
-          {list4.map((selectedUnit) => {
-            const unit = initialOptions4[selectedUnit.key]
-            return (
-              <SelectedListItem
-                key={selectedUnit.key}
-                {...{
-                  unit,
-                  points: selectedUnit.points,
-                  setList: setList4,
-                  option: selectedUnit.key,
-                  models: selectedUnit.models,
                 }}
               />
             )

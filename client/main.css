@@ -1,13 +1,55 @@
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+html, body {
+  margin: 0;
+  padding: 1em;
+  height: 100%;
 }
 
-.column {
-  width: 40%;
-  background-color: bisque;
-  padding: 1rem;
+body {
+  display: flex;
+  flex-direction: column;
+  overflow-y:visible
+}
+
+header {
+  position: static;
+  top: 0;
+  z-index: 10;
+  padding: 10px;
+}
+
+.faction {
+  position: sticky; /* Keeps header static at the top */
+  top: 0;
+}
+
+.list {
+  overflow: visible; /* List1 grows with content */
+  padding: 10px;
+  position: sticky; /* Keeps header static at the top */
+  top: 0;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 1em;
+}
+
+.options{
+  overflow-y: auto; /* Enables scrolling within List2 */
+  max-height: 50vh; /* Adjust based on desired scrollable height */
+  padding: 10px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 1em;
+  margin-top: 1em;
+}
+
+.updates{
+  position: sticky; /* Keeps header static at the top */
+  top: 0;
+  z-index: 10;
+  padding: 10px;
+  overflow-y: auto;
 }
 
 .red-unit {
