@@ -11,6 +11,16 @@ const units = {
   raveners: { name: 'Raveners', points: [75], models: [3] },
   ripperSwarms: { name: 'Ripper Swarms', points: [50], models: [3] },
   termagants: { name: 'Termagants', points: [60], models: [10] },
+  tyranidWarriorsWithMeleeBioWeapons: {
+    name: 'Tyranid Warriors with Melee Bio-weapons',
+    points: [75],
+    models: [3],
+  },
+  tyranidWarriorsWithRangedBioWeapons: {
+    name: 'Tyranid Warriors with Ranged Bio-weapons',
+    points: [65],
+    models: [3],
+  },
   vonRyansLeapers: { name: "Von Ryan's Leapers", points: [70], models: [3] },
   wingedTyranidPrime: {
     name: 'Winged Tyranid Prime',
@@ -61,5 +71,24 @@ export const boardingSwarmUnits: Record<string, UnitData>[] = [
     rav2: units.raveners,
     von1: units.vonRyansLeapers,
     von2: units.vonRyansLeapers,
+  },
+]
+
+export const tyranidattackUnits: Record<string, UnitData>[] = [
+  {
+    wingedTP1: units.wingedTyranidPrime,
+    wingedTP2: units.wingedTyranidPrime,
+  },
+  {
+    tWM1: units.tyranidWarriorsWithMeleeBioWeapons,
+    tWM2: units.tyranidWarriorsWithMeleeBioWeapons,
+    tWR1: units.tyranidWarriorsWithRangedBioWeapons,
+    tWR2: units.tyranidWarriorsWithRangedBioWeapons,
+  },
+  {
+    ho: units.hormagaunts,
+    ne: units.neurogaunts,
+    rS: units.ripperSwarms,
+    te: units.termagants,
   },
 ]

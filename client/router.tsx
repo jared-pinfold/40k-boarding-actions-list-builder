@@ -86,6 +86,7 @@ const router = createBrowserRouter(
         <Route path="infestation-swarm" element={<gd.InfestationSwarm />} />
         <Route path="biotide" element={<t.Biotide />} />
         <Route path="boarding-swarm" element={<t.BoardingSwarm />} />
+        <Route path="tyranid-attack" element={<t.TyranidAttack />} />
       </Route>
 
       <Route path="world-eaters/" element={<we.WorldEaters />}>
