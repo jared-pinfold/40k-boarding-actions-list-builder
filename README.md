@@ -1,26 +1,10 @@
-# Phase 1 Boilerplate
+# 40k Boarding Actions List Builder App
 
-## Packages Included
+This is a tool for building army lists for Warhammer 40,000 Boarding Actions games.
 
-- react
-- react-router-dom
-- @tanstack/react-query
-- vite
-- vitest
-- eslint
+## Disclaimer
 
-## Setup
+This tool is for hobby usage only and not for financial gain. It contains no unit rules, just names and point values.
 
-- [ ] Clone this repo, navigate to it, install packages, and start the server with `npm run dev`
-  <details style="padding-left: 2em">
-    <summary>Tip</summary>
-
-    ```sh
-    npm install
-    npm run dev
-    ```
-  </details>
-
----
-
-[Provide feedback on this repo](https://docs.google.com/forms/d/e/1FAIpQLSfw4FGdWkLwMLlUaNQ8FtP2CTJdGDUv6Xoxrh19zIrJSkvT4Q/viewform?usp=pp_url&entry.1958421517=boilerplate-phase1)
+## Deployed to 
+https://40kba.netlify.app/
