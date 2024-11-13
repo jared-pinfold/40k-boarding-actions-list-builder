@@ -1,7 +1,10 @@
 export const updates = [
   {
     date: '14 Nov 2024',
-    update: [`Added T'au: Starfire Cadre`],
+    update: [
+      'Added Legiones Daemonica: Pandaemoniac Inferno',
+      `Added T'au: Starfire Cadre`,
+    ],
   },
   {
     date: '13 Nov 2024',

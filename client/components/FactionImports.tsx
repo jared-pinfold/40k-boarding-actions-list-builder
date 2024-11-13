@@ -51,6 +51,7 @@ import TauMenu from '../pages/tau/TauMenu'
 import KrootRaidingParty from '../pages/tau/KrootRaidingParty'
 import PenitentsAndPilgrims from '../pages/adeptaSororitas/PenitentsAndPilgrims'
 import StarfireCadre from '../pages/tau/StarfireCadre'
+import PandaemoniacInferno from '../pages/legionesDaemonica/PandaemoniacInferno'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -64,6 +65,7 @@ export const legionesDaemonica = {
   LegionesDaemonicaMenu,
   DreadCarnival,
   DaemonicIncursion,
+  PandaemoniacInferno,
 }
 export const aeldari = {
   Aeldari,

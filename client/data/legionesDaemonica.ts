@@ -99,6 +99,22 @@ export const daemonicIncursionUnits: Record<string, UnitData>[] = [
   },
 ]
 
+export const padaemoniacInfernoUnits: Record<string, UnitData>[] = [
+  { ch: units.changecaster, eF: units.exhaltedFlamer, tC: units.theChangeling },
+  {
+    bH1: units.blueHorrors,
+    bH2: units.blueHorrors,
+    bH3: units.blueHorrors,
+    ph1: units.pinkHorrors,
+    ph2: units.pinkHorrors,
+    ph3: units.pinkHorrors,
+  },
+  {
+    f: units.flamers,
+    s: units.screamers,
+  },
+]
+
 export const khorne = [
   'bloodmaster',
   'karanak',
