@@ -10,6 +10,9 @@ export default function LegionesDaemonicaMenu() {
         <Link to="dread-carnival">Dread Carnival</Link>
       </li>
       <li>
+        <Link to="infernal-onslaught">Infernal Onslaught</Link>
+      </li>
+      <li>
         <Link to="pandaemoniac-inferno">Pandaemoniac Inferno</Link>
       </li>
     </ul>

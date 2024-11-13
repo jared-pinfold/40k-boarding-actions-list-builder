@@ -85,6 +85,7 @@ const router = createBrowserRouter(
         <Route index element={<ld.LegionesDaemonicaMenu />} />
         <Route path="daemonic-incursion" element={<ld.DaemonicIncursion />} />
         <Route path="dread-carnival" element={<ld.DreadCarnival />} />
+        <Route path="infernal-onslaught" element={<ld.InfernalOnslaught />} />
         <Route
           path="pandaemoniac-inferno"
           element={<ld.PandaemoniacInferno />}

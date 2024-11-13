@@ -17,6 +17,11 @@ const units = {
   fiends: { name: 'Fiends', points: [105], models: [3] },
   flamers: { name: 'Flamers', points: [105], models: [3] },
   fleshHounds: { name: 'Flesh Hounds', points: [70], models: [5] },
+  fleshHounds5or10: {
+    name: 'Flesh Hounds',
+    points: [70, 140],
+    models: [5, 10],
+  },
   infernalEnrapturess: {
     name: 'Infernal Enrapturess',
     points: [60],
@@ -112,6 +117,22 @@ export const padaemoniacInfernoUnits: Record<string, UnitData>[] = [
   {
     f: units.flamers,
     s: units.screamers,
+  },
+]
+
+export const infernalOnslaughtUnits: Record<string, UnitData>[] = [
+  {
+    bM: units.bloodmaster,
+    k: units.karanak,
+    s: units.skulltaker,
+  },
+  {
+    b1: units.bloodletters,
+    b2: units.bloodletters,
+    b3: units.bloodletters,
+  },
+  {
+    f: units.fleshHounds5or10,
   },
 ]
 
