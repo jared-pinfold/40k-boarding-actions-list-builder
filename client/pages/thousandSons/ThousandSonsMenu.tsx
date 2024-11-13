@@ -4,6 +4,9 @@ export default function ThousandSonsMenu() {
   return (
     <ul>
       <li>
+        <Link to="chosen-cabal">Chosen Cabal</Link>
+      </li>
+      <li>
         <Link to="devoted-thralls">Devoted Thralls</Link>
       </li>
       <li>

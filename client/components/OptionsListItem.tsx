@@ -128,6 +128,12 @@ export default function OptionsListItem(props: Props) {
         (list2 as ItemInList[]).filter((unit) => !unit.key.match(/Berz/)).length
     )
       return true
+    if (
+      unit.notMoreThanRubricMArines &&
+      (list2 as ItemInList[]).filter((unit) => unit.key.match(/rub/)).length <=
+        (list2 as ItemInList[]).filter((unit) => !unit.key.match(/rub/)).length
+    )
+      return true
 
     return false
   }

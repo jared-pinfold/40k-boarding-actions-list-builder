@@ -4,6 +4,11 @@ const units = {
   ahriman: { name: 'Ahriman', points: [140], models: [1] },
   exaltedSorcerer: { name: 'Exalted Sorcerer', points: [110], models: [1] },
   infernalMaster: { name: 'Infernal Master', points: [105], models: [1] },
+  rubricMarines: {
+    name: 'Rubric Marines',
+    points: [110, 200],
+    models: [5, 10],
+  },
   scarabOccultTerminators: {
     name: 'Scarab Occult terminators',
     points: [190, 380],
@@ -62,6 +67,43 @@ export const devotedThrallsUnits: Record<string, UnitData>[] = [
     tz3: units.tzaangors,
   },
   {
+    tSCS: units.thousandSonsChaosSpawn,
+  },
+]
+
+export const chosenCabalUnits: Record<string, UnitData>[] = [
+  {
+    ahri: units.ahriman,
+    exSo: units.exaltedSorcerer,
+    infM: units.infernalMaster,
+    tSS: units.thousandSonsSorcerer,
+    tSTS: units.thousandSonsTerminatorSorcerer,
+  },
+  {
+    rub1: units.rubricMarines,
+    rub2: units.rubricMarines,
+    rub3: units.rubricMarines,
+    tSC1: {
+      ...units.thousandSonsCultists,
+      asterisk: true,
+      notMoreThanRubricMArines: true,
+    },
+    tSC2: {
+      ...units.thousandSonsCultists,
+      asterisk: true,
+      notMoreThanRubricMArines: true,
+    },
+    tSC3: {
+      ...units.thousandSonsCultists,
+      asterisk: true,
+      notMoreThanRubricMArines: true,
+    },
+    tz1: { ...units.tzaangors, asterisk: true, notMoreThanRubricMArines: true },
+    tz2: { ...units.tzaangors, asterisk: true, notMoreThanRubricMArines: true },
+    tz3: { ...units.tzaangors, asterisk: true, notMoreThanRubricMArines: true },
+  },
+  {
+    sOT: units.scarabOccultTerminators,
     tSCS: units.thousandSonsChaosSpawn,
   },
 ]

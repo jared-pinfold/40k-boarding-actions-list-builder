@@ -45,6 +45,7 @@ import ThousandSons from '../pages/thousandSons/ThousandSons'
 import ThousandSonsMenu from '../pages/thousandSons/ThousandSonsMenu'
 import Fateseekers from '../pages/thousandSons/Fateseekers'
 import DevotedThralls from '../pages/thousandSons/DevotedThralls'
+import ChosenCabal from '../pages/thousandSons/ChosenCabal'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -114,4 +115,5 @@ export const thousandSons = {
   ThousandSonsMenu,
   Fateseekers,
   DevotedThralls,
+  ChosenCabal,
 }

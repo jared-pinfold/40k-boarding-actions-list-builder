@@ -84,6 +84,7 @@ const router = createBrowserRouter(
 
       <Route path="thousand-sons/" element={<ts.ThousandSons />}>
         <Route index element={<ts.ThousandSonsMenu />} />
+        <Route path="chosen-cabal" element={<ts.ChosenCabal />} />
         <Route path="devoted-thralls" element={<ts.DevotedThralls />} />
         <Route path="fateseekers" element={<ts.Fateseekers />} />
       </Route>
