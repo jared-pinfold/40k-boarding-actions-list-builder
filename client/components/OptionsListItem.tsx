@@ -134,6 +134,12 @@ export default function OptionsListItem(props: Props) {
         (list2 as ItemInList[]).filter((unit) => !unit.key.match(/rub/)).length
     )
       return true
+    if (
+      unit.notMoreThanKrootCarnivores &&
+      (list2 as ItemInList[]).filter((unit) => unit.key.match(/Carn/)).length <=
+        (list3 as ItemInList[]).length
+    )
+      return true
 
     return false
   }

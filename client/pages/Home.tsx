@@ -33,6 +33,9 @@ export default function Home() {
           <Link to="thousand-sons">Thousand Sons</Link>
         </li>
         <li>
+          <Link to="tau">{`T'au`}</Link>
+        </li>
+        <li>
           <Link to="tyranids">Tyranids</Link>
         </li>
         <li>

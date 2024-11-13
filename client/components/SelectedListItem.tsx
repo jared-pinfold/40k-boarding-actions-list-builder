@@ -42,6 +42,12 @@ export default function SelectedListItem(props: Props) {
         (list2 as ItemInList[]).filter((unit) => !unit.key.match(/rub/)).length
     )
       return true
+    if (
+      unit.notMoreThanKrootCarnivores &&
+      (list2 as ItemInList[]).filter((unit) => unit.key.match(/Carn/)).length <
+        (list3 as ItemInList[]).length
+    )
+      return true
 
     if (unit.only1OtherCharacter && lists1and2.length > 2) return true
     return false

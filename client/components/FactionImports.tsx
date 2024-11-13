@@ -46,6 +46,9 @@ import ThousandSonsMenu from '../pages/thousandSons/ThousandSonsMenu'
 import Fateseekers from '../pages/thousandSons/Fateseekers'
 import DevotedThralls from '../pages/thousandSons/DevotedThralls'
 import ChosenCabal from '../pages/thousandSons/ChosenCabal'
+import Tau from '../pages/tau/Tau'
+import TauMenu from '../pages/tau/TauMenu'
+import KrootRaidingParty from '../pages/tau/KrootRaidingParty'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -116,4 +119,9 @@ export const thousandSons = {
   Fateseekers,
   DevotedThralls,
   ChosenCabal,
+}
+export const tau = {
+  Tau,
+  TauMenu,
+  KrootRaidingParty,
 }

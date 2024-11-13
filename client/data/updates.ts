@@ -2,6 +2,7 @@ export const updates = [
   {
     date: '13 Nov 2024',
     update: [
+      `Added T'au': Kroot Raiding Party`,
       'Added Thousand Sons: Chosen Cabal',
       'Added Thousand Sons: Devoted Thralls',
       'Added Thousand Sons: Fateseekers',
