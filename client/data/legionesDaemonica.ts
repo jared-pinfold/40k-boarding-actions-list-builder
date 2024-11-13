@@ -136,6 +136,24 @@ export const infernalOnslaughtUnits: Record<string, UnitData>[] = [
   },
 ]
 
+export const rottenAndRustedlUnits: Record<string, UnitData>[] = [
+  {
+    e: units.epidemius,
+    pox: units.poxbringer,
+    sB: units.sloppityBilepiper,
+    SS: units.spoilpoxScrivener,
+  },
+  {
+    p1: units.plaguebearers,
+    p2: units.plaguebearers,
+    p3: units.plaguebearers,
+    n1: units.nurglings,
+    n2: units.nurglings,
+    n3: units.nurglings,
+  },
+  { bON: units.beastsOfNurgle },
+]
+
 export const khorne = [
   'bloodmaster',
   'karanak',

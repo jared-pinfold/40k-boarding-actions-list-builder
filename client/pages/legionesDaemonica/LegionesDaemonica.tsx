@@ -6,11 +6,19 @@ export default function LegionesDaemonica() {
     .split('-')
     .map((word) => word.replace(word[0], word[0].toUpperCase()))
     .join(' ')
+
+  const finalListType =
+    listType === 'Legiones Daemonica'
+      ? ''
+      : listType === 'Rotten And Rusted'
+        ? ': Rotten and Rusted'
+        : `: ${listType}`
+
   return (
     <section className="faction">
       <h2>
         Legiones Daemonica
-        {listType === 'Legiones Daemonica' ? '' : `: ${listType}`}
+        {finalListType}
       </h2>
       <Outlet />
     </section>

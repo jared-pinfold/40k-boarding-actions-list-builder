@@ -90,6 +90,7 @@ const router = createBrowserRouter(
           path="pandaemoniac-inferno"
           element={<ld.PandaemoniacInferno />}
         />
+        <Route path="rotten-and-rusted" element={<ld.RottenAndRusted />} />
       </Route>
 
       <Route path="thousand-sons/" element={<ts.ThousandSons />}>

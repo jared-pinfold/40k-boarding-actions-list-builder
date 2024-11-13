@@ -15,6 +15,9 @@ export default function LegionesDaemonicaMenu() {
       <li>
         <Link to="pandaemoniac-inferno">Pandaemoniac Inferno</Link>
       </li>
+      <li>
+        <Link to="rotten-and-rusted">Rotten and Rusted</Link>
+      </li>
     </ul>
   )
 }

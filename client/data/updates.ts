@@ -4,6 +4,7 @@ export const updates = [
     update: [
       'Added Legiones Daemonica: Infernal Onslaught',
       'Added Legiones Daemonica: Pandaemoniac Inferno',
+      'Added Legiones Daemonica: Rotten and Rusted',
       `Added T'au: Starfire Cadre`,
     ],
   },

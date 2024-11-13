@@ -53,6 +53,7 @@ import PenitentsAndPilgrims from '../pages/adeptaSororitas/PenitentsAndPilgrims'
 import StarfireCadre from '../pages/tau/StarfireCadre'
 import PandaemoniacInferno from '../pages/legionesDaemonica/PandaemoniacInferno'
 import InfernalOnslaught from '../pages/legionesDaemonica/InfernalOnslaught'
+import RottenAndRusted from '../pages/legionesDaemonica/RottenAndRusted'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -68,6 +69,7 @@ export const legionesDaemonica = {
   DaemonicIncursion,
   PandaemoniacInferno,
   InfernalOnslaught,
+  RottenAndRusted,
 }
 export const aeldari = {
   Aeldari,
