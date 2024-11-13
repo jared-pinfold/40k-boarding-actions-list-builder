@@ -50,6 +50,7 @@ import Tau from '../pages/tau/Tau'
 import TauMenu from '../pages/tau/TauMenu'
 import KrootRaidingParty from '../pages/tau/KrootRaidingParty'
 import PenitentsAndPilgrims from '../pages/adeptaSororitas/PenitentsAndPilgrims'
+import StarfireCadre from '../pages/tau/StarfireCadre'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -126,4 +127,5 @@ export const tau = {
   Tau,
   TauMenu,
   KrootRaidingParty,
+  StarfireCadre,
 }

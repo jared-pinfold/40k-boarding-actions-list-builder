@@ -6,6 +6,9 @@ export default function TauMenu() {
       <li>
         <Link to="kroot-raiding-party">Kroot Raiding Party</Link>
       </li>
+      <li>
+        <Link to="starfire-cadre">Starfire Cadre</Link>
+      </li>
     </ul>
   )
 }

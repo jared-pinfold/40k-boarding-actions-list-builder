@@ -97,6 +97,7 @@ const router = createBrowserRouter(
       <Route path="tau/" element={<tau.Tau />}>
         <Route index element={<tau.TauMenu />} />
         <Route path="kroot-raiding-party" element={<tau.KrootRaidingParty />} />
+        <Route path="starfire-cadre" element={<tau.StarfireCadre />} />
       </Route>
 
       <Route path="tyranids/" element={<t.Tyranids />}>
