@@ -1,5 +1,11 @@
 export const updates = [
   {
+    date: '13 Nov 2024',
+    update: [
+      'Added Thousand Sons: Fateseekers',
+    ],
+  },
+  {
     date: '12 Nov 2024',
     update: [
       'Added Tyranids: Boarding Swarm',

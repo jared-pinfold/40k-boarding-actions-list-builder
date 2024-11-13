@@ -41,6 +41,9 @@ import Skullsworn from '../pages/worldEaters/Skullsworn'
 import BoardingButchers from '../pages/worldEaters/BoardingButchers'
 import BoardingSwarm from '../pages/tyranids/BoardingSwarm'
 import TyranidAttack from '../pages/tyranids/TyranidAttack'
+import ThousandSons from '../pages/thousandSons/ThousandSons'
+import ThousandSonsMenu from '../pages/thousandSons/ThousandSonsMenu'
+import Fateseekers from '../pages/thousandSons/Fateseekers'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -104,4 +107,9 @@ export const worldEaters = {
   WorldEatersMenu,
   Skullsworn,
   BoardingButchers,
+}
+export const thousandSons = {
+  ThousandSons,
+  ThousandSonsMenu,
+  Fateseekers,
 }
