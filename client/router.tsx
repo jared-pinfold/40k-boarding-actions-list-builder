@@ -71,6 +71,7 @@ const router = createBrowserRouter(
 
       <Route path="genestealer-cults/" element={<gc.GenestealerCults />}>
         <Route index element={<gc.GenestealerCultsMenu />} />
+        <Route path="genespawn-onslaught" element={<gc.GenespawnOnslaught />} />
         <Route path="infestation-swarm" element={<gd.InfestationSwarm />} />
       </Route>
 

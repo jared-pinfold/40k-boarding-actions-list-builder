@@ -54,6 +54,7 @@ import StarfireCadre from '../pages/tau/StarfireCadre'
 import PandaemoniacInferno from '../pages/legionesDaemonica/PandaemoniacInferno'
 import InfernalOnslaught from '../pages/legionesDaemonica/InfernalOnslaught'
 import RottenAndRusted from '../pages/legionesDaemonica/RottenAndRusted'
+import GenespawnOnslaught from '../pages/genestealerCults/GenespawnOnslaught'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -107,6 +108,7 @@ export const adeptusCustodes = {
 export const genestealerCults = {
   GenestealerCults,
   GenestealerCultsMenu,
+  GenespawnOnslaught,
 }
 export const greatDevourer = { InfestationSwarm }
 export const tyranids = {
