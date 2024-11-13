@@ -44,6 +44,7 @@ import TyranidAttack from '../pages/tyranids/TyranidAttack'
 import ThousandSons from '../pages/thousandSons/ThousandSons'
 import ThousandSonsMenu from '../pages/thousandSons/ThousandSonsMenu'
 import Fateseekers from '../pages/thousandSons/Fateseekers'
+import DevotedThralls from '../pages/thousandSons/DevotedThralls'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -112,4 +113,5 @@ export const thousandSons = {
   ThousandSons,
   ThousandSonsMenu,
   Fateseekers,
+  DevotedThralls,
 }

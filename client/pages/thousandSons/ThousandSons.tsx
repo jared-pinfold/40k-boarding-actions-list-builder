@@ -8,7 +8,9 @@ export default function ThousandSons() {
     .join(' ')
   return (
     <section className="faction">
-      <h2>Thousand Sons{listType === 'Thousand Sons' ? '' : `: ${listType}`}</h2>
+      <h2>
+        Thousand Sons{listType === 'Thousand Sons' ? '' : `: ${listType}`}
+      </h2>
       <Outlet />
     </section>
   )

@@ -16,7 +16,7 @@ import {
   greatDevourer as gd,
   tyranids as t,
   worldEaters as we,
-  thousandSons as ts
+  thousandSons as ts,
 } from './components/FactionImports'
 
 import Layout from './components/Layout'
@@ -83,9 +83,10 @@ const router = createBrowserRouter(
       </Route>
 
       <Route path="thousand-sons/" element={<ts.ThousandSons />}>
-        <Route index element={<ts.ThousandSonsMenu/>} />
+        <Route index element={<ts.ThousandSonsMenu />} />
+        <Route path="devoted-thralls" element={<ts.DevotedThralls />} />
         <Route path="fateseekers" element={<ts.Fateseekers />} />
-        </Route>
+      </Route>
 
       <Route path="tyranids/" element={<t.Tyranids />}>
         <Route index element={<t.TyranidsMenu />} />
