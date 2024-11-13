@@ -49,6 +49,7 @@ import ChosenCabal from '../pages/thousandSons/ChosenCabal'
 import Tau from '../pages/tau/Tau'
 import TauMenu from '../pages/tau/TauMenu'
 import KrootRaidingParty from '../pages/tau/KrootRaidingParty'
+import PenitentsAndPilgrims from '../pages/adeptaSororitas/PenitentsAndPilgrims'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -82,6 +83,7 @@ export const adeptaSororitas = {
   AdeptaSororitas,
   AdeptaSororitasMenu,
   PiousProtectors,
+  PenitentsAndPilgrims,
 }
 export const adeptusMechanicus = {
   AdeptusMechanicus,

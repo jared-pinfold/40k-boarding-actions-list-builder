@@ -32,6 +32,10 @@ const router = createBrowserRouter(
 
       <Route path="adepta-sororitas/" element={<as.AdeptaSororitas />}>
         <Route index element={<as.AdeptaSororitasMenu />} />
+        <Route
+          path="penitents-and-pilgrims"
+          element={<as.PenitentsAndPilgrims />}
+        />
         <Route path="pious-protectors" element={<as.PiousProtectors />} />
       </Route>
 

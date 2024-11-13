@@ -71,3 +71,18 @@ export const piousProtectorsUnits: Record<string, UnitData>[] = [
     zeph: units.zephyrimSquad,
   },
 ]
+
+export const penitentsAndPilgrimsUnits: Record<string, UnitData>[] = [
+  {
+    miniP1: units.ministorumPriest,
+    miniP2: units.ministorumPriest,
+  },
+  {
+    arc1: units.arcoFlagellants,
+    arc2: units.arcoFlagellants,
+    arc3: units.arcoFlagellants,
+    rep1: units.repentiaSquad,
+    rep2: units.repentiaSquad,
+    rep3: units.repentiaSquad,
+  },
+]
