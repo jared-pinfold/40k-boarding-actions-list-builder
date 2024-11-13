@@ -2,6 +2,7 @@ export const updates = [
   {
     date: '14 Nov 2024',
     update: [
+      'Added Genestealer Cults: Cult Unveiled',
       'Added Genestealer Cults: Genespawn Onslaught',
       'Added Legiones Daemonica: Infernal Onslaught',
       'Added Legiones Daemonica: Pandaemoniac Inferno',

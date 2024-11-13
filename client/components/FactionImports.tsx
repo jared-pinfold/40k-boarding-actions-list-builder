@@ -55,6 +55,7 @@ import PandaemoniacInferno from '../pages/legionesDaemonica/PandaemoniacInferno'
 import InfernalOnslaught from '../pages/legionesDaemonica/InfernalOnslaught'
 import RottenAndRusted from '../pages/legionesDaemonica/RottenAndRusted'
 import GenespawnOnslaught from '../pages/genestealerCults/GenespawnOnslaught'
+import CultUnveiled from '../pages/genestealerCults/CultUnveiled'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -109,6 +110,7 @@ export const genestealerCults = {
   GenestealerCults,
   GenestealerCultsMenu,
   GenespawnOnslaught,
+  CultUnveiled
 }
 export const greatDevourer = { InfestationSwarm }
 export const tyranids = {
