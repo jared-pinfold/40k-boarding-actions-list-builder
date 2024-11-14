@@ -19,6 +19,7 @@ import {
   thousandSons as ts,
   tau,
   orks as o,
+  leaguesOfVotann as lov
 } from './components/FactionImports'
 
 import Layout from './components/Layout'
@@ -82,6 +83,11 @@ const router = createBrowserRouter(
         <Route path="champions-of-chaos" element={<ha.ChampionsOfChaos />} />
         <Route path="infernal-reavers" element={<ha.InfernalReavers />} />
         <Route path="underdeck-uprising" element={<ha.UnderdeckUprising />} />
+      </Route>
+
+      <Route path="leagues-of-votann/" element={<lov.LeaguesOfVotann />}>
+        <Route index element={<lov.LeaguesOfVotannMenu />} />
+        <Route path="hearthfire-strike" element={<lov.HearthfireStrike />} />
       </Route>
 
       <Route path="legiones-daemonica/" element={<ld.LegionesDaemonica />}>

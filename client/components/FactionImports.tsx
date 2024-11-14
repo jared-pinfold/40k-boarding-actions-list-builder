@@ -60,6 +60,9 @@ import OrksMenu from '../pages/orks/OrksMenu'
 import Orks from '../pages/orks/Orks'
 import KaptinKillers from '../pages/orks/KaptinKillers'
 import RamshipRaiders from '../pages/orks/RamshipRaiders'
+import LeaguesOfVotann from '../pages/leaguesOfVotann/LeaguesOfVotann'
+import LeaguesOfVotannMenu from '../pages/leaguesOfVotann/LeaguesOfVotannMenu'
+import HearthfireStrike from '../pages/leaguesOfVotann/HearthfireStrike'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -148,4 +151,9 @@ export const orks = {
   Orks,
   KaptinKillers,
   RamshipRaiders,
+}
+export const leaguesOfVotann = {
+  LeaguesOfVotann,
+  LeaguesOfVotannMenu,
+  HearthfireStrike
 }

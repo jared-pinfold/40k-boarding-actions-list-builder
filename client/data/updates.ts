@@ -1,7 +1,11 @@
 export const updates = [
   {
     date: '15 Nov 2024',
-    update: ['Added Orks: Kaptin Killers', 'Added Orks: Ramship Raiders'],
+    update: [
+      'Added Leagues of Votann: Hearthfire Strike',
+      'Added Orks: Kaptin Killers', 
+      'Added Orks: Ramship Raiders',
+    ],
   },
   {
     date: '14 Nov 2024',

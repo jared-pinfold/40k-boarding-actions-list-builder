@@ -27,6 +27,9 @@ export default function Home() {
           <Link to="heretic-astartes">Heretic Astartes</Link>
         </li>
         <li>
+          <Link to="leagues-of-votann">Leagues of Votann</Link>
+        </li>
+        <li>
           <Link to="legiones-daemonica">Legiones Daemonica</Link>
         </li>
         <li>
