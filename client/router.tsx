@@ -19,7 +19,8 @@ import {
   thousandSons as ts,
   tau,
   orks as o,
-  leaguesOfVotann as lov
+  leaguesOfVotann as lov,
+  necrons as n
 } from './components/FactionImports'
 
 import Layout from './components/Layout'
@@ -101,6 +102,11 @@ const router = createBrowserRouter(
           element={<ld.PandaemoniacInferno />}
         />
         <Route path="rotten-and-rusted" element={<ld.RottenAndRusted />} />
+      </Route>
+
+      <Route path="necrons/" element={<n.Necrons />}>
+        <Route index element={<n.NecronsMenu />} />
+        <Route path="canoptek-harvesters" element={<n.CanoptekHarvesters />} />
       </Route>
 
       <Route path="orks/" element={<o.Orks />}>

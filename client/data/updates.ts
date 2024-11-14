@@ -4,6 +4,7 @@ export const updates = [
     update: [
       'Added Leagues of Votann: Hearthfire Strike',
       'Added Leagues of Votann: Void Salvagers',
+      'Added Necrons: Canoptek Harvesters',
       'Added Orks: Kaptin Killers', 
       'Added Orks: Ramship Raiders',
     ],

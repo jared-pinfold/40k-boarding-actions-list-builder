@@ -33,6 +33,9 @@ export default function Home() {
           <Link to="legiones-daemonica">Legiones Daemonica</Link>
         </li>
         <li>
+          <Link to="necrons">Necrons</Link>
+        </li>
+        <li>
           <Link to="orks">Orks</Link>
         </li>
         <li>

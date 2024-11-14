@@ -18,7 +18,7 @@ const units = {
   grimnyr: { name: 'Grimnyr', points: [65], models: [3] },
   hearthkynWarriors: { name: 'Hearthkyn Warriors', points: [100], models: [10] },
   kahl: { name: 'Kâhl', points: [70], models: [1] },
-  utharTheDestined: { name: 'U%thar the Destined', points: [80], models: [1] },
+  utharTheDestined: { name: 'Ûthar the Destined', points: [80], models: [1] },
 }
 
 export const hearthfireStrikeUnits: Record<string, UnitData>[] = [
