@@ -63,6 +63,7 @@ import RamshipRaiders from '../pages/orks/RamshipRaiders'
 import LeaguesOfVotann from '../pages/leaguesOfVotann/LeaguesOfVotann'
 import LeaguesOfVotannMenu from '../pages/leaguesOfVotann/LeaguesOfVotannMenu'
 import HearthfireStrike from '../pages/leaguesOfVotann/HearthfireStrike'
+import VoidSalvagers from '../pages/leaguesOfVotann/VoidSalvagers'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -155,5 +156,6 @@ export const orks = {
 export const leaguesOfVotann = {
   LeaguesOfVotann,
   LeaguesOfVotannMenu,
-  HearthfireStrike
+  HearthfireStrike,
+  VoidSalvagers
 }

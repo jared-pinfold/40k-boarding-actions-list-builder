@@ -6,6 +6,9 @@ export default function LeaguesOfVotannMenu() {
       <li>
         <Link to="hearthfire-strike">Hearthfire Strike</Link>
       </li>
+      <li>
+        <Link to="void-salvagers">Void Salvagers</Link>
+      </li>
     </ul>
   )
 }

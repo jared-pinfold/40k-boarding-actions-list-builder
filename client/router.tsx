@@ -88,6 +88,7 @@ const router = createBrowserRouter(
       <Route path="leagues-of-votann/" element={<lov.LeaguesOfVotann />}>
         <Route index element={<lov.LeaguesOfVotannMenu />} />
         <Route path="hearthfire-strike" element={<lov.HearthfireStrike />} />
+        <Route path="void-salvagers" element={<lov.VoidSalvagers />} />
       </Route>
 
       <Route path="legiones-daemonica/" element={<ld.LegionesDaemonica />}>
