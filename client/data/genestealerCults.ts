@@ -3,8 +3,16 @@ import { UnitData } from '../../models/models'
 const units = {
   aberrants: { name: 'Aberrants', points: [135, 300], models: [5, 10] },
   abominant: { name: 'Abominant', points: [75], models: [1] },
-  acolyteHybridsWithAutopistols: { name: 'Acolyte Hybrids with Autopistols', points: [65,130], models: [5,10] },
-  acolyteHybridsWithHandFlamers: { name: 'Acolyte Hybrids with Hand Flamers', points: [70,140], models: [5,10] },
+  acolyteHybridsWithAutopistols: {
+    name: 'Acolyte Hybrids with Autopistols',
+    points: [65, 130],
+    models: [5, 10],
+  },
+  acolyteHybridsWithHandFlamers: {
+    name: 'Acolyte Hybrids with Hand Flamers',
+    points: [70, 140],
+    models: [5, 10],
+  },
   acolyteIconward: { name: 'Acolyte Iconward', points: [50], models: [1] },
   benefictus: { name: 'Benefictus', points: [70], models: [1] },
   biophagus: { name: 'Biophagus', points: [50], models: [1] },
@@ -56,26 +64,26 @@ export const genespawnOnslaughtUnits: Record<string, UnitData>[] = [
 ]
 
 export const cultUnveiledUnits: Record<string, UnitData>[] = [
-{
-  m: units.magus,
-  p: units.primus
-},
-{
-aI: units.acolyteIconward,
-c: units.clamavus,
-k: units.kelermorph,
-l: units.locus,
-s: units.sanctus
-},
-{
-aHA1: units.acolyteHybridsWithAutopistols,
-aHA2: units.acolyteHybridsWithAutopistols,
-aHA3: units.acolyteHybridsWithAutopistols,
-nH1: units.neophyteHybrids,
-nH2: units.neophyteHybrids,
-nH3: units.neophyteHybrids,
-},
-{
-  aHHF: units.acolyteHybridsWithHandFlamers
-}
+  {
+    m: units.magus,
+    p: units.primus,
+  },
+  {
+    aI: units.acolyteIconward,
+    c: units.clamavus,
+    k: units.kelermorph,
+    l: units.locus,
+    s: units.sanctus,
+  },
+  {
+    aHA1: units.acolyteHybridsWithAutopistols,
+    aHA2: units.acolyteHybridsWithAutopistols,
+    aHA3: units.acolyteHybridsWithAutopistols,
+    nH1: units.neophyteHybrids,
+    nH2: units.neophyteHybrids,
+    nH3: units.neophyteHybrids,
+  },
+  {
+    aHHF: units.acolyteHybridsWithHandFlamers,
+  },
 ]

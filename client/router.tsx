@@ -18,6 +18,7 @@ import {
   worldEaters as we,
   thousandSons as ts,
   tau,
+  orks as o,
 } from './components/FactionImports'
 
 import Layout from './components/Layout'
@@ -93,6 +94,11 @@ const router = createBrowserRouter(
           element={<ld.PandaemoniacInferno />}
         />
         <Route path="rotten-and-rusted" element={<ld.RottenAndRusted />} />
+      </Route>
+
+      <Route path="orks/" element={<o.Orks />}>
+        <Route index element={<o.OrksMenu />} />
+        <Route path="kaptin-killers" element={<o.KaptinKillers />} />
       </Route>
 
       <Route path="thousand-sons/" element={<ts.ThousandSons />}>

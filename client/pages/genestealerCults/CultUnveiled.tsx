@@ -114,7 +114,8 @@ export default function CultUnveiled() {
                   option,
                   selected,
                   points,
-                  max1: true, list1
+                  max1: true,
+                  list1,
                 }}
               />
             )

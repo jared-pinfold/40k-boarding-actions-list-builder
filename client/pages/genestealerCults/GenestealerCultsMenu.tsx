@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export default function GenestealerCultsMenu() {
   return (
     <ul>
-            <li>
+      <li>
         <Link to="cult-unveiled">Cult Unveiled</Link>
       </li>
       <li>

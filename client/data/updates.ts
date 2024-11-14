@@ -1,5 +1,9 @@
 export const updates = [
   {
+    date: '15 Nov 2024',
+    update: ['Added Orks: Kaptin Killers'],
+  },
+  {
     date: '14 Nov 2024',
     update: [
       'Added Genestealer Cults: Cult Unveiled',
