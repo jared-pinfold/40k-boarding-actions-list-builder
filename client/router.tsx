@@ -99,6 +99,7 @@ const router = createBrowserRouter(
       <Route path="orks/" element={<o.Orks />}>
         <Route index element={<o.OrksMenu />} />
         <Route path="kaptin-killers" element={<o.KaptinKillers />} />
+        <Route path="ramship-raiders" element={<o.RamshipRaiders />} />
       </Route>
 
       <Route path="thousand-sons/" element={<ts.ThousandSons />}>

@@ -6,6 +6,9 @@ export default function OrksMenu() {
       <li>
         <Link to="kaptin-killers">Kaptin Killers</Link>
       </li>
+      <li>
+        <Link to="ramship-raiders">Ramship Raiders</Link>
+      </li>
     </ul>
   )
 }

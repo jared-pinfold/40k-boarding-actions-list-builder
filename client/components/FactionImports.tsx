@@ -59,6 +59,7 @@ import CultUnveiled from '../pages/genestealerCults/CultUnveiled'
 import OrksMenu from '../pages/orks/OrksMenu'
 import Orks from '../pages/orks/Orks'
 import KaptinKillers from '../pages/orks/KaptinKillers'
+import RamshipRaiders from '../pages/orks/RamshipRaiders'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -146,4 +147,5 @@ export const orks = {
   OrksMenu,
   Orks,
   KaptinKillers,
+  RamshipRaiders,
 }
