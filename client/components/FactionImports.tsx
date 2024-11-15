@@ -69,6 +69,9 @@ import NecronsMenu from '../pages/necrons/NecronsMenu'
 import CanoptekHarvesters from '../pages/necrons/CanoptekHarvesters'
 import DerangedOutcasts from '../pages/necrons/DerangedOutcasts'
 import TombShipCompliment from '../pages/necrons/TombShipCompliment'
+import GreyKnights from '../pages/greyKnights/GreyKnights'
+import GreyKnightsMenu from '../pages/greyKnights/GreyKnightsMenu'
+import BaneslayerStrike from '../pages/greyKnights/BaneslayerStrike'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -170,4 +173,9 @@ export const necrons = {
   CanoptekHarvesters,
   DerangedOutcasts,
   TombShipCompliment,
+}
+export const greyKnights = {
+  GreyKnights,
+  GreyKnightsMenu,
+  BaneslayerStrike,
 }

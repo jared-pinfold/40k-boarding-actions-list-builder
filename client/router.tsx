@@ -21,6 +21,7 @@ import {
   orks as o,
   leaguesOfVotann as lov,
   necrons as n,
+  greyKnights as gk,
 } from './components/FactionImports'
 
 import Layout from './components/Layout'
@@ -77,6 +78,11 @@ const router = createBrowserRouter(
         <Route path="cult-unveiled" element={<gc.CultUnveiled />} />
         <Route path="genespawn-onslaught" element={<gc.GenespawnOnslaught />} />
         <Route path="infestation-swarm" element={<gd.InfestationSwarm />} />
+      </Route>
+
+      <Route path="grey-knights/" element={<gk.GreyKnights />}>
+        <Route index element={<gk.GreyKnightsMenu />} />
+        <Route path="baneslayer-strike" element={<gk.BaneslayerStrike />} />
       </Route>
 
       <Route path="heretic-astartes/" element={<ha.HereticAstartes />}>

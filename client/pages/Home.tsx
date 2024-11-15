@@ -24,6 +24,9 @@ export default function Home() {
           <Link to="genestealer-cults">Genestealer Cults</Link>
         </li>
         <li>
+          <Link to="grey-knights">Grey Knights</Link>
+        </li>
+        <li>
           <Link to="heretic-astartes">Heretic Astartes</Link>
         </li>
         <li>

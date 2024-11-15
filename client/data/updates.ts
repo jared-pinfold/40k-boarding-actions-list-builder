@@ -2,6 +2,7 @@ export const updates = [
   {
     date: '15 Nov 2024',
     update: [
+      'Added Grey Knights: Baneslayer Strike',
       'Added Leagues of Votann: Hearthfire Strike',
       'Added Leagues of Votann: Void Salvagers',
       'Added Necrons: Canoptek Harvesters',
