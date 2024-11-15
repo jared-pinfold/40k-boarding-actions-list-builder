@@ -108,6 +108,7 @@ const router = createBrowserRouter(
         <Route index element={<n.NecronsMenu />} />
         <Route path="canoptek-harvesters" element={<n.CanoptekHarvesters />} />
         <Route path="deranged-outcasts" element={<n.DerangedOutcasts />} />
+        <Route path="tomb-ship-compliment" element={<n.TombShipCompliment />} />
       </Route>
 
       <Route path="orks/" element={<o.Orks />}>

@@ -3,7 +3,11 @@ import { UnitData } from '../../models/models'
 const units = {
   brokhyrIronMaster: { name: 'Brôkhyr Iron-Master', points: [65], models: [1] },
   brokhyrThunderkyn: { name: 'Brôkhyr Thunderkyn', points: [85], models: [3] },
-  cthonianBeserks: { name: 'Cthuonian Beserks', points: [100,200], models: [5, 10] },
+  cthonianBeserks: {
+    name: 'Cthuonian Beserks',
+    points: [100, 200],
+    models: [5, 10],
+  },
   einhyrChampion: { name: 'Einhyr Champion', points: [60], models: [1] },
   einhyrHearthguard: {
     name: 'Einhyr Hearthguard',
@@ -16,7 +20,11 @@ const units = {
     models: [5],
   },
   grimnyr: { name: 'Grimnyr', points: [65], models: [3] },
-  hearthkynWarriors: { name: 'Hearthkyn Warriors', points: [100], models: [10] },
+  hearthkynWarriors: {
+    name: 'Hearthkyn Warriors',
+    points: [100],
+    models: [10],
+  },
   kahl: { name: 'Kâhl', points: [70], models: [1] },
   utharTheDestined: { name: 'Ûthar the Destined', points: [80], models: [1] },
 }
@@ -41,13 +49,13 @@ export const voidSalvagersUnits: Record<string, UnitData>[] = [
     uTD: units.utharTheDestined,
   },
   {
-hW1: units.hearthkynWarriors,
-hW2: units.hearthkynWarriors,
-hW3: units.hearthkynWarriors,
+    hW1: units.hearthkynWarriors,
+    hW2: units.hearthkynWarriors,
+    hW3: units.hearthkynWarriors,
   },
   {
-bT: units.brokhyrThunderkyn,
-cB: units.cthonianBeserks,
-eH: units.einhyrHearthguard5
-  }
+    bT: units.brokhyrThunderkyn,
+    cB: units.cthonianBeserks,
+    eH: units.einhyrHearthguard5,
+  },
 ]

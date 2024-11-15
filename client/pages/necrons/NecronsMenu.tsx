@@ -9,6 +9,9 @@ export default function NecronsMenu() {
       <li>
         <Link to="deranged-outcasts">Deranged Outcasts</Link>
       </li>
+      <li>
+        <Link to="tomb-ship-compliment">Tomb Ship Compliment</Link>
+      </li>
     </ul>
   )
 }
