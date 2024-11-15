@@ -67,6 +67,7 @@ import VoidSalvagers from '../pages/leaguesOfVotann/VoidSalvagers'
 import Necrons from '../pages/necrons/Necrons'
 import NecronsMenu from '../pages/necrons/NecronsMenu'
 import CanoptekHarvesters from '../pages/necrons/CanoptekHarvesters'
+import DerangedOutcasts from '../pages/necrons/DerangedOutcasts'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -160,8 +161,11 @@ export const leaguesOfVotann = {
   LeaguesOfVotann,
   LeaguesOfVotannMenu,
   HearthfireStrike,
-  VoidSalvagers
+  VoidSalvagers,
 }
 export const necrons = {
-  Necrons, NecronsMenu, CanoptekHarvesters
+  Necrons,
+  NecronsMenu,
+  CanoptekHarvesters,
+  DerangedOutcasts,
 }

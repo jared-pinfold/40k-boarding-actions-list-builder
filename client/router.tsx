@@ -20,7 +20,7 @@ import {
   tau,
   orks as o,
   leaguesOfVotann as lov,
-  necrons as n
+  necrons as n,
 } from './components/FactionImports'
 
 import Layout from './components/Layout'
@@ -107,6 +107,7 @@ const router = createBrowserRouter(
       <Route path="necrons/" element={<n.Necrons />}>
         <Route index element={<n.NecronsMenu />} />
         <Route path="canoptek-harvesters" element={<n.CanoptekHarvesters />} />
+        <Route path="deranged-outcasts" element={<n.DerangedOutcasts />} />
       </Route>
 
       <Route path="orks/" element={<o.Orks />}>
