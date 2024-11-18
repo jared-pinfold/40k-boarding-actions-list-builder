@@ -1,5 +1,11 @@
 export const updates = [
   {
+    date: '19 Nov 2024',
+    update: [
+      'Minor update to page styling'
+    ],
+  },
+  {
     date: '15 Nov 2024',
     update: [
       'Added Grey Knights: Baneslayer Strike',
