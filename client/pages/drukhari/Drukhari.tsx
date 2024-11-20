@@ -6,11 +6,17 @@ export default function Drukhari() {
     .split('-')
     .map((word) => word.replace(word[0], word[0].toUpperCase()))
     .join(' ')
+  const finalListType =
+    listType === 'Drukhari'
+      ? ''
+      : listType === 'Ship Killer Cult'
+        ? ': Ship-Killer Cult'
+        : `: ${listType}`
   return (
     <section className="faction">
       <h2>
         Drukhari
-        {listType === 'Drukhari' ? '' : `: ${listType}`}
+        {finalListType}
       </h2>
       <Outlet />
     </section>

@@ -6,6 +6,9 @@ export default function DrukhariMenu() {
       <li>
         <Link to="painbringers">Painbringers</Link>
       </li>
+      <li>
+        <Link to="ship-killer-cult">Ship-Killer Cult</Link>
+      </li>
     </ul>
   )
 }

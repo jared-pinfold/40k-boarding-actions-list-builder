@@ -3,6 +3,7 @@ export const updates = [
     date: '21 Nov 2024',
     update: [
       'Added Drukhari: Painbringers',
+      'Added Drukhari: Ship-Killer Cult',
     ],
   },
   {

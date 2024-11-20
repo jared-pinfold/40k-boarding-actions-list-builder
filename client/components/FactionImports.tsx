@@ -76,6 +76,7 @@ import VoidPurgeForce from '../pages/greyKnights/VoidPurgeForce'
 import Drukhari from '../pages/drukhari/Drukhari'
 import DrukhariMenu from '../pages/drukhari/DrukhariMenu'
 import Painbringers from '../pages/drukhari/Painbringers'
+import ShipKillerCult from '../pages/drukhari/ShipKillerCult'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -188,4 +189,5 @@ export const drukhari = {
   Drukhari,
   DrukhariMenu,
   Painbringers,
+  ShipKillerCult
 }
