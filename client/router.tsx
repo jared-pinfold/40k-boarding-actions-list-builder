@@ -76,6 +76,7 @@ const router = createBrowserRouter(
 
       <Route path="drukhari/" element={<d.Drukhari />}>
         <Route index element={<d.DrukhariMenu />} />
+        <Route path="kabalite-corsairs" element={<d.KabaliteCorsairs />} />
         <Route path="painbringers" element={<d.Painbringers />} />
         <Route path="ship-killer-cult" element={<d.ShipKillerCult />} />
       </Route>
