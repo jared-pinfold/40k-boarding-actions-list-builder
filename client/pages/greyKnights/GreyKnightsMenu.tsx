@@ -6,6 +6,9 @@ export default function GreyKnightsMenu() {
       <li>
         <Link to="baneslayer-strike">Baneslayer Strike</Link>
       </li>
+      <li>
+        <Link to="void-purge-force">Void Purge Force</Link>
+      </li>
     </ul>
   )
 }

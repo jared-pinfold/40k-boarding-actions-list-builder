@@ -72,6 +72,7 @@ import TombShipCompliment from '../pages/necrons/TombShipCompliment'
 import GreyKnights from '../pages/greyKnights/GreyKnights'
 import GreyKnightsMenu from '../pages/greyKnights/GreyKnightsMenu'
 import BaneslayerStrike from '../pages/greyKnights/BaneslayerStrike'
+import VoidPurgeForce from '../pages/greyKnights/VoidPurgeForce'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -178,4 +179,5 @@ export const greyKnights = {
   GreyKnights,
   GreyKnightsMenu,
   BaneslayerStrike,
+  VoidPurgeForce
 }

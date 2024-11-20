@@ -83,6 +83,7 @@ const router = createBrowserRouter(
       <Route path="grey-knights/" element={<gk.GreyKnights />}>
         <Route index element={<gk.GreyKnightsMenu />} />
         <Route path="baneslayer-strike" element={<gk.BaneslayerStrike />} />
+        <Route path="void-purge-force" element={<gk.VoidPurgeForce />} />
       </Route>
 
       <Route path="heretic-astartes/" element={<ha.HereticAstartes />}>
