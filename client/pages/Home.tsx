@@ -21,6 +21,9 @@ export default function Home() {
           <Link to="aeldari">Aeldari</Link>
         </li>
         <li>
+          <Link to="drukhari">Drukhari</Link>
+        </li>
+        <li>
           <Link to="genestealer-cults">Genestealer Cults</Link>
         </li>
         <li>

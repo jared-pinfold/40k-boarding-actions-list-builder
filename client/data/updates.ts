@@ -1,5 +1,11 @@
 export const updates = [
   {
+    date: '21 Nov 2024',
+    update: [
+      'Added Drukhari: Painbringers',
+    ],
+  },
+  {
     date: '20 Nov 2024',
     update: [
       'Added Grey Knights: Void Purge Force',

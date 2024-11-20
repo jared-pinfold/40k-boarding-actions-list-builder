@@ -73,6 +73,9 @@ import GreyKnights from '../pages/greyKnights/GreyKnights'
 import GreyKnightsMenu from '../pages/greyKnights/GreyKnightsMenu'
 import BaneslayerStrike from '../pages/greyKnights/BaneslayerStrike'
 import VoidPurgeForce from '../pages/greyKnights/VoidPurgeForce'
+import Drukhari from '../pages/drukhari/Drukhari'
+import DrukhariMenu from '../pages/drukhari/DrukhariMenu'
+import Painbringers from '../pages/drukhari/Painbringers'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -179,5 +182,10 @@ export const greyKnights = {
   GreyKnights,
   GreyKnightsMenu,
   BaneslayerStrike,
-  VoidPurgeForce
+  VoidPurgeForce,
+}
+export const drukhari = {
+  Drukhari,
+  DrukhariMenu,
+  Painbringers,
 }
