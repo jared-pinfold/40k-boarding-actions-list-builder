@@ -22,7 +22,8 @@ import {
   leaguesOfVotann as lov,
   necrons as n,
   greyKnights as gk,
-  drukhari as d
+  drukhari as d,
+  deathGuard as dg
 } from './components/FactionImports'
 
 import Layout from './components/Layout'
@@ -72,6 +73,11 @@ const router = createBrowserRouter(
         <Route path="protector-host" element={<a.ProtectorHost />} />
         <Route path="wraiths-of-the-void" element={<a.WraithsOfTheVoid />} />
         <Route path="star-dancer-masque" element={<a.StarDancerMasque />} />
+      </Route>
+
+      <Route path="death-guard/" element={<dg.DeathGuard />}>
+        <Route index element={<dg.DeathGuardMenu />} />
+        <Route path="arch-contaminators" element={<dg.ArchContaminators />} />
       </Route>
 
       <Route path="drukhari/" element={<d.Drukhari />}>

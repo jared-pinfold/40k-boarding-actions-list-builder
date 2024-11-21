@@ -21,6 +21,9 @@ export default function Home() {
           <Link to="aeldari">Aeldari</Link>
         </li>
         <li>
+          <Link to="death-guard">DeathGuard</Link>
+        </li>
+        <li>
           <Link to="drukhari">Drukhari</Link>
         </li>
         <li>
