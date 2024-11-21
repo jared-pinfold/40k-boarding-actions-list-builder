@@ -78,6 +78,7 @@ import DrukhariMenu from '../pages/drukhari/DrukhariMenu'
 import Painbringers from '../pages/drukhari/Painbringers'
 import ShipKillerCult from '../pages/drukhari/ShipKillerCult'
 import KabaliteCorsairs from '../pages/drukhari/KabaliteCorsairs'
+import SpaceLaneRaiders from '../pages/drukhari/SpaceLaneRaiders'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -191,5 +192,5 @@ export const drukhari = {
   DrukhariMenu,
   Painbringers,
   ShipKillerCult,
-  KabaliteCorsairs,
+  KabaliteCorsairs, SpaceLaneRaiders
 }

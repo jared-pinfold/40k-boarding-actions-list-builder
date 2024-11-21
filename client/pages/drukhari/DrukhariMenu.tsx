@@ -12,6 +12,9 @@ export default function DrukhariMenu() {
       <li>
         <Link to="ship-killer-cult">Ship-Killer Cult</Link>
       </li>
+      <li>
+        <Link to="space-lane-raiders">Space Lane Raiders</Link>
+      </li>
     </ul>
   )
 }

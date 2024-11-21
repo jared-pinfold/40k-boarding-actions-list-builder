@@ -65,3 +65,32 @@ export const kabaliteCorsairsUnits: Record<string, UnitData>[] = [
     m: units.mandrakes,
   },
 ]
+
+export const spaceLaneRaidersUnits: Record<string, UnitData>[] = [
+  {
+    a: { ...units.archon, needsKabaliteWarriors: true },
+  },
+  {
+    h: { ...units.haemonculus, needsWracks: true },
+    uR: { ...units.urienRakarth, needsWracks: true },
+  },
+  {
+    lH: { ...units.lelithHesperax, needsWytches: true },
+    s: { ...units.succubus, needsWytches: true },
+  },
+  {
+    kabaliteW1: units.kabaliteWarriors,
+    kabaliteW2: units.kabaliteWarriors,
+    kabaliteW3: units.kabaliteWarriors,
+    wracks1: units.wracks,
+    wracks2: units.wracks,
+    wracks3: units.wracks,
+    wytches1: units.wytches,
+    wytches2: units.wytches,
+    wytches3: units.wytches,
+  },
+  {
+    i: units.incubi,
+    m: units.mandrakes,
+  },
+]

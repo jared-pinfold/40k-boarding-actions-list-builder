@@ -5,6 +5,7 @@ export const updates = [
       'Added Drukhari: Kabalite Corsairs',
       'Added Drukhari: Painbringers',
       'Added Drukhari: Ship-Killer Cult',
+      'Added Drukhari: Space Lane Raiders',
     ],
   },
   {

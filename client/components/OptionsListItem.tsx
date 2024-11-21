@@ -140,6 +140,24 @@ export default function OptionsListItem(props: Props) {
         (list3 as ItemInList[]).length
     )
       return true
+    if (
+      unit.needsKabaliteWarriors &&
+      (list4 as ItemInList[]).filter((unit) => unit.key.match(/kabaliteW/))
+        .length < 1
+    )
+      return true
+    if (
+      unit.needsWracks &&
+      (list4 as ItemInList[]).filter((unit) => unit.key.match(/wracks/))
+        .length < 1
+    )
+      return true
+    if (
+      unit.needsWytches &&
+      (list4 as ItemInList[]).filter((unit) => unit.key.match(/wytches/))
+        .length < 1
+    )
+      return true
 
     return false
   }

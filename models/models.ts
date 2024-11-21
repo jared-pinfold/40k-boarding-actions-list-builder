@@ -18,6 +18,9 @@ export interface UnitData {
   notMoreThanKhorneBerzerkers?: boolean
   notMoreThanRubricMArines?: boolean
   notMoreThanKrootCarnivores?: boolean
+  needsKabaliteWarriors?: boolean
+  needsWracks?: boolean
+  needsWytches?: boolean
 }
 
 export type UnitGroup = Record<string, UnitData>[]

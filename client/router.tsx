@@ -79,6 +79,7 @@ const router = createBrowserRouter(
         <Route path="kabalite-corsairs" element={<d.KabaliteCorsairs />} />
         <Route path="painbringers" element={<d.Painbringers />} />
         <Route path="ship-killer-cult" element={<d.ShipKillerCult />} />
+        <Route path="space-lane-raiders" element={<d.SpaceLaneRaiders />} />
       </Route>
 
       <Route path="genestealer-cults/" element={<gc.GenestealerCults />}>

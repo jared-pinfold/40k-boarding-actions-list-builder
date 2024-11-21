@@ -10,6 +10,7 @@ interface Props {
   list1?: ItemInList[]
   list2?: ItemInList[]
   list3?: ItemInList[]
+  list4?: ItemInList[]
 }
 
 export default function SelectedListItem(props: Props) {
