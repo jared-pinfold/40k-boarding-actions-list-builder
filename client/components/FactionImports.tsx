@@ -82,6 +82,7 @@ import SpaceLaneRaiders from '../pages/drukhari/SpaceLaneRaiders'
 import DeathGuard from '../pages/deathGuard/DeathGuard'
 import DeathGuardMenu from '../pages/deathGuard/DeathGuardMenu'
 import ArchContaminators from '../pages/deathGuard/ArchContaminators'
+import UncleanUprising from '../pages/deathGuard/UncleanUprising'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -195,8 +196,12 @@ export const drukhari = {
   DrukhariMenu,
   Painbringers,
   ShipKillerCult,
-  KabaliteCorsairs, SpaceLaneRaiders
+  KabaliteCorsairs,
+  SpaceLaneRaiders,
 }
 export const deathGuard = {
-  DeathGuard, DeathGuardMenu, ArchContaminators
+  DeathGuard,
+  DeathGuardMenu,
+  ArchContaminators,
+  UncleanUprising,
 }

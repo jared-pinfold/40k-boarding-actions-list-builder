@@ -6,6 +6,9 @@ export default function DeathGuardMenu() {
       <li>
         <Link to="arch-contaminators">Arch-Contaminators</Link>
       </li>
+      <li>
+        <Link to="unclean-uprising">Unclean Uprising</Link>
+      </li>
     </ul>
   )
 }

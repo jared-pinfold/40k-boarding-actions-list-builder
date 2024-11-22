@@ -2,6 +2,12 @@ export const updates = [
   {
     date: '21 Nov 2024',
     update: [
+      'Added Death Guard: Unclean Uprising',
+    ],
+  },
+  {
+    date: '21 Nov 2024',
+    update: [
       'Added Death Guard: Arch-Contaminators',
       'Added Drukhari: Kabalite Corsairs',
       'Added Drukhari: Painbringers',
