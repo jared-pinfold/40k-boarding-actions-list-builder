@@ -2,6 +2,7 @@ export const updates = [
   {
     date: '25 Nov 2024',
     update: [
+      'Added Astra Militarum: Embarked Regiment',
       'Added Astra Militarum: Tempestus Boarding Regiment',
       'Added Death Guard: Vectors of Decay',
       'Bug fix: Added missing unit from Leagues of Votann: Void Salvagers',

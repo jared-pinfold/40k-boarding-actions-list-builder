@@ -78,6 +78,7 @@ const router = createBrowserRouter(
 
       <Route path="astra-militarum/" element={<ami.AstraMilitarum />}>
         <Route index element={<ami.AstraMilitarumMenu />} />
+        <Route path="embarked-regiment" element={<ami.EmbarkedRegiment />} />
         <Route
           path="tempestus-boarding-regiment"
           element={<ami.TempestusBoardingRegiment />}

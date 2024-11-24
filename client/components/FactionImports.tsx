@@ -87,6 +87,7 @@ import VectorsOfDecay from '../pages/deathGuard/VectorsOfDecay'
 import AstraMilitarum from '../pages/deathGuard/DeathGuard'
 import AstraMilitarumMenu from '../pages/astraMilitarum/AstraMilitarumMenu'
 import TempestusBoardingRegiment from '../pages/astraMilitarum/TempestusBoardingRegiment'
+import EmbarkedRegiment from '../pages/astraMilitarum/EmbarkedRegiment'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -214,4 +215,5 @@ export const astraMilitarum = {
   AstraMilitarum,
   AstraMilitarumMenu,
   TempestusBoardingRegiment,
+  EmbarkedRegiment
 }
