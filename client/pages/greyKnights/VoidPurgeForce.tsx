@@ -117,7 +117,8 @@ export default function VoidPurgeForce() {
                   option,
                   selected,
                   points,
-                  max2: true, list1
+                  max2: true,
+                  list1,
                 }}
               />
             )
@@ -173,7 +174,7 @@ export default function VoidPurgeForce() {
                   selected,
                   points,
                   max1l4: true,
-                  list4
+                  list4,
                 }}
               />
             )

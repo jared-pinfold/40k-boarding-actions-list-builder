@@ -118,7 +118,7 @@ export default function UncleanUprising() {
                   selected,
                   points,
                   max1: true,
-                  list1
+                  list1,
                 }}
               />
             )

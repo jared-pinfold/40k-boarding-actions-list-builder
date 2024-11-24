@@ -62,6 +62,6 @@ export const voidSalvagersUnits: Record<string, UnitData>[] = [
     bT: units.brokhyrThunderkyn,
     cB: units.cthonianBeserks,
     eH: units.einhyrHearthguard5,
-    hY: units.hernkynYaegirs
+    hY: units.hernkynYaegirs,
   },
 ]

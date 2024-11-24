@@ -9,9 +9,7 @@ export const updates = [
   },
   {
     date: '21 Nov 2024',
-    update: [
-      'Added Death Guard: Unclean Uprising',
-    ],
+    update: ['Added Death Guard: Unclean Uprising'],
   },
   {
     date: '21 Nov 2024',
@@ -25,15 +23,11 @@ export const updates = [
   },
   {
     date: '20 Nov 2024',
-    update: [
-      'Added Grey Knights: Void Purge Force',
-    ],
+    update: ['Added Grey Knights: Void Purge Force'],
   },
   {
     date: '19 Nov 2024',
-    update: [
-      'Minor update to page styling'
-    ],
+    update: ['Minor update to page styling'],
   },
   {
     date: '15 Nov 2024',

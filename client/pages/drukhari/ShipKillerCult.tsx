@@ -5,7 +5,8 @@ import SelectedListItem from '../../components/SelectedListItem'
 import { shipKillerCultUnits } from '../../data/drukhari'
 
 export default function ShipKillerCult() {
-  const [initialOptions1, initialOptions2, initialOptions3] = shipKillerCultUnits
+  const [initialOptions1, initialOptions2, initialOptions3] =
+    shipKillerCultUnits
   const initialList: ItemInList[] = []
 
   const options1 = Object.keys(initialOptions1)

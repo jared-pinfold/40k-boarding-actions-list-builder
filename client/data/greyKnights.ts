@@ -40,11 +40,19 @@ const units: Record<string, UnitData> = {
   castellanCrowe: { name: 'Castellan Crowe', points: [90], models: [1] },
   grandMaster: { name: 'Grand Master', points: [95], models: [1] },
   grandMasterVoldus: { name: 'Grand Master Voldus', points: [95], models: [1] },
-  interceptorSquad: { name: 'Interceptor Squad', points: [130,260], models: [5, 10] },
+  interceptorSquad: {
+    name: 'Interceptor Squad',
+    points: [130, 260],
+    models: [5, 10],
+  },
   kaldorDraigo: { name: 'Kaldor Draigo', points: [125], models: [1] },
   paladinSquad: { name: 'Paladin Squad', points: [125], models: [5] },
-  purifierSquad: { name: 'Purifier Squad', points: [215, 450], models: [5, 10] },
-  strikeSquad: { name: 'Strike Squad', points: [120,240], models: [5, 10] },
+  purifierSquad: {
+    name: 'Purifier Squad',
+    points: [215, 450],
+    models: [5, 10],
+  },
+  strikeSquad: { name: 'Strike Squad', points: [120, 240], models: [5, 10] },
 }
 
 export const baneslayerStrikeUnits: Record<string, UnitData>[] = [
@@ -67,28 +75,28 @@ export const baneslayerStrikeUnits: Record<string, UnitData>[] = [
 
 export const voidPurgeForceUnits: Record<string, UnitData>[] = [
   {
-bCap: units.brotherCaptain,
-bCapS: units.brotherCaptainStern,
-bChamp: units.brotherhoodChampion,
-bChap: units.brotherhoodChaplain,
-bLib: units.brotherhoodLibrarian,
-bTech: units.brotherhoodTechmarine,
-cC: units.castellanCrowe,
-gM: units.grandMaster,
-gMV: units.grandMasterVoldus,
-kD: units.kaldorDraigo
+    bCap: units.brotherCaptain,
+    bCapS: units.brotherCaptainStern,
+    bChamp: units.brotherhoodChampion,
+    bChap: units.brotherhoodChaplain,
+    bLib: units.brotherhoodLibrarian,
+    bTech: units.brotherhoodTechmarine,
+    cC: units.castellanCrowe,
+    gM: units.grandMaster,
+    gMV: units.grandMasterVoldus,
+    kD: units.kaldorDraigo,
   },
-{
-  sS1: units.strikeSquad,
-  sS2: units.strikeSquad,
-  sS3: units.strikeSquad,
-},
-{
-  iS: units.interceptorSquad,
-  pS: units.purifierSquad
-},
-{
-  bTS: units.brotherhoodTerminatorSquad5,
-  pS: units.paladinSquad
-}
+  {
+    sS1: units.strikeSquad,
+    sS2: units.strikeSquad,
+    sS3: units.strikeSquad,
+  },
+  {
+    iS: units.interceptorSquad,
+    pS: units.purifierSquad,
+  },
+  {
+    bTS: units.brotherhoodTerminatorSquad5,
+    pS: units.paladinSquad,
+  },
 ]

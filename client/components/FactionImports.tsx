@@ -207,8 +207,11 @@ export const deathGuard = {
   DeathGuard,
   DeathGuardMenu,
   ArchContaminators,
-  UncleanUprising, VectorsOfDecay
+  UncleanUprising,
+  VectorsOfDecay,
 }
 export const astraMilitarum = {
-  AstraMilitarum, AstraMilitarumMenu, TempestusBoardingRegiment
+  AstraMilitarum,
+  AstraMilitarumMenu,
+  TempestusBoardingRegiment,
 }

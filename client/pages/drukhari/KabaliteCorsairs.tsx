@@ -5,7 +5,8 @@ import SelectedListItem from '../../components/SelectedListItem'
 import { kabaliteCorsairsUnits } from '../../data/drukhari'
 
 export default function KabaliteCorsairs() {
-  const [initialOptions1, initialOptions2, initialOptions3] = kabaliteCorsairsUnits
+  const [initialOptions1, initialOptions2, initialOptions3] =
+    kabaliteCorsairsUnits
   const initialList: ItemInList[] = []
 
   const options1 = Object.keys(initialOptions1)

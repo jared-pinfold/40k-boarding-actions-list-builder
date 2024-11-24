@@ -7,13 +7,11 @@ export default function AstraMilitarum() {
     .map((word) => word.replace(word[0], word[0].toUpperCase()))
     .join(' ')
 
-    return (
+  return (
     <section className="faction">
       <h2>
         Astra Militarum
-        {listType === 'Astra Militarum'
-      ? ''
-        : `: ${listType}`}
+        {listType === 'Astra Militarum' ? '' : `: ${listType}`}
       </h2>
       <Outlet />
     </section>

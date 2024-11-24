@@ -117,7 +117,8 @@ export default function VectorsOfDecay() {
                   option,
                   selected,
                   points,
-                  max1: true, list1
+                  max1: true,
+                  list1,
                 }}
               />
             )
@@ -161,7 +162,7 @@ export default function VectorsOfDecay() {
                   option,
                   selected,
                   points,
-                  list3
+                  list3,
                 }}
               />
             )

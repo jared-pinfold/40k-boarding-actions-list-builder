@@ -49,7 +49,7 @@ export default function SpaceLaneRaiders() {
                   setList: setList1,
                   option: selectedUnit.key,
                   models: selectedUnit.models,
-                  list4
+                  list4,
                 }}
               />
             )
@@ -67,7 +67,7 @@ export default function SpaceLaneRaiders() {
                   setList: setList2,
                   option: selectedUnit.key,
                   models: selectedUnit.models,
-                  list4
+                  list4,
                 }}
               />
             )
@@ -85,7 +85,7 @@ export default function SpaceLaneRaiders() {
                   setList: setList3,
                   option: selectedUnit.key,
                   models: selectedUnit.models,
-                  list4
+                  list4,
                 }}
               />
             )
@@ -128,7 +128,10 @@ export default function SpaceLaneRaiders() {
       </div>
 
       <div className="column options">
-        <p>Up to 1 of the following, if you have at least one <strong>Kabalite Warriors</strong> unit.</p>
+        <p>
+          Up to 1 of the following, if you have at least one{' '}
+          <strong>Kabalite Warriors</strong> unit.
+        </p>
         <ul>
           {options1.map((option) => {
             const unit = initialOptions1[option]
@@ -143,13 +146,16 @@ export default function SpaceLaneRaiders() {
                   points,
                   max1: true,
                   list1,
-                  list4
+                  list4,
                 }}
               />
             )
           })}
         </ul>
-        <p>Up to 1 of the following, if you have at least one <strong>Wracks</strong> unit.</p>
+        <p>
+          Up to 1 of the following, if you have at least one{' '}
+          <strong>Wracks</strong> unit.
+        </p>
         <ul>
           {options2.map((option) => {
             const unit = initialOptions2[option]
@@ -163,13 +169,17 @@ export default function SpaceLaneRaiders() {
                   selected,
                   points,
                   max1l2: true,
-                  list2,list4
+                  list2,
+                  list4,
                 }}
               />
             )
           })}
         </ul>
-        <p>Up to 1 of the following, if you have at least one <strong>Wytches</strong> unit.</p>
+        <p>
+          Up to 1 of the following, if you have at least one{' '}
+          <strong>Wytches</strong> unit.
+        </p>
         <ul>
           {options3.map((option) => {
             const unit = initialOptions3[option]
@@ -182,7 +192,9 @@ export default function SpaceLaneRaiders() {
                   option,
                   selected,
                   points,
-                  max1l3: true, list3, list4
+                  max1l3: true,
+                  list3,
+                  list4,
                 }}
               />
             )

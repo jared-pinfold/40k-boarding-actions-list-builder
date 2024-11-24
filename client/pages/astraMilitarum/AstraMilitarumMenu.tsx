@@ -4,7 +4,9 @@ export default function AstraMilitarumMenu() {
   return (
     <ul>
       <li>
-        <Link to="tempestus-boarding-regiment">Tempestus Boarding Regiment</Link>
+        <Link to="tempestus-boarding-regiment">
+          Tempestus Boarding Regiment
+        </Link>
       </li>
     </ul>
   )
