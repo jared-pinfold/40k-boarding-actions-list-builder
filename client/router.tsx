@@ -23,7 +23,8 @@ import {
   necrons as n,
   greyKnights as gk,
   drukhari as d,
-  deathGuard as dg
+  deathGuard as dg,
+  astraMilitarum as ami,
 } from './components/FactionImports'
 
 import Layout from './components/Layout'
@@ -73,6 +74,14 @@ const router = createBrowserRouter(
         <Route path="protector-host" element={<a.ProtectorHost />} />
         <Route path="wraiths-of-the-void" element={<a.WraithsOfTheVoid />} />
         <Route path="star-dancer-masque" element={<a.StarDancerMasque />} />
+      </Route>
+
+      <Route path="astra-militarum/" element={<ami.AstraMilitarum />}>
+        <Route index element={<ami.AstraMilitarumMenu />} />
+        <Route
+          path="tempestus-boarding-regiment"
+          element={<ami.TempestusBoardingRegiment />}
+        />
       </Route>
 
       <Route path="death-guard/" element={<dg.DeathGuard />}>

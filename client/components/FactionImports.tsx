@@ -84,6 +84,9 @@ import DeathGuardMenu from '../pages/deathGuard/DeathGuardMenu'
 import ArchContaminators from '../pages/deathGuard/ArchContaminators'
 import UncleanUprising from '../pages/deathGuard/UncleanUprising'
 import VectorsOfDecay from '../pages/deathGuard/VectorsOfDecay'
+import AstraMilitarum from '../pages/deathGuard/DeathGuard'
+import AstraMilitarumMenu from '../pages/astraMilitarum/AstraMilitarumMenu'
+import TempestusBoardingRegiment from '../pages/astraMilitarum/TempestusBoardingRegiment'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -205,4 +208,7 @@ export const deathGuard = {
   DeathGuardMenu,
   ArchContaminators,
   UncleanUprising, VectorsOfDecay
+}
+export const astraMilitarum = {
+  AstraMilitarum, AstraMilitarumMenu, TempestusBoardingRegiment
 }
