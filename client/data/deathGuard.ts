@@ -54,6 +54,11 @@ const units = {
     points: [45],
     models: [1],
   },
+  plagueMarines: {
+    name: 'Plague Marines',
+    points: [90, 125, 180],
+    models: [5, 7, 10],
+  },
   plagueSurgeon: { name: 'Plague Surgeon', points: [50], models: [1] },
   poxwalkers: { name: 'Poxwalkers', points: [50], models: [10] },
   tallyman: { name: 'Tallyman', points: [45], models: [1] },
@@ -101,5 +106,52 @@ export const uncleanUprisingUnits: Record<string, UnitData>[] = [
   },
   {
     dGCS: units.deathGuardChaosSpawn,
+  },
+]
+
+export const vectorsOfDecayUnits: Record<string, UnitData>[] = [
+  {
+    dGCL: units.deathGuardChaosLord,
+    dGTS: units.deathGuardTerminatorSorcerer,
+    lOC: units.lordOfContagion,
+    lOV: units.lordOfVirulence,
+    mP: units.malignantPlaguecaster,
+    ty: units.typhus,
+  },
+  {
+    bP: units.biologusPutrifier,
+    dGIB: units.deathGuardIconBearer,
+    fB: units.foulBlightspawn,
+    nB: units.noxiousBlightbringer,
+    pS: units.plagueSurgeon,
+    ta: units.tallyman,
+  },
+  {
+    dGC1: {
+      ...units.deathGuardCultists,
+      asterisk: true,
+      notMoreThanPlagueMarines: true,
+    },
+    dGC2: {
+      ...units.deathGuardCultists,
+      asterisk: true,
+      notMoreThanPlagueMarines: true,
+    },
+    dGC3: {
+      ...units.deathGuardCultists,
+      asterisk: true,
+      notMoreThanPlagueMarines: true,
+    },
+    plague1: units.plagueMarines,
+    plague2: units.plagueMarines,
+    plague3: units.plagueMarines,
+    p1: { ...units.poxwalkers, asterisk: true, notMoreThanPlagueMarines: true },
+    p2: { ...units.poxwalkers, asterisk: true, notMoreThanPlagueMarines: true },
+    p3: { ...units.poxwalkers, asterisk: true, notMoreThanPlagueMarines: true },
+  },
+  {
+    bT: units.blightlordTerminators,
+    dgCS: units.deathGuardChaosSpawn,
+    dT: units.deathshroudTerminators,
   },
 ]

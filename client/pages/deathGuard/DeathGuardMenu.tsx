@@ -9,6 +9,9 @@ export default function DeathGuardMenu() {
       <li>
         <Link to="unclean-uprising">Unclean Uprising</Link>
       </li>
+      <li>
+        <Link to="vectors-of-decay">Vectors of Decay</Link>
+      </li>
     </ul>
   )
 }

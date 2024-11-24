@@ -79,6 +79,7 @@ const router = createBrowserRouter(
         <Route index element={<dg.DeathGuardMenu />} />
         <Route path="arch-contaminators" element={<dg.ArchContaminators />} />
         <Route path="unclean-uprising" element={<dg.UncleanUprising />} />
+        <Route path="vectors-of-decay" element={<dg.VectorsOfDecay />} />
       </Route>
 
       <Route path="drukhari/" element={<d.Drukhari />}>

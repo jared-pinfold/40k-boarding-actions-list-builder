@@ -1,5 +1,12 @@
 export const updates = [
   {
+    date: '25 Nov 2024',
+    update: [
+      'Added Death Guard: Vectors of Decay',
+      'Bug fix: Added missing unit from Leagues of Votann: Void Salvagers',
+    ],
+  },
+  {
     date: '21 Nov 2024',
     update: [
       'Added Death Guard: Unclean Uprising',

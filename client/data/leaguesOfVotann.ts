@@ -25,6 +25,11 @@ const units = {
     points: [100],
     models: [10],
   },
+  hernkynYaegirs: {
+    name: 'Hernkyn Yaegirs',
+    points: [90],
+    models: [10],
+  },
   kahl: { name: 'Kâhl', points: [70], models: [1] },
   utharTheDestined: { name: 'Ûthar the Destined', points: [80], models: [1] },
 }
@@ -57,5 +62,6 @@ export const voidSalvagersUnits: Record<string, UnitData>[] = [
     bT: units.brokhyrThunderkyn,
     cB: units.cthonianBeserks,
     eH: units.einhyrHearthguard5,
+    hY: units.hernkynYaegirs
   },
 ]
