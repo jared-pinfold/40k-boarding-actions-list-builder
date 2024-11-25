@@ -3,6 +3,7 @@ export const updates = [
     date: '26 Nov 2024',
     update: [
       'Added Agents of the Imperium: Interdiction Team',
+      "Added Agents of the Imperium: Voidship's Company",
     ],
   },
   {

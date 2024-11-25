@@ -80,7 +80,7 @@ const router = createBrowserRouter(
       <Route path="agents-of-the-imperium/" element={<ai.AgentsOfTheImperium />}>
         <Route index element={<ai.AgentsOfTheImperiumMenu />} />
         <Route path="interdiction-team" element={<ai.InterdictionTeam />} />
-
+        <Route path="voidships-company" element={<ai.VoidshipsCompany />} />
       </Route>
 
       <Route path="astra-militarum/" element={<ami.AstraMilitarum />}>

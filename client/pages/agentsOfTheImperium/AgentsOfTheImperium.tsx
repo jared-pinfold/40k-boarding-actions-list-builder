@@ -6,11 +6,15 @@ export default function AgentsOfTheImperium() {
     .split('-')
     .map((word) => word.replace(word[0], word[0].toUpperCase()))
     .join(' ')
+  const finalListType =
+    listType === 'Agents Of The Imperium'
+      ? ''
+      : listType === 'Voidships Company'
+        ? ": Voidship's Company"
+        : `: ${listType}`
   return (
     <section className="faction">
-      <h2>
-        Agents of the Imperium{listType === 'Agents Of The Imperium' ? '' : `: ${listType}`}
-      </h2>
+      <h2>Agents of the Imperium{finalListType}</h2>
       <Outlet />
     </section>
   )

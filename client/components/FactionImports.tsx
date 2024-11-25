@@ -91,6 +91,7 @@ import EmbarkedRegiment from '../pages/astraMilitarum/EmbarkedRegiment'
 import AgentsOfTheImperium from '../pages/agentsOfTheImperium/AgentsOfTheImperium'
 import AgentsOfTheImperiumMenu from '../pages/agentsOfTheImperium/AgentsOfTheImperiumMenu'
 import InterdictionTeam from '../pages/agentsOfTheImperium/InterdictionTeam'
+import VoidshipsCompany from '../pages/agentsOfTheImperium/VoidshipsCompany'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -223,5 +224,5 @@ export const astraMilitarum = {
 export const agentsOfTheImperium = {
   AgentsOfTheImperium,
   AgentsOfTheImperiumMenu,
-  InterdictionTeam,
+  InterdictionTeam, VoidshipsCompany
 }

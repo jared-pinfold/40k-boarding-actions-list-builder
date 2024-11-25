@@ -2,11 +2,11 @@ import { useState } from 'react'
 import { ItemInList } from '../../../models/models'
 import OptionsListItem from '../../components/OptionsListItem'
 import SelectedListItem from '../../components/SelectedListItem'
-import { interdictionTeamUnits } from '../../data/agentsOfTheImperium'
+import { voidshipsCompanyUnits } from '../../data/agentsOfTheImperium'
 
-export default function InterdictionTeam() {
+export default function VoidshipsCompany() {
   const [initialOptions1, initialOptions2, initialOptions3, initialOptions4] =
-    interdictionTeamUnits
+    voidshipsCompanyUnits
   const initialList: ItemInList[] = []
 
   const options1 = Object.keys(initialOptions1)
