@@ -25,6 +25,7 @@ import {
   drukhari as d,
   deathGuard as dg,
   astraMilitarum as ami,
+  agentsOfTheImperium as ai
 } from './components/FactionImports'
 
 import Layout from './components/Layout'
@@ -74,6 +75,12 @@ const router = createBrowserRouter(
         <Route path="protector-host" element={<a.ProtectorHost />} />
         <Route path="wraiths-of-the-void" element={<a.WraithsOfTheVoid />} />
         <Route path="star-dancer-masque" element={<a.StarDancerMasque />} />
+      </Route>
+
+      <Route path="agents-of-the-imperium/" element={<ai.AgentsOfTheImperium />}>
+        <Route index element={<ai.AgentsOfTheImperiumMenu />} />
+        <Route path="interdiction-team" element={<ai.InterdictionTeam />} />
+
       </Route>
 
       <Route path="astra-militarum/" element={<ami.AstraMilitarum />}>

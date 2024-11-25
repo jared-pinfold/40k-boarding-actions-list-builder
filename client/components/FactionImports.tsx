@@ -88,6 +88,9 @@ import AstraMilitarum from '../pages/deathGuard/DeathGuard'
 import AstraMilitarumMenu from '../pages/astraMilitarum/AstraMilitarumMenu'
 import TempestusBoardingRegiment from '../pages/astraMilitarum/TempestusBoardingRegiment'
 import EmbarkedRegiment from '../pages/astraMilitarum/EmbarkedRegiment'
+import AgentsOfTheImperium from '../pages/agentsOfTheImperium/AgentsOfTheImperium'
+import AgentsOfTheImperiumMenu from '../pages/agentsOfTheImperium/AgentsOfTheImperiumMenu'
+import InterdictionTeam from '../pages/agentsOfTheImperium/InterdictionTeam'
 
 export const adeptusAstartes = {
   AdeptusAstartes,
@@ -215,5 +218,10 @@ export const astraMilitarum = {
   AstraMilitarum,
   AstraMilitarumMenu,
   TempestusBoardingRegiment,
-  EmbarkedRegiment
+  EmbarkedRegiment,
+}
+export const agentsOfTheImperium = {
+  AgentsOfTheImperium,
+  AgentsOfTheImperiumMenu,
+  InterdictionTeam,
 }

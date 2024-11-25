@@ -59,6 +59,7 @@ export default function SelectedListItem(props: Props) {
       return true
 
     if (unit.only1OtherCharacter && lists1and2.length > 2) return true
+    if (unit.needsInquisitor && (list3 as ItemInList[]).filter((unit) => unit.key.match(/inq/)).length < 1) return true
     return false
   }
 

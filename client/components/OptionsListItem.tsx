@@ -166,6 +166,12 @@ export default function OptionsListItem(props: Props) {
         .length < 1
     )
       return true
+      if (
+        unit.needsInquisitor &&
+        (list3 as ItemInList[]).filter((unit) => unit.key.match(/inq/))
+          .length < 1
+      )
+        return true
 
     return false
   }

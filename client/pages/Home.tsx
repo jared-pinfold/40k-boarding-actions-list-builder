@@ -21,6 +21,9 @@ export default function Home() {
           <Link to="aeldari">Aeldari</Link>
         </li>
         <li>
+          <Link to="agents-of-the-imperium">Agents of the Imperium</Link>
+        </li>
+        <li>
           <Link to="astra-militarum">Astra Militarum</Link>
         </li>
         <li>

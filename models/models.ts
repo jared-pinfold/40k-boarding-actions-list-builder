@@ -22,6 +22,7 @@ export interface UnitData {
   needsWracks?: boolean
   needsWytches?: boolean
   notMoreThanPlagueMarines?: boolean
+  needsInquisitor?: boolean
 }
 
 export type UnitGroup = Record<string, UnitData>[]

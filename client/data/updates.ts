@@ -1,5 +1,11 @@
 export const updates = [
   {
+    date: '26 Nov 2024',
+    update: [
+      'Added Agents of the Imperium: Interdiction Team',
+    ],
+  },
+  {
     date: '25 Nov 2024',
     update: [
       'Added Astra Militarum: Embarked Regiment',
