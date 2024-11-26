@@ -6,6 +6,7 @@ export default function Updates() {
       <section className="updates">
         <p>Points per Munitorum Field Manual 1.13</p>
         <p>Errata per Boarding Actions Companion 1.0</p>
+        <hr/>
         {updates.map((update) => (
           <>
             <p>
