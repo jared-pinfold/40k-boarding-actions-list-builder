@@ -8,7 +8,7 @@ export default function Updates() {
         <p>Errata per Boarding Actions Companion 1.0</p>
         <hr/>
         {updates.map((update) => (
-          <>
+          <div key={update.date}>
             <p>
               <strong>Date:</strong> {update.date}
             </p>
@@ -17,7 +17,7 @@ export default function Updates() {
                 <li key={`update${i}`}>{update}</li>
               ))}
             </ul>
-          </>
+          </div>
         ))}
       </section>
     </div>

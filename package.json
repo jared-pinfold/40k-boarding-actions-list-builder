@@ -1,8 +1,8 @@
 {
-  "name": "boilerplate-phase1",
+  "name": "40k-boarding-actions-list-builder",
   "type": "module",
   "version": "0.2.0",
-  "description": "React with react-query!",
+  "description": "A Boarding Actions army l;ist builder utility app for Warhammer 40k",
   "repository": "https://github.com/dev-academy-challenges/boilerplate-phase1.git",
   "main": "server/index.js",
   "scripts": {
@@ -18,7 +18,7 @@
       "bundle.js"
     ]
   },
-  "author": "Dev Academy Aotearoa",
+  "author": "Jared Pinfold",
   "license": "ISC",
   "dependencies": {
     "superagent": "^8.1.2"

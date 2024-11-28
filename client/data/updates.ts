@@ -16,7 +16,7 @@ export const updates = [
     ],
   },
   {
-    date: '21 Nov 2024',
+    date: '22 Nov 2024',
     update: ['Added Death Guard: Unclean Uprising'],
   },
   {
