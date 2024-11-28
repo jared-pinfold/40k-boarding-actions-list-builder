@@ -18,6 +18,10 @@ header {
   padding: 10px;
 }
 
+details {
+  margin: 0.5em;
+}
+
 .faction {
   position: sticky; /* Keeps header static at the top */
   top: 0;

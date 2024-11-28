@@ -25,7 +25,7 @@ import {
   drukhari as d,
   deathGuard as dg,
   astraMilitarum as ami,
-  agentsOfTheImperium as ai
+  agentsOfTheImperium as ai,
 } from './components/FactionImports'
 
 import Layout from './components/Layout'
@@ -38,153 +38,120 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path="updates" element={<Updates />} />
 
-      <Route path="adepta-sororitas/" element={<as.AdeptaSororitas />}>
-        <Route index element={<as.AdeptaSororitasMenu />} />
-        <Route
-          path="penitents-and-pilgrims"
-          element={<as.PenitentsAndPilgrims />}
-        />
-        <Route path="pious-protectors" element={<as.PiousProtectors />} />
-      </Route>
+      <Route path="adepta-sororitas/" element={<as.AdeptaSororitasMenu />} />
+      <Route
+        path="adepta-sororitas/penitents-and-pilgrims"
+        element={<as.PenitentsAndPilgrims />}
+      />
+      <Route
+        path="adepta-sororitas/pious-protectors"
+        element={<as.PiousProtectors />}
+      />
 
-      <Route path="adeptus-astartes/" element={<aa.AdeptusAstartes />}>
-        <Route index element={<aa.AdeptusAstartesMenu />} />
-        <Route path="boarding-strike" element={<aa.BoardingStrike />} />
-        <Route path="pilum-strike" element={<aa.PilumStrike />} />
-        <Route path="terminator-assault" element={<aa.TerminatorAssault />} />
-      </Route>
+      <Route path="adeptus-astartes/" element={<aa.AdeptusAstartesMenu />} />
+        <Route path="adeptus-astartes/boarding-strike" element={<aa.BoardingStrike />} />
+        <Route path="adeptus-astartes/pilum-strike" element={<aa.PilumStrike />} />
+        <Route path="adeptus-astartes/terminator-assault" element={<aa.TerminatorAssault />} />
+    
 
-      <Route path="adeptus-custodes/" element={<ac.AdeptusCustodes />}>
-        <Route index element={<ac.AdeptusCustodesMenu />} />
+      <Route path="adeptus-custodes/" element={<ac.AdeptusCustodesMenu />} />
         <Route
-          path="black-ship-guardians"
+          path="adeptus-custodes/black-ship-guardians"
           element={<ac.BlackShipGuardians />}
         />
-      </Route>
 
-      <Route path="adeptus-mechanicus/" element={<am.AdeptusMechanicus />}>
-        <Route index element={<am.AdeptusMechanicusMenu />} />
-        <Route path="electromartyrs" element={<am.Electromartyrs />} />
-        <Route path="machine-cult" element={<am.MachineCult />} />
-        <Route path="response-clade" element={<am.ResponseClade />} />
-      </Route>
+      <Route path="adeptus-mechanicus/" element={<am.AdeptusMechanicusMenu />} />
+        <Route path="adeptus-mechanicus/electromartyrs" element={<am.Electromartyrs />} />
+        <Route path="adeptus-mechanicus/machine-cult" element={<am.MachineCult />} />
+        <Route path="adeptus-mechanicus/response-clade" element={<am.ResponseClade />} />
 
-      <Route path="aeldari/" element={<a.Aeldari />}>
-        <Route index element={<a.AeldariMenu />} />
-        <Route path="khaines-arrow" element={<a.KhainesArrow />} />
-        <Route path="protector-host" element={<a.ProtectorHost />} />
-        <Route path="wraiths-of-the-void" element={<a.WraithsOfTheVoid />} />
-        <Route path="star-dancer-masque" element={<a.StarDancerMasque />} />
-      </Route>
+      <Route path="aeldari/" element={<a.AeldariMenu />} />
+        <Route path="aeldari/khaines-arrow" element={<a.KhainesArrow />} />
+        <Route path="aeldari/protector-host" element={<a.ProtectorHost />} />
+        <Route path="aeldari/wraiths-of-the-void" element={<a.WraithsOfTheVoid />} />
+        <Route path="aeldari/star-dancer-masque" element={<a.StarDancerMasque />} />
 
-      <Route path="agents-of-the-imperium/" element={<ai.AgentsOfTheImperium />}>
-        <Route index element={<ai.AgentsOfTheImperiumMenu />} />
-        <Route path="interdiction-team" element={<ai.InterdictionTeam />} />
-        <Route path="voidships-company" element={<ai.VoidshipsCompany />} />
-      </Route>
+      <Route
+        path="agents-of-the-imperium/"
+        element={<ai.AgentsOfTheImperiumMenu />}
+      />
+        <Route path="agents-of-the-imperium/interdiction-team" element={<ai.InterdictionTeam />} />
+        <Route path="agents-of-the-imperium/voidships-company" element={<ai.VoidshipsCompany />} />
 
-      <Route path="astra-militarum/" element={<ami.AstraMilitarum />}>
-        <Route index element={<ami.AstraMilitarumMenu />} />
-        <Route path="embarked-regiment" element={<ami.EmbarkedRegiment />} />
+      <Route path="astra-militarum/" element={<ami.AstraMilitarumMenu />} />
+        <Route path="astra-militarum/embarked-regiment" element={<ami.EmbarkedRegiment />} />
         <Route
-          path="tempestus-boarding-regiment"
+          path="astra-militarum/tempestus-boarding-regiment"
           element={<ami.TempestusBoardingRegiment />}
         />
-      </Route>
 
-      <Route path="death-guard/" element={<dg.DeathGuard />}>
-        <Route index element={<dg.DeathGuardMenu />} />
-        <Route path="arch-contaminators" element={<dg.ArchContaminators />} />
-        <Route path="unclean-uprising" element={<dg.UncleanUprising />} />
-        <Route path="vectors-of-decay" element={<dg.VectorsOfDecay />} />
-      </Route>
+      <Route path="death-guard/" element={<dg.DeathGuardMenu />} />
+        <Route path="death-guard/arch-contaminators" element={<dg.ArchContaminators />} />
+        <Route path="death-guard/unclean-uprising" element={<dg.UncleanUprising />} />
+        <Route path="death-guard/vectors-of-decay" element={<dg.VectorsOfDecay />} />
 
-      <Route path="drukhari/" element={<d.Drukhari />}>
-        <Route index element={<d.DrukhariMenu />} />
-        <Route path="kabalite-corsairs" element={<d.KabaliteCorsairs />} />
-        <Route path="painbringers" element={<d.Painbringers />} />
-        <Route path="ship-killer-cult" element={<d.ShipKillerCult />} />
-        <Route path="space-lane-raiders" element={<d.SpaceLaneRaiders />} />
-      </Route>
+      <Route path="drukhari/" element={<d.DrukhariMenu />} />
+        <Route path="drukhari/kabalite-corsairs" element={<d.KabaliteCorsairs />} />
+        <Route path="drukhari/painbringers" element={<d.Painbringers />} />
+        <Route path="drukhari/ship-killer-cult" element={<d.ShipKillerCult />} />
+        <Route path="drukhari/space-lane-raiders" element={<d.SpaceLaneRaiders />} />
 
-      <Route path="genestealer-cults/" element={<gc.GenestealerCults />}>
-        <Route index element={<gc.GenestealerCultsMenu />} />
-        <Route path="cult-unveiled" element={<gc.CultUnveiled />} />
-        <Route path="genespawn-onslaught" element={<gc.GenespawnOnslaught />} />
-        <Route path="infestation-swarm" element={<gd.InfestationSwarm />} />
-      </Route>
+      <Route path="genestealer-cults/" element={<gc.GenestealerCultsMenu />} />
+        <Route path="genestealer-cults/cult-unveiled" element={<gc.CultUnveiled />} />
+        <Route path="genestealer-cults/genespawn-onslaught" element={<gc.GenespawnOnslaught />} />
+        <Route path="genestealer-cults/infestation-swarm" element={<gd.InfestationSwarm />} />
 
-      <Route path="grey-knights/" element={<gk.GreyKnights />}>
-        <Route index element={<gk.GreyKnightsMenu />} />
-        <Route path="baneslayer-strike" element={<gk.BaneslayerStrike />} />
-        <Route path="void-purge-force" element={<gk.VoidPurgeForce />} />
-      </Route>
+      <Route path="grey-knights/" element={<gk.GreyKnightsMenu />} />
+        <Route path="grey-knights/baneslayer-strike" element={<gk.BaneslayerStrike />} />
+        <Route path="grey-knights/void-purge-force" element={<gk.VoidPurgeForce />} />
 
-      <Route path="heretic-astartes/" element={<ha.HereticAstartes />}>
-        <Route index element={<ha.HereticAstartesMenu />} />
-        <Route path="champions-of-chaos" element={<ha.ChampionsOfChaos />} />
-        <Route path="infernal-reavers" element={<ha.InfernalReavers />} />
-        <Route path="underdeck-uprising" element={<ha.UnderdeckUprising />} />
-      </Route>
+      <Route path="heretic-astartes/" element={<ha.HereticAstartesMenu />} />
+        <Route path="heretic-astartes/champions-of-chaos" element={<ha.ChampionsOfChaos />} />
+        <Route path="heretic-astartes/infernal-reavers" element={<ha.InfernalReavers />} />
+        <Route path="heretic-astartes/underdeck-uprising" element={<ha.UnderdeckUprising />} />
 
-      <Route path="leagues-of-votann/" element={<lov.LeaguesOfVotann />}>
-        <Route index element={<lov.LeaguesOfVotannMenu />} />
-        <Route path="hearthfire-strike" element={<lov.HearthfireStrike />} />
-        <Route path="void-salvagers" element={<lov.VoidSalvagers />} />
-      </Route>
+      <Route path="leagues-of-votann/" element={<lov.LeaguesOfVotannMenu />} />
+        <Route path="leagues-of-votann/hearthfire-strike" element={<lov.HearthfireStrike />} />
+        <Route path="leagues-of-votann/void-salvagers" element={<lov.VoidSalvagers />} />
 
-      <Route path="legiones-daemonica/" element={<ld.LegionesDaemonica />}>
-        <Route index element={<ld.LegionesDaemonicaMenu />} />
-        <Route path="daemonic-incursion" element={<ld.DaemonicIncursion />} />
-        <Route path="dread-carnival" element={<ld.DreadCarnival />} />
-        <Route path="infernal-onslaught" element={<ld.InfernalOnslaught />} />
+      <Route path="legiones-daemonica/" element={<ld.LegionesDaemonicaMenu />} />
+        <Route path="legiones-daemonica/daemonic-incursion" element={<ld.DaemonicIncursion />} />
+        <Route path="legiones-daemonica/dread-carnival" element={<ld.DreadCarnival />} />
+        <Route path="legiones-daemonica/infernal-onslaught" element={<ld.InfernalOnslaught />} />
         <Route
-          path="pandaemoniac-inferno"
+          path="legiones-daemonica/pandaemoniac-inferno"
           element={<ld.PandaemoniacInferno />}
         />
-        <Route path="rotten-and-rusted" element={<ld.RottenAndRusted />} />
-      </Route>
+        <Route path="legiones-daemonica/rotten-and-rusted" element={<ld.RottenAndRusted />} />
 
-      <Route path="necrons/" element={<n.Necrons />}>
-        <Route index element={<n.NecronsMenu />} />
-        <Route path="canoptek-harvesters" element={<n.CanoptekHarvesters />} />
-        <Route path="deranged-outcasts" element={<n.DerangedOutcasts />} />
-        <Route path="tomb-ship-compliment" element={<n.TombShipCompliment />} />
-      </Route>
+      <Route path="necrons/" element={<n.NecronsMenu />} />
+        <Route path="necrons/canoptek-harvesters" element={<n.CanoptekHarvesters />} />
+        <Route path="necrons/deranged-outcasts" element={<n.DerangedOutcasts />} />
+        <Route path="necrons/tomb-ship-compliment" element={<n.TombShipCompliment />} />
 
-      <Route path="orks/" element={<o.Orks />}>
-        <Route index element={<o.OrksMenu />} />
-        <Route path="kaptin-killers" element={<o.KaptinKillers />} />
-        <Route path="ramship-raiders" element={<o.RamshipRaiders />} />
-      </Route>
+      <Route path="orks/" element={<o.OrksMenu />} />
+        <Route path="orks/kaptin-killers" element={<o.KaptinKillers />} />
+        <Route path="orks/ramship-raiders" element={<o.RamshipRaiders />} />
 
-      <Route path="thousand-sons/" element={<ts.ThousandSons />}>
-        <Route index element={<ts.ThousandSonsMenu />} />
-        <Route path="chosen-cabal" element={<ts.ChosenCabal />} />
-        <Route path="devoted-thralls" element={<ts.DevotedThralls />} />
-        <Route path="fateseekers" element={<ts.Fateseekers />} />
-      </Route>
+      <Route path="thousand-sons/" element={<ts.ThousandSonsMenu />} />
+        <Route path="thousand-sons/chosen-cabal" element={<ts.ChosenCabal />} />
+        <Route path="thousand-sons/devoted-thralls" element={<ts.DevotedThralls />} />
+        <Route path="thousand-sons/fateseekers" element={<ts.Fateseekers />} />
 
-      <Route path="tau/" element={<tau.Tau />}>
-        <Route index element={<tau.TauMenu />} />
-        <Route path="kroot-raiding-party" element={<tau.KrootRaidingParty />} />
-        <Route path="starfire-cadre" element={<tau.StarfireCadre />} />
-      </Route>
+      <Route path="tau/" element={<tau.TauMenu />} />
+        <Route path="tau/kroot-raiding-party" element={<tau.KrootRaidingParty />} />
+        <Route path="tau/starfire-cadre" element={<tau.StarfireCadre />} />
 
-      <Route path="tyranids/" element={<t.Tyranids />}>
-        <Route index element={<t.TyranidsMenu />} />
-        <Route path="infestation-swarm" element={<gd.InfestationSwarm />} />
-        <Route path="biotide" element={<t.Biotide />} />
-        <Route path="boarding-swarm" element={<t.BoardingSwarm />} />
-        <Route path="tyranid-attack" element={<t.TyranidAttack />} />
-      </Route>
+      <Route path="tyranids/" element={<t.TyranidsMenu />} />
+        <Route path="tyranids/infestation-swarm" element={<gd.InfestationSwarm />} />
+        <Route path="tyranids/biotide" element={<t.Biotide />} />
+        <Route path="tyranids/boarding-swarm" element={<t.BoardingSwarm />} />
+        <Route path="tyranids/tyranid-attack" element={<t.TyranidAttack />} />
 
-      <Route path="world-eaters/" element={<we.WorldEaters />}>
-        <Route index element={<we.WorldEatersMenu />} />
-        <Route path="boarding-butchers" element={<we.BoardingButchers />} />
-        <Route path="skullsworn" element={<we.Skullsworn />} />
+      <Route path="world-eaters/" element={<we.WorldEatersMenu />} />
+        <Route path="world-eaters/boarding-butchers" element={<we.BoardingButchers />} />
+        <Route path="world-eaters/skullsworn" element={<we.Skullsworn />} />
       </Route>
-    </Route>,
   ),
 )
 
