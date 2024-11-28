@@ -1,3 +1,7 @@
+// this file imports all of the faction pages and exports them as an object. It's then
+// imported in the client/router.tsx file to declutter an already pretty bloated file.
+
+
 import AdeptusAstartesMenu from '../pages/adeptusAstartes/AdeptusAstartesMenu'
 import BoardingStrike from '../pages/adeptusAstartes/BoardingStrike'
 import PilumStrike from '../pages/adeptusAstartes/PilumStrike'

@@ -16,13 +16,13 @@ export default function Layout() {
         <h1>
           <Link to="/">40k Boarding Actions</Link>
         </h1>
-        {location[1] ? (
+        {location[1] ? ( //if it's a faction route
           <h2>
             {factionName(location[1])}
             {`${location[2] ? `: ${listName(location[2])}` : ''}`}
           </h2>
         ) : (
-          <h2>Select your faction</h2>
+          <h2>Select your faction</h2> //if it's the root route
         )}
       </header>
       <Outlet />
