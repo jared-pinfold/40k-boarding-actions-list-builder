@@ -11,7 +11,7 @@ export default function Layout() {
     )
   console.log(location)
   return (
-    <>
+    <div className='backgroundContainer' >
       <header>
         <h1>
           <Link to="/">40k Boarding Actions</Link>
@@ -26,7 +26,7 @@ export default function Layout() {
         )}
       </header>
       <Outlet />
-    </>
+    </div>
   )
 }
 
