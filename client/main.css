@@ -94,7 +94,7 @@ button:disabled {
 
 .options{
   overflow-y: auto; /* Enables scrolling within List2 */
-  max-height: 45vh; /* Adjust based on desired scrollable height */
+  max-height: 60vh; /* Adjust based on desired scrollable height */
   padding: 10px;
   border-color: black;
   border-width: 2px;
