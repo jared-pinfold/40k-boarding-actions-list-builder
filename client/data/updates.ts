@@ -1,5 +1,11 @@
 export const updates = [
   {
+    date: '29 Nov 2024',
+    update: [
+      'Updated page styling'
+    ],
+  },
+  {
     date: '26 Nov 2024',
     update: [
       'Added Agents of the Imperium: Interdiction Team',
