@@ -1,9 +1,11 @@
 export const updates = [
   {
+    date: '2 Dec 2024',
+    update: ['Added Adeptus Custodes: Voyagers in Darkness'],
+  },
+  {
     date: '29 Nov 2024',
-    update: [
-      'Updated page styling'
-    ],
+    update: ['Updated page styling'],
   },
   {
     date: '26 Nov 2024',

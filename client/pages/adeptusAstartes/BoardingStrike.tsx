@@ -34,7 +34,7 @@ export default function BoardingStrike() {
   )
 
   return (
-    <div className="container" style={{ position: 'sticky'} }>
+    <div className="container" style={{ position: 'sticky' }}>
       <div className="column list">
         <p>Points: {points}/500</p>
         <ul>
@@ -124,7 +124,7 @@ export default function BoardingStrike() {
         </ul>
       </div>
 
-      <div className="column options" >
+      <div className="column options">
         <p>All models must come from the same chapter.</p>
         <p>Up to 2 of the following.</p>
         <ul>

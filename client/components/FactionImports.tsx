@@ -1,7 +1,6 @@
 // this file imports all of the faction pages and exports them as an object. It's then
 // imported in the client/router.tsx file to declutter an already pretty bloated file.
 
-
 import AdeptusAstartesMenu from '../pages/adeptusAstartes/AdeptusAstartesMenu'
 import BoardingStrike from '../pages/adeptusAstartes/BoardingStrike'
 import PilumStrike from '../pages/adeptusAstartes/PilumStrike'
@@ -76,6 +75,7 @@ import EmbarkedRegiment from '../pages/astraMilitarum/EmbarkedRegiment'
 import AgentsOfTheImperiumMenu from '../pages/agentsOfTheImperium/AgentsOfTheImperiumMenu'
 import InterdictionTeam from '../pages/agentsOfTheImperium/InterdictionTeam'
 import VoidshipsCompany from '../pages/agentsOfTheImperium/VoidshipsCompany'
+import VoyagersInDarkness from '../pages/adeptusCustodes/VoyagersInDarkness'
 
 export const adeptusAstartes = {
   AdeptusAstartesMenu,
@@ -118,6 +118,7 @@ export const adeptusMechanicus = {
 export const adeptusCustodes = {
   AdeptusCustodesMenu,
   BlackShipGuardians,
+  VoyagersInDarkness,
 }
 export const genestealerCults = {
   GenestealerCultsMenu,

@@ -6,6 +6,9 @@ export default function AdeptusCustodesMenu() {
       <li>
         <Link to="black-ship-guardians">Black Ship Guardians</Link>
       </li>
+      <li>
+        <Link to="voyagers-in-darkness">Voyagers in Darkness</Link>
+      </li>
     </ul>
   )
 }

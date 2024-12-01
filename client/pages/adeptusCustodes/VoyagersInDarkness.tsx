@@ -2,11 +2,11 @@ import { useState } from 'react'
 import { ItemInList } from '../../../models/models'
 import OptionsListItem from '../../components/OptionsListItem'
 import SelectedListItem from '../../components/SelectedListItem'
-import { voidshipsCompanyUnits } from '../../data/agentsOfTheImperium'
+import { voyagersInDarknessUnits } from '../../data/adeptusCustodes'
 
-export default function VoidshipsCompany() {
+export default function VoyagersInDarkness() {
   const [initialOptions1, initialOptions2, initialOptions3, initialOptions4] =
-    voidshipsCompanyUnits
+    voyagersInDarknessUnits
   const initialList: ItemInList[] = []
 
   const options1 = Object.keys(initialOptions1)
@@ -96,7 +96,9 @@ export default function VoidshipsCompany() {
                   setList: setList4,
                   option: selectedUnit.key,
                   models: selectedUnit.models,
+                  list2,
                   list3,
+                  list4,
                 }}
               />
             )
@@ -105,7 +107,7 @@ export default function VoidshipsCompany() {
       </div>
 
       <div className="column options">
-        <p>Any of the following:</p>
+        <p>Up to 2 of the following:</p>
         <ul>
           {options1.map((option) => {
             const unit = initialOptions1[option]
@@ -118,6 +120,8 @@ export default function VoidshipsCompany() {
                   option,
                   selected,
                   points,
+                  max2: true,
+                  list1,
                 }}
               />
             )
@@ -141,7 +145,7 @@ export default function VoidshipsCompany() {
             )
           })}
         </ul>
-        <p>Up to 1 of the following:</p>
+        <p>Any of the following:</p>
         <ul>
           {options3.map((option) => {
             const unit = initialOptions3[option]
@@ -154,16 +158,16 @@ export default function VoidshipsCompany() {
                   option,
                   selected,
                   points,
-                  max1l3: true,
-                  list3,
                 }}
               />
             )
           })}
         </ul>
+        <p>Any of the following:</p>
         <p>
-          If you include an <strong>Inquisitor</strong> unit of any type, you
-          can include the following.
+          The combined number of * units cannot exceed the total number of{' '}
+          <strong>Allarus Custodians</strong>, <strong>Custodian Guard</strong>{' '}
+          or <strong>Custodian Wardens</strong>units.
         </p>
         <ul>
           {options4.map((option) => {
@@ -177,7 +181,9 @@ export default function VoidshipsCompany() {
                   option,
                   selected,
                   points,
+                  list2,
                   list3,
+                  list4,
                 }}
               />
             )

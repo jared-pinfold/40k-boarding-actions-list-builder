@@ -31,7 +31,7 @@ const units: Record<string, UnitData> = {
     models: [10],
   },
   ironHandStraken: { name: '"Iron Hand" Straken', points: [55], models: [1] },
-  kasrkin: { name: 'Kasrkin', points: [55,110], models: [5,10] },
+  kasrkin: { name: 'Kasrkin', points: [55, 110], models: [5, 10] },
   militarumTempestusCommandSquad: {
     name: 'Militarum Tempestus Command Squad',
     points: [70],
@@ -105,7 +105,7 @@ export const embarkedRegimentUnits: Record<string, UnitData>[] = [
     pP: units.primarisPsyker,
     rE: units.regimentalEnginseer,
     rP: units.regimentalPreacher,
-    sH: units.sergeantHarker
+    sH: units.sergeantHarker,
   },
   {
     cST1: units.cadianShockTroops10,
@@ -125,6 +125,6 @@ export const embarkedRegimentUnits: Record<string, UnitData>[] = [
     bS: units.bullgrynSquad3,
     k: units.kasrkin,
     rS: units.ratlingSnipers,
-    oS: units.ogrynSquad3
-  }
+    oS: units.ogrynSquad3,
+  },
 ]

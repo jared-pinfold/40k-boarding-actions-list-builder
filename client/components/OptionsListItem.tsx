@@ -53,6 +53,10 @@ export default function OptionsListItem(props: Props) {
       list1 && list2
         ? [...(list1 as ItemInList[]), ...(list2 as ItemInList[])]
         : []
+    const lists2and3 =
+      list2 && list3
+        ? [...(list2 as ItemInList[]), ...(list3 as ItemInList[])]
+        : []
     const lists3and4 =
       list3 && list4
         ? [...(list3 as ItemInList[]), ...(list4 as ItemInList[])]
@@ -166,12 +170,16 @@ export default function OptionsListItem(props: Props) {
         .length < 1
     )
       return true
-      if (
-        unit.needsInquisitor &&
-        (list3 as ItemInList[]).filter((unit) => unit.key.match(/inq/))
-          .length < 1
-      )
-        return true
+    if (
+      unit.needsInquisitor &&
+      (list3 as ItemInList[]).filter((unit) => unit.key.match(/inq/)).length < 1
+    )
+      return true
+    if (
+      unit.notMoreThanCustodeans &&
+      lists2and3.length <= (list4 as ItemInList[]).length
+    )
+      return true
 
     return false
   }

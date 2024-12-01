@@ -96,7 +96,7 @@ export default function InterdictionTeam() {
                   setList: setList4,
                   option: selectedUnit.key,
                   models: selectedUnit.models,
-                  list3
+                  list3,
                 }}
               />
             )

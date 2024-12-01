@@ -14,12 +14,17 @@ interface Props {
 }
 
 export default function SelectedListItem(props: Props) {
-  const { unit, points, models, setList, option, list1, list2, list3 } = props
+  const { unit, points, models, setList, option, list1, list2, list3, list4 } =
+    props
 
   function isRed(): boolean {
     const lists1and2 =
       list1 && list2
         ? [...(list1 as ItemInList[]), ...(list2 as ItemInList[])]
+        : []
+    const lists2and3 =
+      list2 && list3
+        ? [...(list2 as ItemInList[]), ...(list3 as ItemInList[])]
         : []
 
     if (
@@ -57,9 +62,18 @@ export default function SelectedListItem(props: Props) {
         (list3 as ItemInList[]).length
     )
       return true
+    if (
+      unit.notMoreThanCustodeans &&
+      lists2and3.length < (list4 as ItemInList[]).length
+    )
+      return true
 
     if (unit.only1OtherCharacter && lists1and2.length > 2) return true
-    if (unit.needsInquisitor && (list3 as ItemInList[]).filter((unit) => unit.key.match(/inq/)).length < 1) return true
+    if (
+      unit.needsInquisitor &&
+      (list3 as ItemInList[]).filter((unit) => unit.key.match(/inq/)).length < 1
+    )
+      return true
     return false
   }
 

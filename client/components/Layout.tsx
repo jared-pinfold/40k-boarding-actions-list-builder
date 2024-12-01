@@ -11,7 +11,7 @@ export default function Layout() {
     )
   console.log(location)
   return (
-    <div className='backgroundContainer' >
+    <div className="backgroundContainer">
       <header>
         <h1>
           <Link to="/">40k Boarding Actions</Link>
@@ -46,6 +46,8 @@ function listName(name: string): string {
       return 'Ship-Killer Cult'
     case 'Rotten And Rusted':
       return 'Rotten and Rusted'
+    case 'Voyagers In Darkness':
+      return 'Voyagers in Darkness'
     default:
       return name
   }

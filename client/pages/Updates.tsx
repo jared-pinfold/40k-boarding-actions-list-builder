@@ -1,7 +1,6 @@
 import { updates } from '../data/updates'
 
 export default function Updates() {
-
   return (
     <div className="container">
       <div className="column list">
