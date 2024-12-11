@@ -1,5 +1,9 @@
 export const updates = [
   {
+    date: '12 Dec 2024',
+    update: ['Updated points in line with Munitorum Field Manual v1.14'],
+  },
+  {
     date: '2 Dec 2024',
     update: ['Added Adeptus Custodes: Voyagers in Darkness'],
   },

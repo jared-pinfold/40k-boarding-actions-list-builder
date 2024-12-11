@@ -26,10 +26,10 @@ const units = {
   painboss: { name: 'Painboss', points: [70], models: [1] },
   painboy: { name: 'Painboy', points: [80], models: [1] },
   stormboyz: { name: 'Stormboyz', points: [65, 130], models: [5, 10] },
-  warboss: { name: 'Warboss', points: [65], models: [1] },
+  warboss: { name: 'Warboss', points: [75], models: [1] },
   warbossInMegaArmour: {
     name: 'Warboss in Mega Armour',
-    points: [80],
+    points: [90],
     models: [1],
   },
   weirdboy: { name: 'Weirdboy', points: [65], models: [1] },

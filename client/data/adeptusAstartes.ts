@@ -64,7 +64,7 @@ const units: Record<string, UnitData> = {
   },
   chiefLibrarianMephiston: {
     name: 'Chief Librarian Mephiston',
-    points: [125],
+    points: [135],
     models: [1],
   },
   chiefLibrarianTigurius: {
@@ -127,7 +127,7 @@ const units: Record<string, UnitData> = {
   greyHunters: { name: 'Grey Hunters', points: [85, 170], models: [5, 10] },
   heavyIntercessorSquad: {
     name: 'Heavy Intercessor Squad',
-    points: [95, 190],
+    points: [110, 220],
     models: [5, 10],
   },
   hellblasterSquad: { name: 'Hellblaster Squad', points: [115], models: [5] },
@@ -142,7 +142,7 @@ const units: Record<string, UnitData> = {
     models: [5, 10],
   },
   incursorSquad: { name: 'Incursor Squad', points: [80, 160], models: [5, 10] },
-  infernusSquad: { name: 'Infernus Squad', points: [80, 160], models: [5, 10] },
+  infernusSquad: { name: 'Infernus Squad', points: [90, 180], models: [5, 10] },
   infiltratorsSquad: {
     name: 'Infiltrators Squad',
     points: [100, 200],
@@ -188,10 +188,10 @@ const units: Record<string, UnitData> = {
     points: [70],
     models: [1],
   },
-  lionEljohnson: { name: "Lion El'Johnson", points: [285], models: [1] },
+  lionEljohnson: { name: "Lion El'Johnson", points: [315], models: [1] },
   loganGrimnar: { name: 'Logan Grimnar', points: [115], models: [1] },
   lukasTheTrickster: { name: 'Lukas the Trickster', points: [50], models: [1] },
-  marneusCalgar: { name: 'Marneus Calgar', points: [185], models: [1] },
+  marneusCalgar: { name: 'Marneus Calgar', points: [200], models: [1] },
   marshal: { name: 'Marshal', points: [75], models: [1] },
   njalStormcaller: { name: 'Njal Stormcaller', points: [85], models: [1] },
   pedroKantor: { name: 'Pedro Kantor', points: [90], models: [1] },
@@ -206,8 +206,8 @@ const units: Record<string, UnitData> = {
     models: [5, 10],
   },
   ragnarBlackmane: { name: 'Ragnar Blackmane', points: [90], models: [1] },
-  reiversSquad: { name: 'Reivers Squad', points: [75, 150], models: [5, 10] },
-  robouteGuilliman: { name: 'Roboute Guilliman', points: [285], models: [1] },
+  reiversSquad: { name: 'Reivers Squad', points: [80, 160], models: [5, 10] },
+  robouteGuilliman: { name: 'Roboute Guilliman', points: [345], models: [1] },
   sanguinaryGuard: {
     name: 'Sanguinary Guard',
     points: [135, 270],
@@ -217,7 +217,7 @@ const units: Record<string, UnitData> = {
   skyclaws: { name: 'Skyclaws', points: [90, 165], models: [5, 10] },
   sternguardVeteranSquad: {
     name: 'Sternguard Veteran Squad',
-    points: [90, 180],
+    points: [100, 200],
     models: [5, 10],
   },
   tacticalSquad: { name: 'Tactical Squad', points: [140], models: [10] },
@@ -252,7 +252,7 @@ const units: Record<string, UnitData> = {
   theSanguinor: { name: 'The Sanguinor', points: [140], models: [1] },
   torGaradon: { name: 'Tor Garadon', points: [90], models: [1] },
   ulrikTheSlayer: { name: 'Ulrik the Slayer', points: [70], models: [1] },
-  urielVentris: { name: 'Uriel Ventris', points: [75], models: [1] },
+  urielVentris: { name: 'Uriel Ventris', points: [95], models: [1] },
   vanguardVeteransWithJumpPacks: {
     name: 'Vanguard Veterans with Jump Packs',
     points: [110, 220],
@@ -280,7 +280,7 @@ const units: Record<string, UnitData> = {
     points: [35],
     models: [1],
   },
-  wulfen: { name: 'Wulfen', points: [90, 180], models: [5, 10] },
+  wulfen: { name: 'Wulfen', points: [95, 190], models: [5, 10] },
 }
 
 export const terminatorAssaultUnits: Record<string, UnitData>[] = [

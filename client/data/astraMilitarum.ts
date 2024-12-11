@@ -10,12 +10,12 @@ const units: Record<string, UnitData> = {
   },
   cadianShockTroops10: {
     name: 'Cadian Shock Troops',
-    points: [60],
+    points: [65],
     models: [10],
   },
   catachanJungleFighters10: {
     name: 'Catachan Jungle Fighters',
-    points: [55],
+    points: [65],
     models: [10],
   },
   commissar: { name: 'Commissar', points: [30], models: [1] },
@@ -24,7 +24,7 @@ const units: Record<string, UnitData> = {
     points: [65],
     models: [10],
   },
-  gauntsGhosts: { name: "Gaunt's Ghosts", points: [100], models: [6] },
+  gauntsGhosts: { name: "Gaunt's Ghosts", points: [110], models: [6] },
   infantrySquad10: {
     name: 'Infantry Squad',
     points: [60],
@@ -61,7 +61,7 @@ const units: Record<string, UnitData> = {
   slyMarbo: { name: 'Sly Marbo', points: [65], models: [1] },
   tempestusScions: {
     name: 'Tempestus Scions',
-    points: [50, 100],
+    points: [60, 120],
     models: [5, 10],
   },
   ursulaCreed: { name: 'Ursula Creed', points: [55], models: [1] },

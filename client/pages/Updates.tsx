@@ -4,7 +4,7 @@ export default function Updates() {
   return (
     <div className="container">
       <div className="column list">
-        <p>Points per Munitorum Field Manual 1.13</p>
+        <p>Points per Munitorum Field Manual 1.14</p>
         <p>Errata per Boarding Actions Companion 1.0</p>
       </div>
 

@@ -2,7 +2,7 @@ import { UnitData } from '../../models/models'
 
 const units = {
   brokhyrIronMaster: { name: 'Brôkhyr Iron-Master', points: [65], models: [1] },
-  brokhyrThunderkyn: { name: 'Brôkhyr Thunderkyn', points: [85], models: [3] },
+  brokhyrThunderkyn: { name: 'Brôkhyr Thunderkyn', points: [80], models: [3] },
   cthonianBeserks: {
     name: 'Cthuonian Beserks',
     points: [100, 200],

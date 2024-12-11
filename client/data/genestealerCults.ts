@@ -2,7 +2,7 @@ import { UnitData } from '../../models/models'
 
 const units = {
   aberrants: { name: 'Aberrants', points: [135, 300], models: [5, 10] },
-  abominant: { name: 'Abominant', points: [75], models: [1] },
+  abominant: { name: 'Abominant', points: [95], models: [1] },
   acolyteHybridsWithAutopistols: {
     name: 'Acolyte Hybrids with Autopistols',
     points: [65, 130],
