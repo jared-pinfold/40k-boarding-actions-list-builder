@@ -1,5 +1,9 @@
 export const updates = [
   {
+    date: '23 Jan 2025',
+    update: ['Updated points in line with Munitorum Field Manual v2.0'],
+  },
+  {
     date: '12 Dec 2024',
     update: ['Updated points in line with Munitorum Field Manual v1.14'],
   },
