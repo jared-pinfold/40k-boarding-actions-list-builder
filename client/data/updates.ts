@@ -1,5 +1,12 @@
 export const updates = [
   {
+    date: '10 Feb 2025',
+    update: [
+      'Updated points in line with Munitorum Field Manual v2.1',
+      'Removed or renamed some Aeldari and Astra Militarum units per new codices',
+    ],
+  },
+  {
     date: '23 Jan 2025',
     update: ['Updated points in line with Munitorum Field Manual v2.0'],
   },
