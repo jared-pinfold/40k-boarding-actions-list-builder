@@ -11,7 +11,7 @@ const units = {
   },
   scarabOccultTerminators: {
     name: 'Scarab Occult terminators',
-    points: [190, 380],
+    points: [180,360],
     models: [5, 10],
   },
   thousandSonsChaosSpawn: {
@@ -31,7 +31,7 @@ const units = {
   },
   thousandSonsTerminatorSorcerer: {
     name: 'Thousand Sons Terminator Sorcerer',
-    points: [115],
+    points: [105],
     models: [1],
   },
   tzaangors: { name: 'Tzaangors', points: [65], models: [10] },
@@ -86,21 +86,21 @@ export const chosenCabalUnits: Record<string, UnitData>[] = [
     tSC1: {
       ...units.thousandSonsCultists,
       asterisk: true,
-      notMoreThanRubricMArines: true,
+      notMoreThanRubricMarines: true,
     },
     tSC2: {
       ...units.thousandSonsCultists,
       asterisk: true,
-      notMoreThanRubricMArines: true,
+      notMoreThanRubricMarines: true,
     },
     tSC3: {
       ...units.thousandSonsCultists,
       asterisk: true,
-      notMoreThanRubricMArines: true,
+      notMoreThanRubricMarines: true,
     },
-    tz1: { ...units.tzaangors, asterisk: true, notMoreThanRubricMArines: true },
-    tz2: { ...units.tzaangors, asterisk: true, notMoreThanRubricMArines: true },
-    tz3: { ...units.tzaangors, asterisk: true, notMoreThanRubricMArines: true },
+    tz1: { ...units.tzaangors, asterisk: true, notMoreThanRubricMarines: true },
+    tz2: { ...units.tzaangors, asterisk: true, notMoreThanRubricMarines: true },
+    tz3: { ...units.tzaangors, asterisk: true, notMoreThanRubricMarines: true },
   },
   {
     sOT: units.scarabOccultTerminators,

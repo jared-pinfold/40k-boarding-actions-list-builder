@@ -11,7 +11,7 @@ const units = {
   },
   bigMekWithShokkAttackGun: {
     name: 'Big Mek with Shokk Attack Gun',
-    points: [65],
+    points: [75],
     models: [1],
   },
   bossSnikrot: { name: 'Boss Snikrot', points: [95], models: [1] },

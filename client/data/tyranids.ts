@@ -7,7 +7,7 @@ const units = {
   hormagaunts: { name: 'Hormagaunts', points: [65], models: [10] },
   lictor: { name: 'Lictor', points: [60], models: [1] },
   neurogaunts: { name: 'Neurogaunts', points: [45], models: [10] },
-  neuroLictor: { name: 'NeuroLictor', points: [90], models: [1] },
+  neuroLictor: { name: 'NeuroLictor', points: [80], models: [1] },
   raveners: { name: 'Raveners', points: [75], models: [3] },
   ripperSwarms: { name: 'Ripper Swarms', points: [50], models: [3] },
   termagants: { name: 'Termagants', points: [60], models: [10] },

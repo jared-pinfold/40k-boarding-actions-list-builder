@@ -1,29 +1,29 @@
 import { UnitData } from '../../models/models'
 
 const units: Record<string, UnitData> = {
-  aleya: { name: 'Aleya', points: [75], models: [1] },
+  aleya: { name: 'Aleya', points: [65], models: [1] },
   allarusCustodians: {
     name: 'Allarus Custodians',
     points: [130, 195],
     models: [2, 3],
   },
-  bladeChampion: { name: 'Blade Champion', points: [110], models: [1] },
+  bladeChampion: { name: 'Blade Champion', points: [120], models: [1] },
   custodianGuard: {
     name: 'Custodian Guard',
-    points: [180, 225],
+    points: [170, 215],
     models: [4, 5],
   },
   custodianWardens: {
     name: 'Custodian Wardens',
-    points: [200, 250],
+    points: [210, 260],
     models: [4, 5],
   },
   infantryShieldCaptain: {
     name: 'Infantry Shield-Captain',
-    points: [140],
+    points: [130],
     models: [1],
   },
-  knightCentura: { name: 'Knight-Centura', points: [70], models: [1] },
+  knightCentura: { name: 'Knight-Centura', points: [55], models: [1] },
   prosecutors: { name: 'Prosecutors', points: [50, 100], models: [5, 10] },
   trajannValoris: { name: 'Trajann Valoris', points: [140], models: [1] },
   valerian: { name: 'Valerian', points: [110], models: [1] },

@@ -34,7 +34,7 @@ const units: Record<string, UnitData> = {
   kasrkin: { name: 'Kasrkin', points: [55, 110], models: [5, 10] },
   militarumTempestusCommandSquad: {
     name: 'Militarum Tempestus Command Squad',
-    points: [70],
+    points: [85],
     models: [5],
   },
   ministorumPriest: {
@@ -63,7 +63,7 @@ const units: Record<string, UnitData> = {
   },
   tempestusScions: {
     name: 'Tempestus Scions',
-    points: [65, 130],
+    points: [70, 140],
     models: [5, 10],
   },
   ursulaCreed: { name: 'Ursula Creed', points: [65], models: [1] },

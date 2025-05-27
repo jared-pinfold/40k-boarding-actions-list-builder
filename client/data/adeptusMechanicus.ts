@@ -42,7 +42,7 @@ const units: Record<string, UnitData> = {
     points: [48, 95],
     models: [5, 10],
   },
-  techPriestDominus: { name: 'Tech-Priest Dominus', points: [70], models: [1] },
+  techPriestDominus: { name: 'Tech-Priest Dominus', points: [65], models: [1] },
   techPriestEnginseer: {
     name: 'Tech-Priest Enginseer',
     points: [55],

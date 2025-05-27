@@ -4,8 +4,9 @@ export default function Updates() {
   return (
     <div className="container">
       <div className="column list">
-        <p>Points per Munitorum Field Manual 2.1</p>
+        <p>Points per Munitorum Field Manual 2.5</p>
         <p>Errata per Boarding Actions Companion 1.0</p>
+        <p>Includes army lists from White Dwarf issues: 511</p>
       </div>
 
       <div className="column options">

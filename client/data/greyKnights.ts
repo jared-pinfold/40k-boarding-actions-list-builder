@@ -9,7 +9,7 @@ const units: Record<string, UnitData> = {
   },
   brotherhoodChampion: {
     name: 'Brotherhood Champion',
-    points: [75],
+    points: [80],
     models: [1],
   },
   brotherhoodChaplain: {
@@ -42,14 +42,14 @@ const units: Record<string, UnitData> = {
   grandMasterVoldus: { name: 'Grand Master Voldus', points: [95], models: [1] },
   interceptorSquad: {
     name: 'Interceptor Squad',
-    points: [130, 260],
+    points: [125, 250],
     models: [5, 10],
   },
   kaldorDraigo: { name: 'Kaldor Draigo', points: [125], models: [1] },
-  paladinSquad: { name: 'Paladin Squad', points: [125], models: [5] },
+  paladinSquad: { name: 'Paladin Squad', points: [215], models: [5] },
   purifierSquad: {
     name: 'Purifier Squad',
-    points: [215, 450],
+    points: [125, 250],
     models: [5, 10],
   },
   strikeSquad: { name: 'Strike Squad', points: [120, 240], models: [5, 10] },

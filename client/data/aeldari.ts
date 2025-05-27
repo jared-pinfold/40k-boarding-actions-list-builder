@@ -10,10 +10,10 @@ const units = {
   autarchWayleaper: { name: 'Autarch Wayleaper', points: [80], models: [1] },
   baharroth: { name: 'Baharroth', points: [115], models: [1] },
   deathJester: { name: 'Death Jester', points: [90], models: [1] },
-  direAvengers: { name: 'Dire Avengers', points: [75, 150], models: [5, 10] },
+  direAvengers: { name: 'Dire Avengers', points: [80, 160], models: [5, 10] },
   eldradUlthuran: { name: 'Eldrad Ulthran', points: [110], models: [1] },
   farseer: { name: 'Farseer', points: [70], models: [1] },
-  fireDragons: { name: 'Fire Dragons', points: [100, 200], models: [5, 10] },
+  fireDragons: { name: 'Fire Dragons', points: [110, 220], models: [5, 10] },
   fuegan: { name: 'Fuegan', points: [120], models: [1] },
   guardianDefenders: {
     name: 'Guardian Defenders',
@@ -34,7 +34,7 @@ const units = {
   stormGuardians: { name: 'Storm Guardians', points: [100], models: [11] },
   strikingScorpions: {
     name: 'Striking Scorpions',
-    points: [75, 150],
+    points: [85, 150],
     models: [5, 10],
   },
   swoopingHawks: { name: 'Swooping Hawks', points: [85, 170], models: [5, 10] },

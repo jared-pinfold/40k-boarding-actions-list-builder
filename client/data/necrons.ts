@@ -39,7 +39,7 @@ const units = {
   technomancer: { name: 'Technomancer', points: [85], models: [1] },
   trazynTheInfinite: { name: 'Trazyn the Infinite', points: [75], models: [1] },
   triarchPraetorians: {
-    name: 'Trazyn the Infinite',
+    name: 'Triarch Praetorians',
     points: [100, 200],
     models: [5, 10],
   },
