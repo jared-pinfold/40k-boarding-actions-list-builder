@@ -26,6 +26,7 @@ import {
   deathGuard as dg,
   astraMilitarum as ami,
   agentsOfTheImperium as ai,
+  emperorsChildren as ec
 } from './components/FactionImports'
 
 import Layout from './components/Layout'
@@ -271,6 +272,12 @@ const router = createBrowserRouter(
         element={<we.BoardingButchers />}
       />
       <Route path="world-eaters/skullsworn" element={<we.Skullsworn />} />
+
+          <Route path="emperors-children/" element={<ec.EmperorsChildrenMenu />} />
+      <Route
+        path="emperors-children/sublime-strike"
+        element={<ec.SublimeStrike />}
+      />
     </Route>,
   ),
 )

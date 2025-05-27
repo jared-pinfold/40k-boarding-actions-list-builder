@@ -55,5 +55,6 @@ function listName(name: string): string {
 
 function factionName(name: string): string {
   if (name === 'Tau') return "T'au"
+  if (name === 'Emperors Children') return "Emperor's Children"
   return name
 }

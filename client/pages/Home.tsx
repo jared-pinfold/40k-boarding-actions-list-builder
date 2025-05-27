@@ -37,6 +37,9 @@ export default function Home() {
             <Link to="death-guard">Death Guard</Link>
           </li>
           <li>
+            <Link to="emperors-Children">{"Emperor's Children"}</Link>
+          </li>
+          <li>
             <Link to="heretic-astartes">Heretic Astartes</Link>
           </li>
           <li>

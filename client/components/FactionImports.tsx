@@ -76,6 +76,8 @@ import AgentsOfTheImperiumMenu from '../pages/agentsOfTheImperium/AgentsOfTheImp
 import InterdictionTeam from '../pages/agentsOfTheImperium/InterdictionTeam'
 import VoidshipsCompany from '../pages/agentsOfTheImperium/VoidshipsCompany'
 import VoyagersInDarkness from '../pages/adeptusCustodes/VoyagersInDarkness'
+import SublimeStrike from '../pages/emperorsChildren/SublimeStrike'
+import EmperorsChildrenMenu from '../pages/emperorsChildren/EmperorsChildrenMenu'
 
 export const adeptusAstartes = {
   AdeptusAstartesMenu,
@@ -191,4 +193,9 @@ export const agentsOfTheImperium = {
   AgentsOfTheImperiumMenu,
   InterdictionTeam,
   VoidshipsCompany,
+}
+
+export const emperorsChildren = {
+  EmperorsChildrenMenu,
+  SublimeStrike
 }
