@@ -79,7 +79,7 @@ export default function PilumStrike() {
       </div>
       <div className="column options">
         <p>All units must be from the same chapter</p>
-        <p>Up to two of the following:</p>
+        <p>Up to three of the following:</p>
         <ul>
           {options1.map((option) => {
             const unit = initialOptions1[option]
