@@ -10,7 +10,7 @@ export default function PilumStrike() {
 
   const options1 = Object.keys(initialOptions1)
   const options2 = Object.keys(initialOptions2)
-  const options3 = Object.keys(initialOptions3)
+  // const options3 = Object.keys(initialOptions3) ** all units in this section are currently unavailable in the codices
   const [list1, setList1] = useState(initialList)
   const [list2, setList2] = useState(initialList)
   const [list3, setList3] = useState(initialList)
@@ -117,7 +117,7 @@ export default function PilumStrike() {
             )
           })}
         </ul>
-        <p>Any of the following:</p>
+        {/* <p>Any of the following:</p>
         <ul>
           {options3.map((option) => {
             const unit = initialOptions3[option]
@@ -134,7 +134,7 @@ export default function PilumStrike() {
               />
             )
           })}
-        </ul>
+        </ul> */}
       </div>
     </div>
   )
