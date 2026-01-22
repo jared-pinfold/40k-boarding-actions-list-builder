@@ -1,8 +1,8 @@
 import { UnitData } from '../../models/models'
 
 const units = {
-  eightbound: { name: 'Eightbound', points: [150], models: [3] },
-  exaltedEightbound: { name: 'Exalted Eightbound', points: [160], models: [3] },
+  eightbound: { name: 'Eightbound', points: [135], models: [3] },
+  exaltedEightbound: { name: 'Exalted Eightbound', points: [140], models: [3] },
   jackals: { name: 'Jackals', points: [65], models: [10] },
   kharnTheBetrayer: { name: 'Khârn the Betrayer', points: [100], models: [1] },
   khorneBerzerkers: {
@@ -12,7 +12,7 @@ const units = {
   },
   worldEatersChaosSpawn: {
     name: 'World Eaters Chaos Spawn',
-    points: [80],
+    points: [90],
     models: [2],
   },
   worldEatersMasterOfExecutions: {
@@ -22,7 +22,7 @@ const units = {
   },
   worldEatersTerminatorSquad: {
     name: 'World Eaters Terminator Squad',
-    points: [185, 370],
+    points: [175, 350],
     models: [5, 10],
   },
 }

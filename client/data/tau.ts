@@ -1,11 +1,11 @@
 import { UnitData } from '../../models/models'
 
 const units = {
-  breacherTeam: { name: 'Breacher Team', points: [100], models: [10] },
+  breacherTeam: { name: 'Breacher Team', points: [90], models: [10] },
   cadreFireblade: { name: 'Cadre Fireblade', points: [50], models: [1] },
   crisisFireknifeBattlesuits: {
     name: 'Crisis Fireknife Battlesuits',
-    points: [130],
+    points: [120],
     models: [3],
   },
   crisisStarscytheBattlesuits: {
@@ -15,7 +15,7 @@ const units = {
   },
   crisisSunforgeBattlesuits: {
     name: 'Crisis Sunforge Battlesuits',
-    points: [150],
+    points: [140],
     models: [3],
   },
   darkstrider: { name: 'Darkstrider', points: [60], models: [1] },
@@ -37,7 +37,7 @@ const units = {
     points: [60],
     models: [3],
   },
-  strikeTeam: { name: 'Strike Team', points: [75], models: [10] },
+  strikeTeam: { name: 'Strike Team', points: [70], models: [10] },
   vespidStingwings: { name: 'Vespid Stingwings', points: [65], models: [5] },
 }
 

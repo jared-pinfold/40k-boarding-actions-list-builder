@@ -2,24 +2,24 @@ import { UnitData } from '../../models/models'
 
 const units: Record<string, UnitData> = {
   brotherCaptain: { name: 'Brother-Captain', points: [90], models: [1] },
-  brotherCaptainStern: {
-    name: 'Brother-Captain Stern',
-    points: [90],
-    models: [1],
-  },
+  // brotherCaptainStern: {
+  //   name: 'Brother-Captain Stern',
+  //   points: [90],
+  //   models: [1],
+  // },
   brotherhoodChampion: {
     name: 'Brotherhood Champion',
-    points: [80],
+    points: [70],
     models: [1],
   },
   brotherhoodChaplain: {
     name: 'Brotherhood Chaplain',
-    points: [75],
+    points: [65],
     models: [1],
   },
   brotherhoodLibrarian: {
     name: 'Brotherhood Librarian',
-    points: [120],
+    points: [80],
     models: [1],
   },
   brotherhoodTechmarine: {
@@ -29,7 +29,7 @@ const units: Record<string, UnitData> = {
   },
   brotherhoodTerminatorSquad: {
     name: 'Brotherhood Terminator Squad',
-    points: [200, 420],
+    points: [200, 400],
     models: [5, 10],
   },
   brotherhoodTerminatorSquad5: {
@@ -39,14 +39,18 @@ const units: Record<string, UnitData> = {
   },
   castellanCrowe: { name: 'Castellan Crowe', points: [90], models: [1] },
   grandMaster: { name: 'Grand Master', points: [95], models: [1] },
-  grandMasterVoldus: { name: 'Grand Master Voldus', points: [95], models: [1] },
+  grandMasterVoldus: {
+    name: 'Grand Master Voldus',
+    points: [110],
+    models: [1],
+  },
   interceptorSquad: {
     name: 'Interceptor Squad',
     points: [125, 250],
     models: [5, 10],
   },
-  kaldorDraigo: { name: 'Kaldor Draigo', points: [125], models: [1] },
-  paladinSquad: { name: 'Paladin Squad', points: [215], models: [5] },
+  // kaldorDraigo: { name: 'Kaldor Draigo', points: [125], models: [1] },
+  paladinSquad: { name: 'Paladin Squad', points: [225], models: [5] },
   purifierSquad: {
     name: 'Purifier Squad',
     points: [125, 250],
@@ -58,12 +62,12 @@ const units: Record<string, UnitData> = {
 export const baneslayerStrikeUnits: Record<string, UnitData>[] = [
   {
     bC: units.brotherCaptain,
-    bCS: units.brotherCaptainStern,
+    // bCS: units.brotherCaptainStern,
     bChap: units.brotherhoodChaplain,
     bL: units.brotherhoodLibrarian,
     gM: units.grandMaster,
     gMV: units.grandMasterVoldus,
-    kd: units.kaldorDraigo,
+    // kd: units.kaldorDraigo,
   },
   {
     bTS1: units.brotherhoodTerminatorSquad,
@@ -76,7 +80,7 @@ export const baneslayerStrikeUnits: Record<string, UnitData>[] = [
 export const voidPurgeForceUnits: Record<string, UnitData>[] = [
   {
     bCap: units.brotherCaptain,
-    bCapS: units.brotherCaptainStern,
+    // bCapS: units.brotherCaptainStern,
     bChamp: units.brotherhoodChampion,
     bChap: units.brotherhoodChaplain,
     bLib: units.brotherhoodLibrarian,
@@ -84,7 +88,7 @@ export const voidPurgeForceUnits: Record<string, UnitData>[] = [
     cC: units.castellanCrowe,
     gM: units.grandMaster,
     gMV: units.grandMasterVoldus,
-    kD: units.kaldorDraigo,
+    // kD: units.kaldorDraigo,
   },
   {
     sS1: units.strikeSquad,

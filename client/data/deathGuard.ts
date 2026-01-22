@@ -1,23 +1,23 @@
 import { UnitData } from '../../models/models'
 
 const units = {
+  biologusPutrifier: {
+    name: 'BiologusPutrifier',
+    points: [60],
+    models: [1],
+  },
   blightlordTerminators: {
     name: 'Blightlord Terminators',
     points: [185],
     models: [5],
-  },
-  biologusPutrifier: {
-    name: 'BiologusPutrifier',
-    points: [45],
-    models: [1],
   },
   // deathGuardChaosLord: { ** Not available in current codex
   //   name: 'Death Guard Chaos Lord',
   //   points: [65],
   //   models: [1],
   // },
-  deathGuardChaosSpawn: {
-    name: 'Death Guard Chaos Spawn',
+  chaosSpawnOfNurgle: {
+    name: 'Chaos Spawn of Nurgle',
     points: [80],
     models: [2],
   },
@@ -38,12 +38,12 @@ const units = {
   // },
   deathshroudTerminators: {
     name: 'Deathshroud Terminators',
-    points: [140],
+    points: [160],
     models: [3],
   },
-  foulBlightspawn: { name: 'Foul Blightspawn', points: [60], models: [1] },
-  lordOfContagion: { name: 'Lord of Contagion', points: [110], models: [1] },
-  lordOfVirulence: { name: 'Lord of Virulence', points: [90], models: [1] },
+  foulBlightspawn: { name: 'Foul Blightspawn', points: [75], models: [1] },
+  lordOfContagion: { name: 'Lord of Contagion', points: [120], models: [1] },
+  lordOfVirulence: { name: 'Lord of Virulence', points: [100], models: [1] },
   malignantPlaguecaster: {
     name: 'Malignant Plaguecaster',
     points: [60],
@@ -60,9 +60,9 @@ const units = {
     models: [5, 7, 10],
   },
   plagueSurgeon: { name: 'Plague Surgeon', points: [50], models: [1] },
-  poxwalkers: { name: 'Poxwalkers', points: [60], models: [10] },
-  tallyman: { name: 'Tallyman', points: [40], models: [1] },
-  typhus: { name: 'Typhus', points: [90], models: [1] },
+  poxwalkers: { name: 'Poxwalkers', points: [65], models: [10] },
+  tallyman: { name: 'Tallyman', points: [50], models: [1] },
+  typhus: { name: 'Typhus', points: [100], models: [1] },
 }
 
 export const archContaminatorsUnits: Record<string, UnitData>[] = [
@@ -74,7 +74,7 @@ export const archContaminatorsUnits: Record<string, UnitData>[] = [
   },
   {
     bT: units.blightlordTerminators,
-    dGCS: units.deathGuardChaosSpawn,
+    dGCS: units.chaosSpawnOfNurgle,
     dT: units.deathshroudTerminators,
   },
 ]
@@ -105,7 +105,7 @@ export const uncleanUprisingUnits: Record<string, UnitData>[] = [
     p3: units.poxwalkers,
   },
   {
-    dGCS: units.deathGuardChaosSpawn,
+    dGCS: units.chaosSpawnOfNurgle,
   },
 ]
 
@@ -151,7 +151,7 @@ export const vectorsOfDecayUnits: Record<string, UnitData>[] = [
   },
   {
     bT: units.blightlordTerminators,
-    dgCS: units.deathGuardChaosSpawn,
+    dgCS: units.chaosSpawnOfNurgle,
     dT: units.deathshroudTerminators,
   },
 ]

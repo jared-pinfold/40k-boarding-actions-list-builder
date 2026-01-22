@@ -2,7 +2,7 @@ import { UnitData } from '../../models/models'
 
 const units = {
   aberrants: { name: 'Aberrants', points: [135, 300], models: [5, 10] },
-  abominant: { name: 'Abominant', points: [95], models: [1] },
+  abominant: { name: 'Abominant', points: [85], models: [1] },
   acolyteHybridsWithAutopistols: {
     name: 'Acolyte Hybrids with Autopistols',
     points: [65, 130],
@@ -19,7 +19,7 @@ const units = {
   clamavus: { name: 'Clamavus', points: [50], models: [1] },
   hybridMetamorphs: {
     name: 'Hybrid Metamorphs',
-    points: [80, 160],
+    points: [70, 140],
     models: [5, 10],
   },
   kelermorph: { name: 'Kelermorph', points: [60], models: [1] },
@@ -27,10 +27,10 @@ const units = {
   magus: { name: 'Magus', points: [50], models: [1] },
   neophyteHybrids: { name: 'Neophyte Hybrids', points: [65], models: [10] },
   patriarch: { name: 'Patriarch', points: [75], models: [1] },
-  primus: { name: 'Primus', points: [80], models: [1] },
+  primus: { name: 'Primus', points: [70], models: [1] },
   purestrainGenestealers: {
     name: 'Purestrain Genestealers',
-    points: [75, 150],
+    points: [75, 140],
     models: [5, 10],
   },
   sanctus: { name: 'Sanctus', points: [50], models: [1] },

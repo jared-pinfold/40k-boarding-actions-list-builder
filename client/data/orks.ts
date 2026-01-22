@@ -11,16 +11,16 @@ const units = {
   },
   bigMekWithShokkAttackGun: {
     name: 'Big Mek with Shokk Attack Gun',
-    points: [75],
+    points: [80],
     models: [1],
   },
-  bossSnikrot: { name: 'Boss Snikrot', points: [95], models: [1] },
+  bossSnikrot: { name: 'Boss Snikrot', points: [75], models: [1] },
   boyz: { name: 'Boyz', points: [80], models: [10] },
   burnaBoyz: { name: 'Burna Boyz', points: [60, 120], models: [5, 10] },
   flashGitz: { name: 'Flash Gitz', points: [80, 160], models: [5, 10] },
   gretchin: { name: 'Gretchin', points: [40], models: [11] },
   kommandos: { name: 'Kommandos', points: [120], models: [10] },
-  meganobz: { name: 'Meganobz', points: [105], models: [3] },
+  meganobz: { name: 'Meganobz', points: [95], models: [3] },
   mek: { name: 'Mek', points: [45], models: [1] },
   nobz: { name: 'Nobz', points: [105, 210], models: [5, 10] },
   painboss: { name: 'Painboss', points: [70], models: [1] },
@@ -29,12 +29,12 @@ const units = {
   warboss: { name: 'Warboss', points: [75], models: [1] },
   warbossInMegaArmour: {
     name: 'Warboss in Mega Armour',
-    points: [90],
+    points: [80],
     models: [1],
   },
   weirdboy: { name: 'Weirdboy', points: [65], models: [1] },
   wurrboy: { name: 'Wurrboy', points: [60], models: [1] },
-  zodgrodWortsnagga: { name: 'Zodgrod Wortsnagga', points: [80], models: [1] },
+  zodgrodWortsnagga: { name: 'Zodgrod Wortsnagga', points: [90], models: [1] },
 }
 
 export const kaptinKillersUnits: Record<string, UnitData>[] = [

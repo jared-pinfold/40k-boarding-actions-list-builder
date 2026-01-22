@@ -4,13 +4,13 @@ const units: Record<string, UnitData> = {
   aleya: { name: 'Aleya', points: [65], models: [1] },
   allarusCustodians: {
     name: 'Allarus Custodians',
-    points: [130, 195],
+    points: [110, 165],
     models: [2, 3],
   },
   bladeChampion: { name: 'Blade Champion', points: [120], models: [1] },
   custodianGuard: {
     name: 'Custodian Guard',
-    points: [170, 215],
+    points: [190, 190],
     models: [4, 5],
   },
   custodianWardens: {
@@ -20,15 +20,15 @@ const units: Record<string, UnitData> = {
   },
   infantryShieldCaptain: {
     name: 'Infantry Shield-Captain',
-    points: [130],
+    points: [120],
     models: [1],
   },
   knightCentura: { name: 'Knight-Centura', points: [55], models: [1] },
-  prosecutors: { name: 'Prosecutors', points: [50, 100], models: [5, 10] },
+  prosecutors: { name: 'Prosecutors', points: [50, 85], models: [5, 10] },
   trajannValoris: { name: 'Trajann Valoris', points: [140], models: [1] },
   valerian: { name: 'Valerian', points: [110], models: [1] },
-  vigilators: { name: 'Vigilators', points: [65, 125], models: [5, 10] },
-  witchseekers: { name: 'Witchseekers', points: [65, 125], models: [5, 10] },
+  vigilators: { name: 'Vigilators', points: [55, 100], models: [5, 10] },
+  witchseekers: { name: 'Witchseekers', points: [55, 100], models: [5, 10] },
 }
 export const blackShipGuardiansUnits: Record<string, UnitData>[] = [
   {

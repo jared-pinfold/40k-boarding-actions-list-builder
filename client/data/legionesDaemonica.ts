@@ -14,7 +14,7 @@ const units = {
   daemonettes: { name: 'Daemonettes', points: [100], models: [10] },
   epidemius: { name: 'Epidemius', points: [80], models: [1] },
   exhaltedFlamer: { name: 'Exhalted Flamer', points: [65], models: [1] },
-  fiends: { name: 'Fiends', points: [110], models: [3] },
+  fiends: { name: 'Fiends', points: [95], models: [3] },
   flamers: { name: 'Flamers', points: [65], models: [3] },
   fleshHounds: { name: 'Flesh Hounds', points: [75], models: [5] },
   fleshHounds5or10: {
@@ -28,7 +28,7 @@ const units = {
     models: [1],
   },
   karanak: { name: 'Karanak', points: [75], models: [1] },
-  nurglings: { name: 'Nurglings', points: [35], models: [3] },
+  nurglings: { name: 'Nurglings', points: [40], models: [3] },
   pinkHorrors: { name: 'Pink Horrors', points: [140], models: [10] },
   plaguebearers: { name: 'Plaguebearers', points: [110], models: [10] },
   poxbringer: { name: 'Poxbringer', points: [55], models: [1] },

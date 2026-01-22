@@ -1,22 +1,22 @@
 import { UnitData } from '../../models/models'
 
 const units = {
-  brokhyrIronMaster: { name: 'Brôkhyr Iron-Master', points: [65], models: [1] },
+  brokhyrIronMaster: { name: 'Brôkhyr Iron-Master', points: [75], models: [1] },
   brokhyrThunderkyn: { name: 'Brôkhyr Thunderkyn', points: [80], models: [3] },
   cthonianBeserks: {
     name: 'Cthuonian Beserks',
     points: [100, 200],
     models: [5, 10],
   },
-  einhyrChampion: { name: 'Einhyr Champion', points: [60], models: [1] },
+  einhyrChampion: { name: 'Einhyr Champion', points: [70], models: [1] },
   einhyrHearthguard: {
     name: 'Einhyr Hearthguard',
-    points: [150, 320],
+    points: [135, 270],
     models: [5, 10],
   },
   einhyrHearthguard5: {
     name: 'Einhyr Hearthguard',
-    points: [150],
+    points: [135],
     models: [5],
   },
   grimnyr: { name: 'Grimnyr', points: [65], models: [3] },
@@ -30,8 +30,8 @@ const units = {
     points: [90],
     models: [10],
   },
-  kahl: { name: 'Kâhl', points: [70], models: [1] },
-  utharTheDestined: { name: 'Ûthar the Destined', points: [80], models: [1] },
+  kahl: { name: 'Kâhl', points: [65], models: [1] },
+  utharTheDestined: { name: 'Ûthar the Destined', points: [95], models: [1] },
 }
 
 export const hearthfireStrikeUnits: Record<string, UnitData>[] = [

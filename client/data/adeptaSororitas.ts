@@ -1,7 +1,7 @@
 import { UnitData } from '../../models/models'
 
 const units: Record<string, UnitData> = {
-  aestredThurga: { name: 'Aestred Thurga', points: [85], models: [2] },
+  aestredThurga: { name: 'Aestred Thurga', points: [70], models: [2] },
   arcoFlagellants: {
     name: 'Arco-Flagellants',
     points: [70, 140],
@@ -12,22 +12,22 @@ const units: Record<string, UnitData> = {
     points: [105],
     models: [10],
   },
-  canoness: { name: 'Canoness', points: [50], models: [1] },
+  canoness: { name: 'Canoness', points: [60], models: [1] },
   celestianSacresancts: {
     name: 'Celestian Sacresancts',
-    points: [70, 130],
+    points: [70, 140],
     models: [5, 10],
   },
   daemonifuge: { name: 'Demonifuge', points: [85], models: [2] },
   dialogus: { name: 'Dialogus', points: [40], models: [1] },
-  dominionSquad: { name: 'Dominion Squad', points: [57, 115], models: [5, 10] },
+  dominionSquad: { name: 'Dominion Squad', points: [60, 120], models: [5, 10] },
   dogmata: { name: 'Dogmata', points: [45], models: [1] },
-  hospitalier: { name: 'Hospitalier', points: [50], models: [1] },
+  hospitalier: { name: 'Hospitalier', points: [60], models: [1] },
   imagifier: { name: 'Imagifier', points: [65], models: [1] },
   ministorumPriest: { name: 'Ministorum Priest', points: [50], models: [1] },
   palatine: { name: 'Palatine', points: [50], models: [1] },
-  repentiaSquad: { name: 'Repentia Squad', points: [85, 170], models: [5, 10] },
-  seraphimSquad: { name: 'Seraphim Squad', points: [85], models: [5] },
+  repentiaSquad: { name: 'Repentia Squad', points: [75, 160], models: [5, 10] },
+  seraphimSquad: { name: 'Seraphim Squad', points: [80], models: [5] },
   sistersNovitiateSquad: {
     name: 'Sisters Novitiate Squad',
     points: [100],

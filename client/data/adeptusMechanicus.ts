@@ -23,12 +23,12 @@ const units: Record<string, UnitData> = {
   },
   sicarianInfiltrators: {
     name: 'Sicarian Infiltrators',
-    points: [70, 140],
+    points: [75, 155],
     models: [5, 10],
   },
   sicarianRuststalkers: {
     name: 'Sicarian Ruststalkers',
-    points: [75, 150],
+    points: [80, 165],
     models: [5, 10],
   },
   skitariiMarshal: { name: 'Skitarii Marshal', points: [35], models: [1] },

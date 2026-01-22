@@ -1,7 +1,7 @@
 import { UnitData } from '../../models/models'
 
 const units: Record<string, UnitData> = {
-  bullgrynSquad3: { name: 'Bullgryn Squad', points: [110], models: [3] },
+  bullgrynSquad3: { name: 'Bullgryn Squad', points: [100], models: [3] },
   cadianCastellan: { name: 'Cadian Castellan', points: [55], models: [1] },
   cadianCommandSquad: {
     name: 'Cadian Command Squad',
@@ -24,7 +24,7 @@ const units: Record<string, UnitData> = {
     points: [65],
     models: [10],
   },
-  gauntsGhosts: { name: "Gaunt's Ghosts", points: [110], models: [6] },
+  gauntsGhosts: { name: "Gaunt's Ghosts", points: [100], models: [6] },
   // infantrySquad10: { **not in current codex**
   //   name: 'Infantry Squad',
   //   points: [60],
@@ -66,7 +66,7 @@ const units: Record<string, UnitData> = {
     points: [70, 140],
     models: [5, 10],
   },
-  ursulaCreed: { name: 'Ursula Creed', points: [65], models: [1] },
+  ursulaCreed: { name: 'Ursula Creed', points: [85], models: [1] },
 }
 
 export const tempestusBoardingRegimentUnits: Record<string, UnitData>[] = [

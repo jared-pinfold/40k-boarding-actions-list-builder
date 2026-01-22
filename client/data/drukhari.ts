@@ -1,25 +1,25 @@
 import { UnitData } from '../../models/models'
 
 const units = {
-  archon: { name: 'Archon', points: [85], models: [1] },
-  courtOfTheArchon: { name: 'Court of the Archon', points: [95], models: [4] },
+  archon: { name: 'Archon', points: [80], models: [1] },
+  // courtOfTheArchon: { name: 'Court of the Archon', points: [95], models: [4] },
   drazhar: { name: 'Drazhar', points: [85], models: [1] },
-  grotesques: { name: 'Grotesques', points: [80, 170], models: [3, 6] },
-  haemonculus: { name: 'Haemonculus', points: [60], models: [1] },
-  incubi: { name: 'Incubi', points: [85, 170], models: [5, 10] },
-  kabaliteWarriors: { name: 'Kabalite Warriors', points: [100], models: [10] },
-  lelithHesperax: { name: 'Lelith Hesperax', points: [95], models: [1] },
-  mandrakes: { name: 'Mandrakes', points: [70, 130], models: [5, 10] },
-  succubus: { name: 'Succubus', points: [45], models: [1] },
-  urienRakarth: { name: 'Urien Rakarth', points: [80], models: [1] },
-  wracks: { name: 'Wracks', points: [55, 110], models: [5, 10] },
-  wytches: { name: 'Wytches', points: [80], models: [10] },
+  // grotesques: { name: 'Grotesques', points: [80, 170], models: [3, 6] },
+  haemonculus: { name: 'Haemonculus', points: [70], models: [1] },
+  incubi: { name: 'Incubi', points: [90, 180], models: [5, 10] },
+  kabaliteWarriors: { name: 'Kabalite Warriors', points: [115], models: [10] },
+  lelithHesperax: { name: 'Lelith Hesperax', points: [85], models: [1] },
+  mandrakes: { name: 'Mandrakes', points: [75, 150], models: [5, 10] },
+  succubus: { name: 'Succubus', points: [50], models: [1] },
+  // urienRakarth: { name: 'Urien Rakarth', points: [80], models: [1] },
+  wracks: { name: 'Wracks', points: [65, 130], models: [5, 10] },
+  wytches: { name: 'Wytches', points: [90], models: [10] },
 }
 
 export const painbringersUnits: Record<string, UnitData>[] = [
   {
     h: units.haemonculus,
-    uR: units.urienRakarth,
+    // uR: units.urienRakarth,
   },
   {
     w1: units.wracks,
@@ -27,7 +27,7 @@ export const painbringersUnits: Record<string, UnitData>[] = [
     w3: units.wracks,
   },
   {
-    g: units.grotesques,
+    // g: units.grotesques,
     i: units.incubi,
     m: units.mandrakes,
   },
@@ -60,7 +60,7 @@ export const kabaliteCorsairsUnits: Record<string, UnitData>[] = [
     kW3: units.kabaliteWarriors,
   },
   {
-    c: units.courtOfTheArchon,
+    // c: units.courtOfTheArchon,
     i: units.incubi,
     m: units.mandrakes,
   },
@@ -72,7 +72,7 @@ export const spaceLaneRaidersUnits: Record<string, UnitData>[] = [
   },
   {
     h: { ...units.haemonculus, needsWracks: true },
-    uR: { ...units.urienRakarth, needsWracks: true },
+    // uR: { ...units.urienRakarth, needsWracks: true },
   },
   {
     lH: { ...units.lelithHesperax, needsWytches: true },

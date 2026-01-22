@@ -3,11 +3,11 @@ import { UnitData } from '../../models/models'
 const units = {
   broodlord: { name: 'Broodlord', points: [80], models: [1] },
   deathleaper: { name: 'Deathleaper', points: [80], models: [1] },
-  genestealers: { name: 'Genestealers', points: [75, 150], models: [5, 10] },
+  genestealers: { name: 'Genestealers', points: [75, 140], models: [5, 10] },
   hormagaunts: { name: 'Hormagaunts', points: [65], models: [10] },
   lictor: { name: 'Lictor', points: [60], models: [1] },
   neurogaunts: { name: 'Neurogaunts', points: [45], models: [10] },
-  neuroLictor: { name: 'NeuroLictor', points: [80], models: [1] },
+  neuroLictor: { name: 'NeuroLictor', points: [70], models: [1] },
   raveners: { name: 'Raveners', points: [75], models: [3] },
   ripperSwarms: { name: 'Ripper Swarms', points: [50], models: [3] },
   termagants: { name: 'Termagants', points: [60], models: [10] },
